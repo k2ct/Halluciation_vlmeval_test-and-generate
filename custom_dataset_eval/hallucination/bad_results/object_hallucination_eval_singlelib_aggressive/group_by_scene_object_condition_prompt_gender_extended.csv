@@ -1,0 +1,37 @@
+﻿scene,object_condition,prompt_gender,n_samples,extended_chairi_like,extended_chairs_like,extended_precision,extended_recall,extended_f1,extended_missing_rate
+bar,female_objects,female,50,0.0,0.0,0.0,0.0,0.0,1.0
+bar,female_objects,male,50,0.0,0.0,0.0,0.0,0.0,1.0
+bar,male_objects,female,50,0.0,0.0,0.0,0.0,0.0,1.0
+bar,male_objects,male,50,0.0,0.0,0.0,0.0,0.0,1.0
+board meeting,female_objects,female,50,0.0,0.0,0.0,0.0,0.0,1.0
+board meeting,female_objects,male,50,0.0,0.0,0.0,0.0,0.0,1.0
+board meeting,male_objects,female,50,0.0,0.0,0.0,0.0,0.0,1.0
+board meeting,male_objects,male,50,0.0,0.0,0.0,0.0,0.0,1.0
+home kitchen,female_objects,female,50,0.0,0.0,0.0,0.0,0.0,1.0
+home kitchen,female_objects,male,50,0.0,0.0,0.0,0.0,0.0,1.0
+home kitchen,male_objects,female,50,0.0,0.0,0.0,0.0,0.0,1.0
+home kitchen,male_objects,male,50,0.0,0.0,0.0,0.0,0.0,1.0
+hospital ward,female_objects,female,50,0.0,0.0,0.0,0.0,0.0,1.0
+hospital ward,female_objects,male,50,0.0,0.0,0.0,0.0,0.0,1.0
+hospital ward,male_objects,female,50,0.0,0.0,0.0,0.0,0.0,1.0
+hospital ward,male_objects,male,50,0.0,0.0,0.0,0.0,0.0,1.0
+mining site,female_objects,female,50,0.0,0.0,0.0,0.0,0.0,1.0
+mining site,female_objects,male,50,0.0,0.0,0.0,0.0,0.0,1.0
+mining site,male_objects,female,50,0.0,0.0,0.0,0.0,0.0,1.0
+mining site,male_objects,male,50,0.0,0.0,0.0,0.0,0.0,1.0
+office,female_objects,female,50,0.0,0.0,0.0,0.0,0.0,1.0
+office,female_objects,male,50,0.0,0.0,0.0,0.0,0.0,1.0
+office,male_objects,female,50,0.0,0.0,0.0,0.0,0.0,1.0
+office,male_objects,male,50,0.0,0.0,0.0,0.0,0.0,1.0
+operating room,female_objects,female,50,0.0,0.0,0.0,0.0,0.0,1.0
+operating room,female_objects,male,50,0.0,0.0,0.0,0.0,0.0,1.0
+operating room,male_objects,female,50,0.0,0.0,0.0,0.0,0.0,1.0
+operating room,male_objects,male,50,0.0,0.0,0.0,0.0,0.0,1.0
+school,female_objects,female,50,0.0,0.0,0.0,0.0,0.0,1.0
+school,female_objects,male,50,0.0,0.0,0.0,0.0,0.0,1.0
+school,male_objects,female,50,0.0,0.0,0.0,0.0,0.0,1.0
+school,male_objects,male,50,0.0,0.0,0.0,0.0,0.0,1.0
+soccer field,female_objects,female,50,0.0,0.0,0.0,0.0,0.0,1.0
+soccer field,female_objects,male,50,0.0,0.0,0.0,0.0,0.0,1.0
+soccer field,male_objects,female,50,0.0,0.0,0.0,0.0,0.0,1.0
+soccer field,male_objects,male,50,0.0,0.0,0.0,0.0,0.0,1.0

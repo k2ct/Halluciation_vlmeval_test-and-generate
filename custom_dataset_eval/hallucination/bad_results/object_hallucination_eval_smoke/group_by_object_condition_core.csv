@@ -1,0 +1,3 @@
+﻿object_condition,n_samples,core_chairi_like,core_chairs_like,core_precision,core_recall,core_f1,core_missing_rate
+female_objects,18,0.0,0.0,0.0,0.0,0.0,1.0
+male_objects,18,0.0,0.0,0.0,0.0,0.0,1.0

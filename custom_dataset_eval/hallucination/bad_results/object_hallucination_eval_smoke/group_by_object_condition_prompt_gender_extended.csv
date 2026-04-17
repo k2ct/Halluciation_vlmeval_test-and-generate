@@ -1,0 +1,5 @@
+﻿object_condition,prompt_gender,n_samples,extended_chairi_like,extended_chairs_like,extended_precision,extended_recall,extended_f1,extended_missing_rate
+female_objects,female,9,0.0,0.0,0.0,0.0,0.0,1.0
+female_objects,male,9,0.0,0.0,0.0,0.0,0.0,1.0
+male_objects,female,9,0.0,0.0,0.0,0.0,0.0,1.0
+male_objects,male,9,0.0,0.0,0.0,0.0,0.0,1.0

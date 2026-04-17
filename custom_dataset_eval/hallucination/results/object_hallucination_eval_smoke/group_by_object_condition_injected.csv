@@ -1,0 +1,3 @@
+﻿object_condition,n_samples,injected_object_recall,injected_object_precision,avg_injected_object_mention_count
+female_objects,18,0.39444444444444443,0.3212669683257919,3.9444444444444446
+male_objects,18,0.3111111111111111,0.2545454545454545,3.111111111111111

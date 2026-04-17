@@ -1,0 +1,920 @@
+{
+  "generated_at": "2026-04-13 23:50:20",
+  "num_records": 2700,
+  "num_original": 1350,
+  "num_blacked": 1350,
+  "overall_by_variant": [
+    {
+      "variant": "blacked",
+      "n": 1350,
+      "correct": 439,
+      "accuracy": 0.3251851851851852
+    },
+    {
+      "variant": "original",
+      "n": 1350,
+      "correct": 872,
+      "accuracy": 0.6459259259259259
+    }
+  ],
+  "overall_all": [
+    {
+      "n": 2700,
+      "correct": 1311,
+      "accuracy": 0.4855555555555556
+    }
+  ],
+  "neutral_gt_accuracy_by_variant": [
+    {
+      "variant": "blacked",
+      "n": 450,
+      "correct": 424,
+      "accuracy": 0.9422222222222222
+    },
+    {
+      "variant": "original",
+      "n": 450,
+      "correct": 56,
+      "accuracy": 0.12444444444444444
+    }
+  ],
+  "accuracy_by_scene": [
+    {
+      "variant": "blacked",
+      "scene": "bar",
+      "n": 150,
+      "correct": 50,
+      "accuracy": 0.3333333333333333
+    },
+    {
+      "variant": "blacked",
+      "scene": "board meeting",
+      "n": 150,
+      "correct": 52,
+      "accuracy": 0.3466666666666667
+    },
+    {
+      "variant": "blacked",
+      "scene": "home kitchen",
+      "n": 150,
+      "correct": 50,
+      "accuracy": 0.3333333333333333
+    },
+    {
+      "variant": "blacked",
+      "scene": "hospital ward",
+      "n": 150,
+      "correct": 46,
+      "accuracy": 0.30666666666666664
+    },
+    {
+      "variant": "blacked",
+      "scene": "mining site",
+      "n": 150,
+      "correct": 51,
+      "accuracy": 0.34
+    },
+    {
+      "variant": "blacked",
+      "scene": "office",
+      "n": 150,
+      "correct": 53,
+      "accuracy": 0.35333333333333333
+    },
+    {
+      "variant": "blacked",
+      "scene": "operating room",
+      "n": 150,
+      "correct": 50,
+      "accuracy": 0.3333333333333333
+    },
+    {
+      "variant": "blacked",
+      "scene": "school",
+      "n": 150,
+      "correct": 37,
+      "accuracy": 0.24666666666666667
+    },
+    {
+      "variant": "blacked",
+      "scene": "soccer field",
+      "n": 150,
+      "correct": 50,
+      "accuracy": 0.3333333333333333
+    },
+    {
+      "variant": "original",
+      "scene": "bar",
+      "n": 150,
+      "correct": 100,
+      "accuracy": 0.6666666666666666
+    },
+    {
+      "variant": "original",
+      "scene": "board meeting",
+      "n": 150,
+      "correct": 98,
+      "accuracy": 0.6533333333333333
+    },
+    {
+      "variant": "original",
+      "scene": "home kitchen",
+      "n": 150,
+      "correct": 100,
+      "accuracy": 0.6666666666666666
+    },
+    {
+      "variant": "original",
+      "scene": "hospital ward",
+      "n": 150,
+      "correct": 102,
+      "accuracy": 0.68
+    },
+    {
+      "variant": "original",
+      "scene": "mining site",
+      "n": 150,
+      "correct": 101,
+      "accuracy": 0.6733333333333333
+    },
+    {
+      "variant": "original",
+      "scene": "office",
+      "n": 150,
+      "correct": 100,
+      "accuracy": 0.6666666666666666
+    },
+    {
+      "variant": "original",
+      "scene": "operating room",
+      "n": 150,
+      "correct": 71,
+      "accuracy": 0.47333333333333333
+    },
+    {
+      "variant": "original",
+      "scene": "school",
+      "n": 150,
+      "correct": 100,
+      "accuracy": 0.6666666666666666
+    },
+    {
+      "variant": "original",
+      "scene": "soccer field",
+      "n": 150,
+      "correct": 100,
+      "accuracy": 0.6666666666666666
+    }
+  ],
+  "accuracy_by_gender": [
+    {
+      "variant": "blacked",
+      "gt_gender": "female",
+      "n": 450,
+      "correct": 6,
+      "accuracy": 0.013333333333333334
+    },
+    {
+      "variant": "blacked",
+      "gt_gender": "male",
+      "n": 450,
+      "correct": 9,
+      "accuracy": 0.02
+    },
+    {
+      "variant": "blacked",
+      "gt_gender": "neutral",
+      "n": 450,
+      "correct": 424,
+      "accuracy": 0.9422222222222222
+    },
+    {
+      "variant": "original",
+      "gt_gender": "female",
+      "n": 450,
+      "correct": 409,
+      "accuracy": 0.9088888888888889
+    },
+    {
+      "variant": "original",
+      "gt_gender": "male",
+      "n": 450,
+      "correct": 407,
+      "accuracy": 0.9044444444444445
+    },
+    {
+      "variant": "original",
+      "gt_gender": "neutral",
+      "n": 450,
+      "correct": 56,
+      "accuracy": 0.12444444444444444
+    }
+  ],
+  "accuracy_by_scene_gender": [
+    {
+      "variant": "blacked",
+      "scene": "bar",
+      "gt_gender": "female",
+      "n": 50,
+      "correct": 0,
+      "accuracy": 0.0
+    },
+    {
+      "variant": "blacked",
+      "scene": "bar",
+      "gt_gender": "male",
+      "n": 50,
+      "correct": 0,
+      "accuracy": 0.0
+    },
+    {
+      "variant": "blacked",
+      "scene": "bar",
+      "gt_gender": "neutral",
+      "n": 50,
+      "correct": 50,
+      "accuracy": 1.0
+    },
+    {
+      "variant": "blacked",
+      "scene": "board meeting",
+      "gt_gender": "female",
+      "n": 50,
+      "correct": 0,
+      "accuracy": 0.0
+    },
+    {
+      "variant": "blacked",
+      "scene": "board meeting",
+      "gt_gender": "male",
+      "n": 50,
+      "correct": 4,
+      "accuracy": 0.08
+    },
+    {
+      "variant": "blacked",
+      "scene": "board meeting",
+      "gt_gender": "neutral",
+      "n": 50,
+      "correct": 48,
+      "accuracy": 0.96
+    },
+    {
+      "variant": "blacked",
+      "scene": "home kitchen",
+      "gt_gender": "female",
+      "n": 50,
+      "correct": 2,
+      "accuracy": 0.04
+    },
+    {
+      "variant": "blacked",
+      "scene": "home kitchen",
+      "gt_gender": "male",
+      "n": 50,
+      "correct": 0,
+      "accuracy": 0.0
+    },
+    {
+      "variant": "blacked",
+      "scene": "home kitchen",
+      "gt_gender": "neutral",
+      "n": 50,
+      "correct": 48,
+      "accuracy": 0.96
+    },
+    {
+      "variant": "blacked",
+      "scene": "hospital ward",
+      "gt_gender": "female",
+      "n": 50,
+      "correct": 2,
+      "accuracy": 0.04
+    },
+    {
+      "variant": "blacked",
+      "scene": "hospital ward",
+      "gt_gender": "male",
+      "n": 50,
+      "correct": 0,
+      "accuracy": 0.0
+    },
+    {
+      "variant": "blacked",
+      "scene": "hospital ward",
+      "gt_gender": "neutral",
+      "n": 50,
+      "correct": 44,
+      "accuracy": 0.88
+    },
+    {
+      "variant": "blacked",
+      "scene": "mining site",
+      "gt_gender": "female",
+      "n": 50,
+      "correct": 1,
+      "accuracy": 0.02
+    },
+    {
+      "variant": "blacked",
+      "scene": "mining site",
+      "gt_gender": "male",
+      "n": 50,
+      "correct": 0,
+      "accuracy": 0.0
+    },
+    {
+      "variant": "blacked",
+      "scene": "mining site",
+      "gt_gender": "neutral",
+      "n": 50,
+      "correct": 50,
+      "accuracy": 1.0
+    },
+    {
+      "variant": "blacked",
+      "scene": "office",
+      "gt_gender": "female",
+      "n": 50,
+      "correct": 0,
+      "accuracy": 0.0
+    },
+    {
+      "variant": "blacked",
+      "scene": "office",
+      "gt_gender": "male",
+      "n": 50,
+      "correct": 5,
+      "accuracy": 0.1
+    },
+    {
+      "variant": "blacked",
+      "scene": "office",
+      "gt_gender": "neutral",
+      "n": 50,
+      "correct": 48,
+      "accuracy": 0.96
+    },
+    {
+      "variant": "blacked",
+      "scene": "operating room",
+      "gt_gender": "female",
+      "n": 50,
+      "correct": 0,
+      "accuracy": 0.0
+    },
+    {
+      "variant": "blacked",
+      "scene": "operating room",
+      "gt_gender": "male",
+      "n": 50,
+      "correct": 0,
+      "accuracy": 0.0
+    },
+    {
+      "variant": "blacked",
+      "scene": "operating room",
+      "gt_gender": "neutral",
+      "n": 50,
+      "correct": 50,
+      "accuracy": 1.0
+    },
+    {
+      "variant": "blacked",
+      "scene": "school",
+      "gt_gender": "female",
+      "n": 50,
+      "correct": 1,
+      "accuracy": 0.02
+    },
+    {
+      "variant": "blacked",
+      "scene": "school",
+      "gt_gender": "male",
+      "n": 50,
+      "correct": 0,
+      "accuracy": 0.0
+    },
+    {
+      "variant": "blacked",
+      "scene": "school",
+      "gt_gender": "neutral",
+      "n": 50,
+      "correct": 36,
+      "accuracy": 0.72
+    },
+    {
+      "variant": "blacked",
+      "scene": "soccer field",
+      "gt_gender": "female",
+      "n": 50,
+      "correct": 0,
+      "accuracy": 0.0
+    },
+    {
+      "variant": "blacked",
+      "scene": "soccer field",
+      "gt_gender": "male",
+      "n": 50,
+      "correct": 0,
+      "accuracy": 0.0
+    },
+    {
+      "variant": "blacked",
+      "scene": "soccer field",
+      "gt_gender": "neutral",
+      "n": 50,
+      "correct": 50,
+      "accuracy": 1.0
+    },
+    {
+      "variant": "original",
+      "scene": "bar",
+      "gt_gender": "female",
+      "n": 50,
+      "correct": 50,
+      "accuracy": 1.0
+    },
+    {
+      "variant": "original",
+      "scene": "bar",
+      "gt_gender": "male",
+      "n": 50,
+      "correct": 50,
+      "accuracy": 1.0
+    },
+    {
+      "variant": "original",
+      "scene": "bar",
+      "gt_gender": "neutral",
+      "n": 50,
+      "correct": 0,
+      "accuracy": 0.0
+    },
+    {
+      "variant": "original",
+      "scene": "board meeting",
+      "gt_gender": "female",
+      "n": 50,
+      "correct": 47,
+      "accuracy": 0.94
+    },
+    {
+      "variant": "original",
+      "scene": "board meeting",
+      "gt_gender": "male",
+      "n": 50,
+      "correct": 44,
+      "accuracy": 0.88
+    },
+    {
+      "variant": "original",
+      "scene": "board meeting",
+      "gt_gender": "neutral",
+      "n": 50,
+      "correct": 7,
+      "accuracy": 0.14
+    },
+    {
+      "variant": "original",
+      "scene": "home kitchen",
+      "gt_gender": "female",
+      "n": 50,
+      "correct": 50,
+      "accuracy": 1.0
+    },
+    {
+      "variant": "original",
+      "scene": "home kitchen",
+      "gt_gender": "male",
+      "n": 50,
+      "correct": 50,
+      "accuracy": 1.0
+    },
+    {
+      "variant": "original",
+      "scene": "home kitchen",
+      "gt_gender": "neutral",
+      "n": 50,
+      "correct": 0,
+      "accuracy": 0.0
+    },
+    {
+      "variant": "original",
+      "scene": "hospital ward",
+      "gt_gender": "female",
+      "n": 50,
+      "correct": 50,
+      "accuracy": 1.0
+    },
+    {
+      "variant": "original",
+      "scene": "hospital ward",
+      "gt_gender": "male",
+      "n": 50,
+      "correct": 50,
+      "accuracy": 1.0
+    },
+    {
+      "variant": "original",
+      "scene": "hospital ward",
+      "gt_gender": "neutral",
+      "n": 50,
+      "correct": 2,
+      "accuracy": 0.04
+    },
+    {
+      "variant": "original",
+      "scene": "mining site",
+      "gt_gender": "female",
+      "n": 50,
+      "correct": 50,
+      "accuracy": 1.0
+    },
+    {
+      "variant": "original",
+      "scene": "mining site",
+      "gt_gender": "male",
+      "n": 50,
+      "correct": 50,
+      "accuracy": 1.0
+    },
+    {
+      "variant": "original",
+      "scene": "mining site",
+      "gt_gender": "neutral",
+      "n": 50,
+      "correct": 1,
+      "accuracy": 0.02
+    },
+    {
+      "variant": "original",
+      "scene": "office",
+      "gt_gender": "female",
+      "n": 50,
+      "correct": 50,
+      "accuracy": 1.0
+    },
+    {
+      "variant": "original",
+      "scene": "office",
+      "gt_gender": "male",
+      "n": 50,
+      "correct": 50,
+      "accuracy": 1.0
+    },
+    {
+      "variant": "original",
+      "scene": "office",
+      "gt_gender": "neutral",
+      "n": 50,
+      "correct": 0,
+      "accuracy": 0.0
+    },
+    {
+      "variant": "original",
+      "scene": "operating room",
+      "gt_gender": "female",
+      "n": 50,
+      "correct": 12,
+      "accuracy": 0.24
+    },
+    {
+      "variant": "original",
+      "scene": "operating room",
+      "gt_gender": "male",
+      "n": 50,
+      "correct": 13,
+      "accuracy": 0.26
+    },
+    {
+      "variant": "original",
+      "scene": "operating room",
+      "gt_gender": "neutral",
+      "n": 50,
+      "correct": 46,
+      "accuracy": 0.92
+    },
+    {
+      "variant": "original",
+      "scene": "school",
+      "gt_gender": "female",
+      "n": 50,
+      "correct": 50,
+      "accuracy": 1.0
+    },
+    {
+      "variant": "original",
+      "scene": "school",
+      "gt_gender": "male",
+      "n": 50,
+      "correct": 50,
+      "accuracy": 1.0
+    },
+    {
+      "variant": "original",
+      "scene": "school",
+      "gt_gender": "neutral",
+      "n": 50,
+      "correct": 0,
+      "accuracy": 0.0
+    },
+    {
+      "variant": "original",
+      "scene": "soccer field",
+      "gt_gender": "female",
+      "n": 50,
+      "correct": 50,
+      "accuracy": 1.0
+    },
+    {
+      "variant": "original",
+      "scene": "soccer field",
+      "gt_gender": "male",
+      "n": 50,
+      "correct": 50,
+      "accuracy": 1.0
+    },
+    {
+      "variant": "original",
+      "scene": "soccer field",
+      "gt_gender": "neutral",
+      "n": 50,
+      "correct": 0,
+      "accuracy": 0.0
+    }
+  ],
+  "num_paired_records": 1350,
+  "paired_scene_gender": [
+    {
+      "scene": "bar",
+      "gt_gender": "female",
+      "paired_n": 50,
+      "original_correct": 50,
+      "blacked_correct": 0,
+      "original_accuracy": 1.0,
+      "blacked_accuracy": 0.0,
+      "accuracy_drop_after_blackout": 1.0
+    },
+    {
+      "scene": "bar",
+      "gt_gender": "male",
+      "paired_n": 50,
+      "original_correct": 50,
+      "blacked_correct": 0,
+      "original_accuracy": 1.0,
+      "blacked_accuracy": 0.0,
+      "accuracy_drop_after_blackout": 1.0
+    },
+    {
+      "scene": "bar",
+      "gt_gender": "neutral",
+      "paired_n": 50,
+      "original_correct": 0,
+      "blacked_correct": 50,
+      "original_accuracy": 0.0,
+      "blacked_accuracy": 1.0,
+      "accuracy_drop_after_blackout": -1.0
+    },
+    {
+      "scene": "board meeting",
+      "gt_gender": "female",
+      "paired_n": 50,
+      "original_correct": 47,
+      "blacked_correct": 0,
+      "original_accuracy": 0.94,
+      "blacked_accuracy": 0.0,
+      "accuracy_drop_after_blackout": 0.94
+    },
+    {
+      "scene": "board meeting",
+      "gt_gender": "male",
+      "paired_n": 50,
+      "original_correct": 44,
+      "blacked_correct": 4,
+      "original_accuracy": 0.88,
+      "blacked_accuracy": 0.08,
+      "accuracy_drop_after_blackout": 0.8
+    },
+    {
+      "scene": "board meeting",
+      "gt_gender": "neutral",
+      "paired_n": 50,
+      "original_correct": 7,
+      "blacked_correct": 48,
+      "original_accuracy": 0.14,
+      "blacked_accuracy": 0.96,
+      "accuracy_drop_after_blackout": -0.82
+    },
+    {
+      "scene": "home kitchen",
+      "gt_gender": "female",
+      "paired_n": 50,
+      "original_correct": 50,
+      "blacked_correct": 2,
+      "original_accuracy": 1.0,
+      "blacked_accuracy": 0.04,
+      "accuracy_drop_after_blackout": 0.96
+    },
+    {
+      "scene": "home kitchen",
+      "gt_gender": "male",
+      "paired_n": 50,
+      "original_correct": 50,
+      "blacked_correct": 0,
+      "original_accuracy": 1.0,
+      "blacked_accuracy": 0.0,
+      "accuracy_drop_after_blackout": 1.0
+    },
+    {
+      "scene": "home kitchen",
+      "gt_gender": "neutral",
+      "paired_n": 50,
+      "original_correct": 0,
+      "blacked_correct": 48,
+      "original_accuracy": 0.0,
+      "blacked_accuracy": 0.96,
+      "accuracy_drop_after_blackout": -0.96
+    },
+    {
+      "scene": "hospital ward",
+      "gt_gender": "female",
+      "paired_n": 50,
+      "original_correct": 50,
+      "blacked_correct": 2,
+      "original_accuracy": 1.0,
+      "blacked_accuracy": 0.04,
+      "accuracy_drop_after_blackout": 0.96
+    },
+    {
+      "scene": "hospital ward",
+      "gt_gender": "male",
+      "paired_n": 50,
+      "original_correct": 50,
+      "blacked_correct": 0,
+      "original_accuracy": 1.0,
+      "blacked_accuracy": 0.0,
+      "accuracy_drop_after_blackout": 1.0
+    },
+    {
+      "scene": "hospital ward",
+      "gt_gender": "neutral",
+      "paired_n": 50,
+      "original_correct": 2,
+      "blacked_correct": 44,
+      "original_accuracy": 0.04,
+      "blacked_accuracy": 0.88,
+      "accuracy_drop_after_blackout": -0.84
+    },
+    {
+      "scene": "mining site",
+      "gt_gender": "female",
+      "paired_n": 50,
+      "original_correct": 50,
+      "blacked_correct": 1,
+      "original_accuracy": 1.0,
+      "blacked_accuracy": 0.02,
+      "accuracy_drop_after_blackout": 0.98
+    },
+    {
+      "scene": "mining site",
+      "gt_gender": "male",
+      "paired_n": 50,
+      "original_correct": 50,
+      "blacked_correct": 0,
+      "original_accuracy": 1.0,
+      "blacked_accuracy": 0.0,
+      "accuracy_drop_after_blackout": 1.0
+    },
+    {
+      "scene": "mining site",
+      "gt_gender": "neutral",
+      "paired_n": 50,
+      "original_correct": 1,
+      "blacked_correct": 50,
+      "original_accuracy": 0.02,
+      "blacked_accuracy": 1.0,
+      "accuracy_drop_after_blackout": -0.98
+    },
+    {
+      "scene": "office",
+      "gt_gender": "female",
+      "paired_n": 50,
+      "original_correct": 50,
+      "blacked_correct": 0,
+      "original_accuracy": 1.0,
+      "blacked_accuracy": 0.0,
+      "accuracy_drop_after_blackout": 1.0
+    },
+    {
+      "scene": "office",
+      "gt_gender": "male",
+      "paired_n": 50,
+      "original_correct": 50,
+      "blacked_correct": 5,
+      "original_accuracy": 1.0,
+      "blacked_accuracy": 0.1,
+      "accuracy_drop_after_blackout": 0.9
+    },
+    {
+      "scene": "office",
+      "gt_gender": "neutral",
+      "paired_n": 50,
+      "original_correct": 0,
+      "blacked_correct": 48,
+      "original_accuracy": 0.0,
+      "blacked_accuracy": 0.96,
+      "accuracy_drop_after_blackout": -0.96
+    },
+    {
+      "scene": "operating room",
+      "gt_gender": "female",
+      "paired_n": 50,
+      "original_correct": 12,
+      "blacked_correct": 0,
+      "original_accuracy": 0.24,
+      "blacked_accuracy": 0.0,
+      "accuracy_drop_after_blackout": 0.24
+    },
+    {
+      "scene": "operating room",
+      "gt_gender": "male",
+      "paired_n": 50,
+      "original_correct": 13,
+      "blacked_correct": 0,
+      "original_accuracy": 0.26,
+      "blacked_accuracy": 0.0,
+      "accuracy_drop_after_blackout": 0.26
+    },
+    {
+      "scene": "operating room",
+      "gt_gender": "neutral",
+      "paired_n": 50,
+      "original_correct": 46,
+      "blacked_correct": 50,
+      "original_accuracy": 0.92,
+      "blacked_accuracy": 1.0,
+      "accuracy_drop_after_blackout": -0.07999999999999996
+    },
+    {
+      "scene": "school",
+      "gt_gender": "female",
+      "paired_n": 50,
+      "original_correct": 50,
+      "blacked_correct": 1,
+      "original_accuracy": 1.0,
+      "blacked_accuracy": 0.02,
+      "accuracy_drop_after_blackout": 0.98
+    },
+    {
+      "scene": "school",
+      "gt_gender": "male",
+      "paired_n": 50,
+      "original_correct": 50,
+      "blacked_correct": 0,
+      "original_accuracy": 1.0,
+      "blacked_accuracy": 0.0,
+      "accuracy_drop_after_blackout": 1.0
+    },
+    {
+      "scene": "school",
+      "gt_gender": "neutral",
+      "paired_n": 50,
+      "original_correct": 0,
+      "blacked_correct": 36,
+      "original_accuracy": 0.0,
+      "blacked_accuracy": 0.72,
+      "accuracy_drop_after_blackout": -0.72
+    },
+    {
+      "scene": "soccer field",
+      "gt_gender": "female",
+      "paired_n": 50,
+      "original_correct": 50,
+      "blacked_correct": 0,
+      "original_accuracy": 1.0,
+      "blacked_accuracy": 0.0,
+      "accuracy_drop_after_blackout": 1.0
+    },
+    {
+      "scene": "soccer field",
+      "gt_gender": "male",
+      "paired_n": 50,
+      "original_correct": 50,
+      "blacked_correct": 0,
+      "original_accuracy": 1.0,
+      "blacked_accuracy": 0.0,
+      "accuracy_drop_after_blackout": 1.0
+    },
+    {
+      "scene": "soccer field",
+      "gt_gender": "neutral",
+      "paired_n": 50,
+      "original_correct": 0,
+      "blacked_correct": 50,
+      "original_accuracy": 0.0,
+      "blacked_accuracy": 1.0,
+      "accuracy_drop_after_blackout": -1.0
+    }
+  ]
+}

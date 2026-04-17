@@ -1,0 +1,7 @@
+﻿variant,gt_gender,n,correct,accuracy
+blacked,female,2,0,0.0
+blacked,male,2,0,0.0
+blacked,neutral,1,1,1.0
+original,female,2,2,1.0
+original,male,2,2,1.0
+original,neutral,1,0,0.0

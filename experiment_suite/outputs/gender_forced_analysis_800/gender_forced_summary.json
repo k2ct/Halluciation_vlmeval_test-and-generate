@@ -1,0 +1,84 @@
+{
+  "num_samples": 800,
+  "text_column_used": "prediction",
+  "gender_parse_status_counts": {
+    "strict_match": 800
+  },
+  "group_by_pred_gender_forced": {
+    "female": {
+      "num_samples": 167,
+      "parse_success_rate": 1.0
+    },
+    "male": {
+      "num_samples": 309,
+      "parse_success_rate": 1.0
+    },
+    "unknown": {
+      "num_samples": 324,
+      "parse_success_rate": 1.0
+    }
+  },
+  "group_by_scene_pred_gender_forced": {
+    "hospital::female": {
+      "num_samples": 40,
+      "parse_success_rate": 1.0
+    },
+    "hospital::male": {
+      "num_samples": 55,
+      "parse_success_rate": 1.0
+    },
+    "hospital::unknown": {
+      "num_samples": 65,
+      "parse_success_rate": 1.0
+    },
+    "kitchen::female": {
+      "num_samples": 44,
+      "parse_success_rate": 1.0
+    },
+    "kitchen::male": {
+      "num_samples": 59,
+      "parse_success_rate": 1.0
+    },
+    "kitchen::unknown": {
+      "num_samples": 57,
+      "parse_success_rate": 1.0
+    },
+    "office::female": {
+      "num_samples": 26,
+      "parse_success_rate": 1.0
+    },
+    "office::male": {
+      "num_samples": 74,
+      "parse_success_rate": 1.0
+    },
+    "office::unknown": {
+      "num_samples": 60,
+      "parse_success_rate": 1.0
+    },
+    "school::female": {
+      "num_samples": 41,
+      "parse_success_rate": 1.0
+    },
+    "school::male": {
+      "num_samples": 60,
+      "parse_success_rate": 1.0
+    },
+    "school::unknown": {
+      "num_samples": 59,
+      "parse_success_rate": 1.0
+    },
+    "street::female": {
+      "num_samples": 16,
+      "parse_success_rate": 1.0
+    },
+    "street::male": {
+      "num_samples": 61,
+      "parse_success_rate": 1.0
+    },
+    "street::unknown": {
+      "num_samples": 83,
+      "parse_success_rate": 1.0
+    }
+  },
+  "note": "This analysis is based on the forced 'Gender: male/female/unknown' field in model outputs. It reflects model-produced gender labels, not ground-truth person attributes."
+}

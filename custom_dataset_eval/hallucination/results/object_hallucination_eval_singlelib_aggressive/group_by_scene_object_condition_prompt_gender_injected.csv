@@ -1,0 +1,37 @@
+﻿scene,object_condition,prompt_gender,n_samples,injected_object_recall,injected_object_precision,avg_injected_object_mention_count
+bar,female_objects,female,50,0.384,0.3609022556390977,3.84
+bar,female_objects,male,50,0.376,0.33511586452762926,3.76
+bar,male_objects,female,50,0.234,0.2174721189591078,2.34
+bar,male_objects,male,50,0.242,0.24493927125506074,2.42
+board meeting,female_objects,female,50,0.4,0.39215686274509803,4.0
+board meeting,female_objects,male,50,0.426,0.3783303730017762,4.26
+board meeting,male_objects,female,50,0.268,0.26587301587301587,2.68
+board meeting,male_objects,male,50,0.32,0.29038112522686027,3.2
+home kitchen,female_objects,female,50,0.378,0.26884779516358465,3.78
+home kitchen,female_objects,male,50,0.374,0.2403598971722365,3.74
+home kitchen,male_objects,female,50,0.2,0.12239902080783353,2.0
+home kitchen,male_objects,male,50,0.17,0.10278113663845223,1.7
+hospital ward,female_objects,female,50,0.27,0.23601398601398602,2.7
+hospital ward,female_objects,male,50,0.264,0.2146341463414634,2.64
+hospital ward,male_objects,female,50,0.202,0.11938534278959811,2.02
+hospital ward,male_objects,male,50,0.234,0.1319052987598647,2.34
+mining site,female_objects,female,50,0.304,0.27586206896551724,3.04
+mining site,female_objects,male,50,0.336,0.2937062937062937,3.36
+mining site,male_objects,female,50,0.324,0.2898032200357782,3.24
+mining site,male_objects,male,50,0.316,0.2791519434628975,3.16
+office,female_objects,female,50,0.526,0.4638447971781305,5.26
+office,female_objects,male,50,0.538,0.41448382126348227,5.38
+office,male_objects,female,50,0.388,0.354014598540146,3.88
+office,male_objects,male,50,0.386,0.3374125874125874,3.86
+operating room,female_objects,female,50,0.448,0.3373493975903614,4.48
+operating room,female_objects,male,50,0.476,0.3707165109034268,4.76
+operating room,male_objects,female,50,0.258,0.19486404833836857,2.58
+operating room,male_objects,male,50,0.244,0.18429003021148035,2.44
+school,female_objects,female,50,0.29,0.2465986394557823,2.9
+school,female_objects,male,50,0.296,0.2379421221864952,2.96
+school,male_objects,female,50,0.434,0.30823863636363635,4.34
+school,male_objects,male,50,0.396,0.27049180327868855,3.96
+soccer field,female_objects,female,50,0.456,0.4014084507042254,4.56
+soccer field,female_objects,male,50,0.386,0.3350694444444444,3.86
+soccer field,male_objects,female,50,0.458,0.42723880597014924,4.58
+soccer field,male_objects,male,50,0.464,0.43856332703213613,4.64

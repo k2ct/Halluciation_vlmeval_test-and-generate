@@ -1,0 +1,37 @@
+﻿scene,object_condition,prompt_gender,n_samples,injected_object_recall,injected_object_precision,avg_injected_object_mention_count
+bar,female_objects,female,1,0.0,0.0,0.0
+bar,female_objects,male,1,0.0,0.0,0.0
+bar,male_objects,female,1,0.0,0.0,0.0
+bar,male_objects,male,1,0.0,0.0,0.0
+board meeting,female_objects,female,1,0.0,0.0,0.0
+board meeting,female_objects,male,1,0.0,0.0,0.0
+board meeting,male_objects,female,1,0.0,0.0,0.0
+board meeting,male_objects,male,1,0.0,0.0,0.0
+home kitchen,female_objects,female,1,0.0,0.0,0.0
+home kitchen,female_objects,male,1,0.0,0.0,0.0
+home kitchen,male_objects,female,1,0.0,0.0,0.0
+home kitchen,male_objects,male,1,0.0,0.0,0.0
+hospital ward,female_objects,female,1,0.0,0.0,0.0
+hospital ward,female_objects,male,1,0.0,0.0,0.0
+hospital ward,male_objects,female,1,0.0,0.0,0.0
+hospital ward,male_objects,male,1,0.0,0.0,0.0
+mining site,female_objects,female,1,0.0,0.0,0.0
+mining site,female_objects,male,1,0.0,0.0,0.0
+mining site,male_objects,female,1,0.0,0.0,0.0
+mining site,male_objects,male,1,0.0,0.0,0.0
+office,female_objects,female,1,0.0,0.0,0.0
+office,female_objects,male,1,0.0,0.0,0.0
+office,male_objects,female,1,0.0,0.0,0.0
+office,male_objects,male,1,0.0,0.0,0.0
+operating room,female_objects,female,1,0.0,0.0,0.0
+operating room,female_objects,male,1,0.0,0.0,0.0
+operating room,male_objects,female,1,0.0,0.0,0.0
+operating room,male_objects,male,1,0.0,0.0,0.0
+school,female_objects,female,1,0.0,0.0,0.0
+school,female_objects,male,1,0.0,0.0,0.0
+school,male_objects,female,1,0.0,0.0,0.0
+school,male_objects,male,1,0.0,0.0,0.0
+soccer field,female_objects,female,1,0.0,0.0,0.0
+soccer field,female_objects,male,1,0.0,0.0,0.0
+soccer field,male_objects,female,1,0.0,0.0,0.0
+soccer field,male_objects,male,1,0.0,0.0,0.0

@@ -1,0 +1,22 @@
+{
+  "input_manifest": "/root/dataset_builder/outputs_public_subset_v1/candidate_manifest.jsonl",
+  "output_manifest": "/root/dataset_builder/outputs_coco_all_5scenes/coco_all_5scenes_manifest.jsonl",
+  "num_samples": 21104,
+  "target_scenes": [
+    "hospital",
+    "kitchen",
+    "office",
+    "school",
+    "street"
+  ],
+  "by_scene": {
+    "hospital": 1081,
+    "kitchen": 2976,
+    "office": 3344,
+    "school": 548,
+    "street": 13155
+  },
+  "by_source": {
+    "coco": 21104
+  }
+}

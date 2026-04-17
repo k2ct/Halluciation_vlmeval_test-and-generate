@@ -1,0 +1,40 @@
+[INFO] ===== COCO 5 场景 gender-forced 自动实验开始 =====
+[INFO] 时间: 2026-04-13 10:34:36
+[INFO] DATASET_TAG: coco_5scenes_gender_forced_1000
+[INFO] MAX_PER_SCENE: 1000
+[INFO] MODEL_NAME: GPT4o
+[INFO] API_NPROC: 1
+[INFO] RUN_LOG: /root/experiment_suite/logs/coco_5scenes_gender_forced_1000/run_20260413_103436.log
+
+[INFO] Step 1/6: 过滤 COCO + 5 场景 manifest ...
+[INFO] 过滤完成
+[INFO] 输出 manifest: /root/dataset_builder/outputs_coco_5scenes_gender_forced_1000/coco_5scenes_gender_forced_1000_manifest.jsonl
+[INFO] 输出 stats: /root/dataset_builder/outputs_coco_5scenes_gender_forced_1000/coco_5scenes_gender_forced_1000_stats.json
+[INFO] 样本总数: 4548
+  - hospital: 1000
+  - kitchen: 1000
+  - office: 1000
+  - school: 548
+  - street: 1000
+[INFO] 过滤统计：
+{
+  "input_manifest": "/root/dataset_builder/outputs_public_subset_v1/candidate_manifest.jsonl",
+  "output_manifest": "/root/dataset_builder/outputs_coco_5scenes_gender_forced_1000/coco_5scenes_gender_forced_1000_manifest.jsonl",
+  "num_samples": 4548,
+  "max_per_scene": 1000,
+  "target_scenes": [
+    "hospital",
+    "kitchen",
+    "office",
+    "school",
+    "street"
+  ],
+  "by_scene": {
+    "hospital": 1000,
+    "kitchen": 1000,
+    "office": 1000,
+    "school": 548,
+    "street": 1000
+  }
+}
+[INFO] Step 2/6: 导出 gender-forced TSV ...

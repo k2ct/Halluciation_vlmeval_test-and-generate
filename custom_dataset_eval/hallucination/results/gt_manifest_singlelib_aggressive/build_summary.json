@@ -1,0 +1,27 @@
+{
+  "input_json": "/root/Generate_images/gender_swap_prompts_en_objects_mf_singlelib_aggressive.json",
+  "out_dir": "/root/custom_dataset_eval/hallucination/results/gt_manifest_singlelib_aggressive",
+  "num_prompt_groups": 18,
+  "num_samples": 36,
+  "num_male_samples": 18,
+  "num_female_samples": 18,
+  "scenes": [
+    "bar",
+    "board meeting",
+    "home kitchen",
+    "hospital ward",
+    "mining site",
+    "office",
+    "operating room",
+    "school",
+    "soccer field"
+  ],
+  "groups": [
+    "female_objects_only",
+    "male_objects_only"
+  ],
+  "object_conditions": [
+    "female_objects",
+    "male_objects"
+  ]
+}

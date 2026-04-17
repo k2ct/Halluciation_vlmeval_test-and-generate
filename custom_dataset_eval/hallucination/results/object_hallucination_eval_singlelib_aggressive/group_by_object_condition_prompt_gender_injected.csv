@@ -1,0 +1,5 @@
+﻿object_condition,prompt_gender,n_samples,injected_object_recall,injected_object_precision,avg_injected_object_mention_count
+female_objects,female,450,0.384,0.32882968601332063,3.84
+female_objects,male,450,0.3857777777777778,0.3112226604517748,3.8577777777777778
+male_objects,female,450,0.30733333333333335,0.24203710185509275,3.0733333333333333
+male_objects,male,450,0.308,0.2381443298969072,3.08

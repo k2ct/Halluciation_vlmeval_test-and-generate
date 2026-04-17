@@ -1,0 +1,11 @@
+{
+  "updated_at": "2026-04-09 00:35:16",
+  "total_tasks": 12,
+  "done_tasks": 12,
+  "pending_tasks": 0,
+  "stop_requested": false,
+  "results_jsonl": "/root/custom_dataset_eval/bias/results/gender_bias_eval_smoke/results.jsonl",
+  "errors_jsonl": "/root/custom_dataset_eval/bias/results/gender_bias_eval_smoke/error_records.jsonl",
+  "summary_json": "/root/custom_dataset_eval/bias/results/gender_bias_eval_smoke/summary.json",
+  "predictions_xlsx": "/root/custom_dataset_eval/bias/results/gender_bias_eval_smoke/predictions.xlsx"
+}

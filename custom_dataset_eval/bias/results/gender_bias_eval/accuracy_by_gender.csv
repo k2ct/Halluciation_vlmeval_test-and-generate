@@ -1,0 +1,7 @@
+﻿variant,gt_gender,n,correct,accuracy
+blacked,female,450,6,0.013333333333333334
+blacked,male,450,9,0.02
+blacked,neutral,450,424,0.9422222222222222
+original,female,450,409,0.9088888888888889
+original,male,450,407,0.9044444444444445
+original,neutral,450,56,0.12444444444444444

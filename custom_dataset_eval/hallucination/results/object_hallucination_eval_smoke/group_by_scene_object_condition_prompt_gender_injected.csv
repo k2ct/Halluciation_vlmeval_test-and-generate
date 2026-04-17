@@ -1,0 +1,37 @@
+﻿scene,object_condition,prompt_gender,n_samples,injected_object_recall,injected_object_precision,avg_injected_object_mention_count
+bar,female_objects,female,1,0.4,0.3076923076923077,4.0
+bar,female_objects,male,1,0.3,0.25,3.0
+bar,male_objects,female,1,0.2,0.2,2.0
+bar,male_objects,male,1,0.3,0.2727272727272727,3.0
+board meeting,female_objects,female,1,0.4,0.36363636363636365,4.0
+board meeting,female_objects,male,1,0.5,0.3125,5.0
+board meeting,male_objects,female,1,0.4,0.3076923076923077,4.0
+board meeting,male_objects,male,1,0.0,0.0,0.0
+home kitchen,female_objects,female,1,0.4,0.23529411764705882,4.0
+home kitchen,female_objects,male,1,0.4,0.25,4.0
+home kitchen,male_objects,female,1,0.1,0.06666666666666667,1.0
+home kitchen,male_objects,male,1,0.4,0.25,4.0
+hospital ward,female_objects,female,1,0.2,0.2,2.0
+hospital ward,female_objects,male,1,0.2,0.16666666666666666,2.0
+hospital ward,male_objects,female,1,0.1,0.08333333333333333,1.0
+hospital ward,male_objects,male,1,0.2,0.13333333333333333,2.0
+mining site,female_objects,female,1,0.5,0.38461538461538464,5.0
+mining site,female_objects,male,1,0.5,0.45454545454545453,5.0
+mining site,male_objects,female,1,0.3,0.23076923076923078,3.0
+mining site,male_objects,male,1,0.4,0.4,4.0
+office,female_objects,female,1,0.5,0.4166666666666667,5.0
+office,female_objects,male,1,0.4,0.4,4.0
+office,male_objects,female,1,0.2,0.2,2.0
+office,male_objects,male,1,0.4,0.4,4.0
+operating room,female_objects,female,1,0.7,0.5833333333333334,7.0
+operating room,female_objects,male,1,0.3,0.2727272727272727,3.0
+operating room,male_objects,female,1,0.4,0.3333333333333333,4.0
+operating room,male_objects,male,1,0.3,0.25,3.0
+school,female_objects,female,1,0.4,0.3076923076923077,4.0
+school,female_objects,male,1,0.4,0.36363636363636365,4.0
+school,male_objects,female,1,0.4,0.3333333333333333,4.0
+school,male_objects,male,1,0.5,0.3333333333333333,5.0
+soccer field,female_objects,female,1,0.6,0.5454545454545454,6.0
+soccer field,female_objects,male,1,0.0,0.0,0.0
+soccer field,male_objects,female,1,0.5,0.5,5.0
+soccer field,male_objects,male,1,0.5,0.5555555555555556,5.0

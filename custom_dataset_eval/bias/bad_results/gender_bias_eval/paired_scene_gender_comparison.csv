@@ -1,0 +1,28 @@
+﻿scene,gt_gender,paired_n,original_correct,blacked_correct,original_accuracy,blacked_accuracy,accuracy_drop_after_blackout
+bar,female,50,0,0,0.0,0.0,0.0
+bar,male,50,0,0,0.0,0.0,0.0
+bar,neutral,50,50,50,1.0,1.0,0.0
+board meeting,female,50,0,0,0.0,0.0,0.0
+board meeting,male,50,0,0,0.0,0.0,0.0
+board meeting,neutral,50,50,50,1.0,1.0,0.0
+home kitchen,female,50,0,0,0.0,0.0,0.0
+home kitchen,male,50,0,0,0.0,0.0,0.0
+home kitchen,neutral,50,50,50,1.0,1.0,0.0
+hospital ward,female,50,0,0,0.0,0.0,0.0
+hospital ward,male,50,0,0,0.0,0.0,0.0
+hospital ward,neutral,50,50,50,1.0,1.0,0.0
+mining site,female,50,0,0,0.0,0.0,0.0
+mining site,male,50,0,0,0.0,0.0,0.0
+mining site,neutral,50,50,50,1.0,1.0,0.0
+office,female,50,0,0,0.0,0.0,0.0
+office,male,50,0,0,0.0,0.0,0.0
+office,neutral,50,50,50,1.0,1.0,0.0
+operating room,female,50,0,0,0.0,0.0,0.0
+operating room,male,50,0,0,0.0,0.0,0.0
+operating room,neutral,50,50,50,1.0,1.0,0.0
+school,female,50,0,0,0.0,0.0,0.0
+school,male,50,0,0,0.0,0.0,0.0
+school,neutral,50,50,50,1.0,1.0,0.0
+soccer field,female,50,0,0,0.0,0.0,0.0
+soccer field,male,50,0,0,0.0,0.0,0.0
+soccer field,neutral,50,50,50,1.0,1.0,0.0

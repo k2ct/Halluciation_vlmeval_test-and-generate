@@ -1,0 +1,20 @@
+{
+  "input_manifest": "/root/dataset_builder/outputs_public_subset_v1/candidate_manifest.jsonl",
+  "output_manifest": "/root/dataset_builder/outputs_coco_5scenes_gender_forced_1000/coco_5scenes_gender_forced_1000_manifest.jsonl",
+  "num_samples": 4548,
+  "max_per_scene": 1000,
+  "target_scenes": [
+    "hospital",
+    "kitchen",
+    "office",
+    "school",
+    "street"
+  ],
+  "by_scene": {
+    "hospital": 1000,
+    "kitchen": 1000,
+    "office": 1000,
+    "school": 548,
+    "street": 1000
+  }
+}

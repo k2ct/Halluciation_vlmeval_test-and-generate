@@ -1,0 +1,7 @@
+﻿scene,gt_gender,paired_n,original_correct,blacked_correct,original_accuracy,blacked_accuracy,accuracy_drop_after_blackout
+office,female,1,0,0,0.0,0.0,0.0
+office,male,1,0,0,0.0,0.0,0.0
+office,neutral,1,1,1,1.0,1.0,0.0
+school,female,1,0,0,0.0,0.0,0.0
+school,male,1,0,0,0.0,0.0,0.0
+school,neutral,1,1,1,1.0,1.0,0.0

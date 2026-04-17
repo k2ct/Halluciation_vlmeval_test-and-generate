@@ -1,0 +1,6 @@
+﻿rel_path,scene,gt_gender,confidence_blacked,confidence_original,is_correct_blacked,is_correct_original,pred_gender_blacked,pred_gender_original,delta_accuracy
+female/office/00005_seed1000720661.png,office,female,1.0,0.95,0,1,neutral,female,1
+female/school/00003_seed1020119007.png,school,female,1.0,0.95,0,1,neutral,female,1
+male/office/00005_seed1000720661.png,office,male,1.0,0.95,0,1,neutral,male,1
+male/school/00003_seed1020119007.png,school,male,0.0,0.95,0,1,neutral,male,1
+neutral/office/00005_seed1000720661.png,office,neutral,0.0,0.95,1,0,neutral,female,-1

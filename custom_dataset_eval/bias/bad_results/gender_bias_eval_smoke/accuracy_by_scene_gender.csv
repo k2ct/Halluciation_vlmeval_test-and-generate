@@ -1,0 +1,13 @@
+﻿variant,scene,gt_gender,n,correct,accuracy
+blacked,office,female,1,0,0.0
+blacked,office,male,1,0,0.0
+blacked,office,neutral,1,1,1.0
+blacked,school,female,1,0,0.0
+blacked,school,male,1,0,0.0
+blacked,school,neutral,1,1,1.0
+original,office,female,1,0,0.0
+original,office,male,1,0,0.0
+original,office,neutral,1,1,1.0
+original,school,female,1,0,0.0
+original,school,male,1,0,0.0
+original,school,neutral,1,1,1.0

@@ -1,0 +1,24 @@
+{
+  "input_file": "/root/experiment_suite/outputs/eval_coco_5scenes_gender_forced_1000_extended/hallucination_details.xlsx",
+  "out_dir": "/root/experiment_suite/outputs/balanced_analysis_coco_5scenes_gender_forced_1000_extended",
+  "metric_prefix": "",
+  "metric_cols": {
+    "chairi_like": "chairi_like_sample",
+    "chairs_like_sample": "chairs_like_sample",
+    "precision": "pope_style_precision",
+    "recall": "pope_style_recall",
+    "f1": "pope_style_f1",
+    "missing_rate": "__computed_missing_rate__"
+  },
+  "gender_col": "pred_gender_forced",
+  "scene_col": "scene",
+  "random_seed": 42,
+  "keep_unknown": false,
+  "num_raw_samples": 4548,
+  "num_balanced_samples": 1240,
+  "raw_scene_gender_counts_csv": "/root/experiment_suite/outputs/balanced_analysis_coco_5scenes_gender_forced_1000_extended/raw_scene_gender_counts.csv",
+  "balanced_scene_gender_counts_csv": "/root/experiment_suite/outputs/balanced_analysis_coco_5scenes_gender_forced_1000_extended/balanced_scene_gender_counts.csv",
+  "balanced_group_by_pred_gender_forced_csv": "/root/experiment_suite/outputs/balanced_analysis_coco_5scenes_gender_forced_1000_extended/balanced_group_by_pred_gender_forced.csv",
+  "balanced_group_by_scene_pred_gender_forced_csv": "/root/experiment_suite/outputs/balanced_analysis_coco_5scenes_gender_forced_1000_extended/balanced_group_by_scene_pred_gender_forced.csv",
+  "balanced_scene_gender_comparison_csv": "/root/experiment_suite/outputs/balanced_analysis_coco_5scenes_gender_forced_1000_extended/balanced_scene_gender_comparison.csv"
+}

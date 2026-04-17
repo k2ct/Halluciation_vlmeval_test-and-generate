@@ -1,0 +1,473 @@
+{
+  "setting": "injected",
+  "generated_at": "2026-04-13 17:56:14",
+  "num_records": 36,
+  "total_predicted_objects": 441,
+  "total_gt_objects": 360,
+  "total_matched_objects": 127,
+  "total_missed_gt_objects": 233,
+  "total_hallucinated_or_extra_objects": 314,
+  "chairi_like": 0.7120181405895691,
+  "chairs_like": 1.0,
+  "object_precision": 0.28798185941043086,
+  "object_recall": 0.3527777777777778,
+  "object_f1": 0.317103620474407,
+  "missing_rate": 0.6472222222222223,
+  "group_by_object_condition": [
+    {
+      "object_condition": "female_objects",
+      "n_samples": 18,
+      "injected_object_recall": 0.39444444444444443,
+      "injected_object_precision": 0.3212669683257919,
+      "avg_injected_object_mention_count": 3.9444444444444446
+    },
+    {
+      "object_condition": "male_objects",
+      "n_samples": 18,
+      "injected_object_recall": 0.3111111111111111,
+      "injected_object_precision": 0.2545454545454545,
+      "avg_injected_object_mention_count": 3.111111111111111
+    }
+  ],
+  "group_by_prompt_gender": [
+    {
+      "prompt_gender": "female",
+      "n_samples": 18,
+      "injected_object_recall": 0.37222222222222223,
+      "injected_object_precision": 0.3059360730593607,
+      "avg_injected_object_mention_count": 3.7222222222222223
+    },
+    {
+      "prompt_gender": "male",
+      "n_samples": 18,
+      "injected_object_recall": 0.3333333333333333,
+      "injected_object_precision": 0.2702702702702703,
+      "avg_injected_object_mention_count": 3.3333333333333335
+    }
+  ],
+  "group_by_scene": [
+    {
+      "scene": "bar",
+      "n_samples": 4,
+      "injected_object_recall": 0.3,
+      "injected_object_precision": 0.2608695652173913,
+      "avg_injected_object_mention_count": 3.0
+    },
+    {
+      "scene": "board meeting",
+      "n_samples": 4,
+      "injected_object_recall": 0.325,
+      "injected_object_precision": 0.23636363636363636,
+      "avg_injected_object_mention_count": 3.25
+    },
+    {
+      "scene": "home kitchen",
+      "n_samples": 4,
+      "injected_object_recall": 0.325,
+      "injected_object_precision": 0.203125,
+      "avg_injected_object_mention_count": 3.25
+    },
+    {
+      "scene": "hospital ward",
+      "n_samples": 4,
+      "injected_object_recall": 0.175,
+      "injected_object_precision": 0.14285714285714285,
+      "avg_injected_object_mention_count": 1.75
+    },
+    {
+      "scene": "mining site",
+      "n_samples": 4,
+      "injected_object_recall": 0.425,
+      "injected_object_precision": 0.3617021276595745,
+      "avg_injected_object_mention_count": 4.25
+    },
+    {
+      "scene": "office",
+      "n_samples": 4,
+      "injected_object_recall": 0.375,
+      "injected_object_precision": 0.35714285714285715,
+      "avg_injected_object_mention_count": 3.75
+    },
+    {
+      "scene": "operating room",
+      "n_samples": 4,
+      "injected_object_recall": 0.425,
+      "injected_object_precision": 0.3617021276595745,
+      "avg_injected_object_mention_count": 4.25
+    },
+    {
+      "scene": "school",
+      "n_samples": 4,
+      "injected_object_recall": 0.425,
+      "injected_object_precision": 0.3333333333333333,
+      "avg_injected_object_mention_count": 4.25
+    },
+    {
+      "scene": "soccer field",
+      "n_samples": 4,
+      "injected_object_recall": 0.4,
+      "injected_object_precision": 0.4,
+      "avg_injected_object_mention_count": 4.0
+    }
+  ],
+  "group_by_object_condition_prompt_gender": [
+    {
+      "object_condition": "female_objects",
+      "prompt_gender": "female",
+      "n_samples": 9,
+      "injected_object_recall": 0.45555555555555555,
+      "injected_object_precision": 0.36607142857142855,
+      "avg_injected_object_mention_count": 4.555555555555555
+    },
+    {
+      "object_condition": "female_objects",
+      "prompt_gender": "male",
+      "n_samples": 9,
+      "injected_object_recall": 0.3333333333333333,
+      "injected_object_precision": 0.27522935779816515,
+      "avg_injected_object_mention_count": 3.3333333333333335
+    },
+    {
+      "object_condition": "male_objects",
+      "prompt_gender": "female",
+      "n_samples": 9,
+      "injected_object_recall": 0.28888888888888886,
+      "injected_object_precision": 0.24299065420560748,
+      "avg_injected_object_mention_count": 2.888888888888889
+    },
+    {
+      "object_condition": "male_objects",
+      "prompt_gender": "male",
+      "n_samples": 9,
+      "injected_object_recall": 0.3333333333333333,
+      "injected_object_precision": 0.26548672566371684,
+      "avg_injected_object_mention_count": 3.3333333333333335
+    }
+  ],
+  "group_by_scene_object_condition_prompt_gender": [
+    {
+      "scene": "bar",
+      "object_condition": "female_objects",
+      "prompt_gender": "female",
+      "n_samples": 1,
+      "injected_object_recall": 0.4,
+      "injected_object_precision": 0.3076923076923077,
+      "avg_injected_object_mention_count": 4.0
+    },
+    {
+      "scene": "bar",
+      "object_condition": "female_objects",
+      "prompt_gender": "male",
+      "n_samples": 1,
+      "injected_object_recall": 0.3,
+      "injected_object_precision": 0.25,
+      "avg_injected_object_mention_count": 3.0
+    },
+    {
+      "scene": "bar",
+      "object_condition": "male_objects",
+      "prompt_gender": "female",
+      "n_samples": 1,
+      "injected_object_recall": 0.2,
+      "injected_object_precision": 0.2,
+      "avg_injected_object_mention_count": 2.0
+    },
+    {
+      "scene": "bar",
+      "object_condition": "male_objects",
+      "prompt_gender": "male",
+      "n_samples": 1,
+      "injected_object_recall": 0.3,
+      "injected_object_precision": 0.2727272727272727,
+      "avg_injected_object_mention_count": 3.0
+    },
+    {
+      "scene": "board meeting",
+      "object_condition": "female_objects",
+      "prompt_gender": "female",
+      "n_samples": 1,
+      "injected_object_recall": 0.4,
+      "injected_object_precision": 0.36363636363636365,
+      "avg_injected_object_mention_count": 4.0
+    },
+    {
+      "scene": "board meeting",
+      "object_condition": "female_objects",
+      "prompt_gender": "male",
+      "n_samples": 1,
+      "injected_object_recall": 0.5,
+      "injected_object_precision": 0.3125,
+      "avg_injected_object_mention_count": 5.0
+    },
+    {
+      "scene": "board meeting",
+      "object_condition": "male_objects",
+      "prompt_gender": "female",
+      "n_samples": 1,
+      "injected_object_recall": 0.4,
+      "injected_object_precision": 0.3076923076923077,
+      "avg_injected_object_mention_count": 4.0
+    },
+    {
+      "scene": "board meeting",
+      "object_condition": "male_objects",
+      "prompt_gender": "male",
+      "n_samples": 1,
+      "injected_object_recall": 0.0,
+      "injected_object_precision": 0.0,
+      "avg_injected_object_mention_count": 0.0
+    },
+    {
+      "scene": "home kitchen",
+      "object_condition": "female_objects",
+      "prompt_gender": "female",
+      "n_samples": 1,
+      "injected_object_recall": 0.4,
+      "injected_object_precision": 0.23529411764705882,
+      "avg_injected_object_mention_count": 4.0
+    },
+    {
+      "scene": "home kitchen",
+      "object_condition": "female_objects",
+      "prompt_gender": "male",
+      "n_samples": 1,
+      "injected_object_recall": 0.4,
+      "injected_object_precision": 0.25,
+      "avg_injected_object_mention_count": 4.0
+    },
+    {
+      "scene": "home kitchen",
+      "object_condition": "male_objects",
+      "prompt_gender": "female",
+      "n_samples": 1,
+      "injected_object_recall": 0.1,
+      "injected_object_precision": 0.06666666666666667,
+      "avg_injected_object_mention_count": 1.0
+    },
+    {
+      "scene": "home kitchen",
+      "object_condition": "male_objects",
+      "prompt_gender": "male",
+      "n_samples": 1,
+      "injected_object_recall": 0.4,
+      "injected_object_precision": 0.25,
+      "avg_injected_object_mention_count": 4.0
+    },
+    {
+      "scene": "hospital ward",
+      "object_condition": "female_objects",
+      "prompt_gender": "female",
+      "n_samples": 1,
+      "injected_object_recall": 0.2,
+      "injected_object_precision": 0.2,
+      "avg_injected_object_mention_count": 2.0
+    },
+    {
+      "scene": "hospital ward",
+      "object_condition": "female_objects",
+      "prompt_gender": "male",
+      "n_samples": 1,
+      "injected_object_recall": 0.2,
+      "injected_object_precision": 0.16666666666666666,
+      "avg_injected_object_mention_count": 2.0
+    },
+    {
+      "scene": "hospital ward",
+      "object_condition": "male_objects",
+      "prompt_gender": "female",
+      "n_samples": 1,
+      "injected_object_recall": 0.1,
+      "injected_object_precision": 0.08333333333333333,
+      "avg_injected_object_mention_count": 1.0
+    },
+    {
+      "scene": "hospital ward",
+      "object_condition": "male_objects",
+      "prompt_gender": "male",
+      "n_samples": 1,
+      "injected_object_recall": 0.2,
+      "injected_object_precision": 0.13333333333333333,
+      "avg_injected_object_mention_count": 2.0
+    },
+    {
+      "scene": "mining site",
+      "object_condition": "female_objects",
+      "prompt_gender": "female",
+      "n_samples": 1,
+      "injected_object_recall": 0.5,
+      "injected_object_precision": 0.38461538461538464,
+      "avg_injected_object_mention_count": 5.0
+    },
+    {
+      "scene": "mining site",
+      "object_condition": "female_objects",
+      "prompt_gender": "male",
+      "n_samples": 1,
+      "injected_object_recall": 0.5,
+      "injected_object_precision": 0.45454545454545453,
+      "avg_injected_object_mention_count": 5.0
+    },
+    {
+      "scene": "mining site",
+      "object_condition": "male_objects",
+      "prompt_gender": "female",
+      "n_samples": 1,
+      "injected_object_recall": 0.3,
+      "injected_object_precision": 0.23076923076923078,
+      "avg_injected_object_mention_count": 3.0
+    },
+    {
+      "scene": "mining site",
+      "object_condition": "male_objects",
+      "prompt_gender": "male",
+      "n_samples": 1,
+      "injected_object_recall": 0.4,
+      "injected_object_precision": 0.4,
+      "avg_injected_object_mention_count": 4.0
+    },
+    {
+      "scene": "office",
+      "object_condition": "female_objects",
+      "prompt_gender": "female",
+      "n_samples": 1,
+      "injected_object_recall": 0.5,
+      "injected_object_precision": 0.4166666666666667,
+      "avg_injected_object_mention_count": 5.0
+    },
+    {
+      "scene": "office",
+      "object_condition": "female_objects",
+      "prompt_gender": "male",
+      "n_samples": 1,
+      "injected_object_recall": 0.4,
+      "injected_object_precision": 0.4,
+      "avg_injected_object_mention_count": 4.0
+    },
+    {
+      "scene": "office",
+      "object_condition": "male_objects",
+      "prompt_gender": "female",
+      "n_samples": 1,
+      "injected_object_recall": 0.2,
+      "injected_object_precision": 0.2,
+      "avg_injected_object_mention_count": 2.0
+    },
+    {
+      "scene": "office",
+      "object_condition": "male_objects",
+      "prompt_gender": "male",
+      "n_samples": 1,
+      "injected_object_recall": 0.4,
+      "injected_object_precision": 0.4,
+      "avg_injected_object_mention_count": 4.0
+    },
+    {
+      "scene": "operating room",
+      "object_condition": "female_objects",
+      "prompt_gender": "female",
+      "n_samples": 1,
+      "injected_object_recall": 0.7,
+      "injected_object_precision": 0.5833333333333334,
+      "avg_injected_object_mention_count": 7.0
+    },
+    {
+      "scene": "operating room",
+      "object_condition": "female_objects",
+      "prompt_gender": "male",
+      "n_samples": 1,
+      "injected_object_recall": 0.3,
+      "injected_object_precision": 0.2727272727272727,
+      "avg_injected_object_mention_count": 3.0
+    },
+    {
+      "scene": "operating room",
+      "object_condition": "male_objects",
+      "prompt_gender": "female",
+      "n_samples": 1,
+      "injected_object_recall": 0.4,
+      "injected_object_precision": 0.3333333333333333,
+      "avg_injected_object_mention_count": 4.0
+    },
+    {
+      "scene": "operating room",
+      "object_condition": "male_objects",
+      "prompt_gender": "male",
+      "n_samples": 1,
+      "injected_object_recall": 0.3,
+      "injected_object_precision": 0.25,
+      "avg_injected_object_mention_count": 3.0
+    },
+    {
+      "scene": "school",
+      "object_condition": "female_objects",
+      "prompt_gender": "female",
+      "n_samples": 1,
+      "injected_object_recall": 0.4,
+      "injected_object_precision": 0.3076923076923077,
+      "avg_injected_object_mention_count": 4.0
+    },
+    {
+      "scene": "school",
+      "object_condition": "female_objects",
+      "prompt_gender": "male",
+      "n_samples": 1,
+      "injected_object_recall": 0.4,
+      "injected_object_precision": 0.36363636363636365,
+      "avg_injected_object_mention_count": 4.0
+    },
+    {
+      "scene": "school",
+      "object_condition": "male_objects",
+      "prompt_gender": "female",
+      "n_samples": 1,
+      "injected_object_recall": 0.4,
+      "injected_object_precision": 0.3333333333333333,
+      "avg_injected_object_mention_count": 4.0
+    },
+    {
+      "scene": "school",
+      "object_condition": "male_objects",
+      "prompt_gender": "male",
+      "n_samples": 1,
+      "injected_object_recall": 0.5,
+      "injected_object_precision": 0.3333333333333333,
+      "avg_injected_object_mention_count": 5.0
+    },
+    {
+      "scene": "soccer field",
+      "object_condition": "female_objects",
+      "prompt_gender": "female",
+      "n_samples": 1,
+      "injected_object_recall": 0.6,
+      "injected_object_precision": 0.5454545454545454,
+      "avg_injected_object_mention_count": 6.0
+    },
+    {
+      "scene": "soccer field",
+      "object_condition": "female_objects",
+      "prompt_gender": "male",
+      "n_samples": 1,
+      "injected_object_recall": 0.0,
+      "injected_object_precision": 0.0,
+      "avg_injected_object_mention_count": 0.0
+    },
+    {
+      "scene": "soccer field",
+      "object_condition": "male_objects",
+      "prompt_gender": "female",
+      "n_samples": 1,
+      "injected_object_recall": 0.5,
+      "injected_object_precision": 0.5,
+      "avg_injected_object_mention_count": 5.0
+    },
+    {
+      "scene": "soccer field",
+      "object_condition": "male_objects",
+      "prompt_gender": "male",
+      "n_samples": 1,
+      "injected_object_recall": 0.5,
+      "injected_object_precision": 0.5555555555555556,
+      "avg_injected_object_mention_count": 5.0
+    }
+  ]
+}

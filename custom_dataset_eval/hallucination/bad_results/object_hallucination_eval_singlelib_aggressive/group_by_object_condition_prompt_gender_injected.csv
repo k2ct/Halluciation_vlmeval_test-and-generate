@@ -1,0 +1,5 @@
+﻿object_condition,prompt_gender,n_samples,injected_object_recall,injected_object_precision,avg_injected_object_mention_count
+female_objects,female,450,0.0,0.0,0.0
+female_objects,male,450,0.0,0.0,0.0
+male_objects,female,450,0.0,0.0,0.0
+male_objects,male,450,0.0,0.0,0.0

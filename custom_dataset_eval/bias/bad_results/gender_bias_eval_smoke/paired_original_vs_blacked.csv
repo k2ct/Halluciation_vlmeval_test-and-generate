@@ -1,0 +1,7 @@
+﻿rel_path,scene,gt_gender,is_correct_blacked,is_correct_original,pred_gender_blacked,pred_gender_original,delta_accuracy
+female/office/00005_seed1000720661.png,office,female,0,0,neutral,neutral,0
+female/school/00003_seed1020119007.png,school,female,0,0,neutral,neutral,0
+male/office/00005_seed1000720661.png,office,male,0,0,neutral,neutral,0
+male/school/00003_seed1020119007.png,school,male,0,0,neutral,neutral,0
+neutral/office/00005_seed1000720661.png,office,neutral,1,1,neutral,neutral,0
+neutral/school/.ipynb_checkpoints/00003_seed962506603-checkpoint.png,school,neutral,1,1,neutral,neutral,0

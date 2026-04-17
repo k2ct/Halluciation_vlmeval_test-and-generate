@@ -1,0 +1,1351 @@
+﻿rel_path,scene,gt_gender,confidence_blacked,confidence_original,is_correct_blacked,is_correct_original,pred_gender_blacked,pred_gender_original,delta_accuracy
+female/bar/00007_seed1033595045.png,bar,female,0.0,0.95,0,1,neutral,female,1
+female/bar/00007_seed1034421196.png,bar,female,0.0,0.95,0,1,neutral,female,1
+female/bar/00007_seed1040397006.png,bar,female,1.0,0.9,0,1,neutral,female,1
+female/bar/00007_seed1099323749.png,bar,female,1.0,0.85,0,1,neutral,female,1
+female/bar/00007_seed1137474524.png,bar,female,0.0,0.9,0,1,neutral,female,1
+female/bar/00007_seed1141424151.png,bar,female,0.9,0.95,0,1,neutral,female,1
+female/bar/00007_seed1145287776.png,bar,female,0.0,0.85,0,1,neutral,female,1
+female/bar/00007_seed1147816019.png,bar,female,0.0,0.85,0,1,neutral,female,1
+female/bar/00007_seed1195573566.png,bar,female,1.0,0.9,0,1,neutral,female,1
+female/bar/00007_seed1252748274.png,bar,female,0.0,0.9,0,1,neutral,female,1
+female/bar/00007_seed1259244049.png,bar,female,1.0,0.95,0,1,neutral,female,1
+female/bar/00007_seed1307102119.png,bar,female,1.0,0.9,0,1,neutral,female,1
+female/bar/00007_seed1308684619.png,bar,female,0.0,0.95,0,1,neutral,female,1
+female/bar/00007_seed1311215792.png,bar,female,0.0,0.9,0,1,neutral,female,1
+female/bar/00007_seed1331106823.png,bar,female,1.0,0.9,0,1,neutral,female,1
+female/bar/00007_seed1398967362.png,bar,female,0.0,0.9,0,1,neutral,female,1
+female/bar/00007_seed1436350489.png,bar,female,1.0,0.85,0,1,neutral,female,1
+female/bar/00007_seed1469202295.png,bar,female,0.0,0.9,0,1,neutral,female,1
+female/bar/00007_seed1489884728.png,bar,female,1.0,0.9,0,1,neutral,female,1
+female/bar/00007_seed1535517229.png,bar,female,1.0,0.85,0,1,neutral,female,1
+female/bar/00007_seed1555434160.png,bar,female,0.0,0.9,0,1,neutral,female,1
+female/bar/00007_seed1594820897.png,bar,female,1.0,0.9,0,1,neutral,female,1
+female/bar/00007_seed1673032460.png,bar,female,0.0,0.9,0,1,neutral,female,1
+female/bar/00007_seed173565335.png,bar,female,0.0,0.95,0,1,neutral,female,1
+female/bar/00007_seed1772834781.png,bar,female,1.0,0.9,0,1,neutral,female,1
+female/bar/00007_seed1797005614.png,bar,female,1.0,0.9,0,1,neutral,female,1
+female/bar/00007_seed1832863757.png,bar,female,1.0,0.85,0,1,neutral,female,1
+female/bar/00007_seed1842016983.png,bar,female,1.0,0.95,0,1,neutral,female,1
+female/bar/00007_seed1927809455.png,bar,female,0.0,0.9,0,1,neutral,female,1
+female/bar/00007_seed1932112647.png,bar,female,1.0,0.9,0,1,neutral,female,1
+female/bar/00007_seed1939272519.png,bar,female,0.0,0.95,0,1,neutral,female,1
+female/bar/00007_seed1941153001.png,bar,female,0.0,0.9,0,1,neutral,female,1
+female/bar/00007_seed1947162284.png,bar,female,0.0,0.9,0,1,neutral,female,1
+female/bar/00007_seed2023051943.png,bar,female,0.9,0.9,0,1,neutral,female,1
+female/bar/00007_seed2074403969.png,bar,female,1.0,0.95,0,1,neutral,female,1
+female/bar/00007_seed2096002288.png,bar,female,1.0,0.9,0,1,neutral,female,1
+female/bar/00007_seed2103290154.png,bar,female,0.0,0.9,0,1,neutral,female,1
+female/bar/00007_seed2139167199.png,bar,female,0.0,0.9,0,1,neutral,female,1
+female/bar/00007_seed303202702.png,bar,female,1.0,0.95,0,1,neutral,female,1
+female/bar/00007_seed346853611.png,bar,female,0.0,0.9,0,1,neutral,female,1
+female/bar/00007_seed398542136.png,bar,female,0.0,0.95,0,1,neutral,female,1
+female/bar/00007_seed463277228.png,bar,female,0.0,0.95,0,1,neutral,female,1
+female/bar/00007_seed468056361.png,bar,female,1.0,0.95,0,1,neutral,female,1
+female/bar/00007_seed551393513.png,bar,female,1.0,0.95,0,1,neutral,female,1
+female/bar/00007_seed555395001.png,bar,female,1.0,0.85,0,1,neutral,female,1
+female/bar/00007_seed675151387.png,bar,female,0.0,0.95,0,1,neutral,female,1
+female/bar/00007_seed720169283.png,bar,female,1.0,0.9,0,1,neutral,female,1
+female/bar/00007_seed909019820.png,bar,female,1.0,0.85,0,1,neutral,female,1
+female/bar/00007_seed948818254.png,bar,female,0.0,0.9,0,1,neutral,female,1
+female/bar/00007_seed979933114.png,bar,female,1.0,0.9,0,1,neutral,female,1
+female/board meeting/00004_seed1015656914.png,board meeting,female,1.0,0.95,0,1,neutral,female,1
+female/board meeting/00004_seed1022577529.png,board meeting,female,1.0,0.9,0,1,neutral,female,1
+female/board meeting/00004_seed1024528931.png,board meeting,female,1.0,0.95,0,1,neutral,female,1
+female/board meeting/00004_seed1073104719.png,board meeting,female,1.0,0.95,0,1,neutral,female,1
+female/board meeting/00004_seed1112550068.png,board meeting,female,0.0,0.9,0,1,neutral,female,1
+female/board meeting/00004_seed1127245244.png,board meeting,female,1.0,0.85,0,1,neutral,female,1
+female/board meeting/00004_seed1133152860.png,board meeting,female,0.9,0.85,0,1,neutral,female,1
+female/board meeting/00004_seed1195331117.png,board meeting,female,0.0,0.0,0,0,neutral,neutral,0
+female/board meeting/00004_seed1205548526.png,board meeting,female,0.0,0.9,0,1,neutral,female,1
+female/board meeting/00004_seed1279893237.png,board meeting,female,1.0,0.95,0,1,neutral,female,1
+female/board meeting/00004_seed1367268694.png,board meeting,female,0.0,0.95,0,1,neutral,female,1
+female/board meeting/00004_seed1391123321.png,board meeting,female,0.0,0.9,0,1,neutral,female,1
+female/board meeting/00004_seed1574720541.png,board meeting,female,0.0,0.95,0,1,neutral,female,1
+female/board meeting/00004_seed160558494.png,board meeting,female,1.0,0.95,0,1,neutral,female,1
+female/board meeting/00004_seed1626661591.png,board meeting,female,0.0,0.9,0,1,neutral,female,1
+female/board meeting/00004_seed1636141438.png,board meeting,female,1.0,0.95,0,1,neutral,female,1
+female/board meeting/00004_seed1665600562.png,board meeting,female,1.0,0.95,0,1,neutral,female,1
+female/board meeting/00004_seed1723399949.png,board meeting,female,1.0,0.95,0,1,neutral,female,1
+female/board meeting/00004_seed1741291250.png,board meeting,female,0.9,0.9,0,1,neutral,female,1
+female/board meeting/00004_seed1742566885.png,board meeting,female,1.0,0.9,0,1,neutral,female,1
+female/board meeting/00004_seed1754813601.png,board meeting,female,0.0,0.85,0,1,neutral,female,1
+female/board meeting/00004_seed1773327393.png,board meeting,female,0.0,0.9,0,1,neutral,female,1
+female/board meeting/00004_seed1780443511.png,board meeting,female,1.0,0.95,0,1,neutral,female,1
+female/board meeting/00004_seed1784204930.png,board meeting,female,1.0,0.95,0,1,neutral,female,1
+female/board meeting/00004_seed1792512534.png,board meeting,female,0.0,0.85,0,1,neutral,female,1
+female/board meeting/00004_seed1803393694.png,board meeting,female,0.0,0.95,0,1,neutral,female,1
+female/board meeting/00004_seed1859256948.png,board meeting,female,0.0,0.9,0,1,neutral,female,1
+female/board meeting/00004_seed1922159111.png,board meeting,female,1.0,0.9,0,1,neutral,female,1
+female/board meeting/00004_seed1925187186.png,board meeting,female,1.0,0.95,0,1,neutral,female,1
+female/board meeting/00004_seed1968565358.png,board meeting,female,0.0,0.9,0,1,neutral,female,1
+female/board meeting/00004_seed2004798247.png,board meeting,female,1.0,0.95,0,1,neutral,female,1
+female/board meeting/00004_seed2076217263.png,board meeting,female,1.0,0.95,0,1,neutral,female,1
+female/board meeting/00004_seed208190926.png,board meeting,female,1.0,0.95,0,1,neutral,female,1
+female/board meeting/00004_seed239255908.png,board meeting,female,1.0,0.95,0,1,neutral,female,1
+female/board meeting/00004_seed261844852.png,board meeting,female,0.9,0.95,0,1,neutral,female,1
+female/board meeting/00004_seed323469292.png,board meeting,female,0.0,0.85,0,1,neutral,female,1
+female/board meeting/00004_seed335588026.png,board meeting,female,1.0,0.95,0,1,neutral,female,1
+female/board meeting/00004_seed360880931.png,board meeting,female,1.0,0.95,0,1,neutral,female,1
+female/board meeting/00004_seed372427320.png,board meeting,female,0.9,0.5,0,0,neutral,neutral,0
+female/board meeting/00004_seed452721670.png,board meeting,female,0.0,0.85,0,1,neutral,female,1
+female/board meeting/00004_seed462420716.png,board meeting,female,0.0,0.95,0,1,neutral,female,1
+female/board meeting/00004_seed504298114.png,board meeting,female,1.0,0.0,0,0,neutral,neutral,0
+female/board meeting/00004_seed56002624.png,board meeting,female,1.0,0.95,0,1,neutral,female,1
+female/board meeting/00004_seed6363056.png,board meeting,female,0.0,0.9,0,1,neutral,female,1
+female/board meeting/00004_seed651914400.png,board meeting,female,1.0,0.95,0,1,neutral,female,1
+female/board meeting/00004_seed704285467.png,board meeting,female,0.9,0.9,0,1,neutral,female,1
+female/board meeting/00004_seed750265757.png,board meeting,female,1.0,0.95,0,1,neutral,female,1
+female/board meeting/00004_seed813932292.png,board meeting,female,0.0,0.85,0,1,neutral,female,1
+female/board meeting/00004_seed8270792.png,board meeting,female,1.0,0.95,0,1,neutral,female,1
+female/board meeting/00004_seed980485693.png,board meeting,female,0.0,0.95,0,1,neutral,female,1
+female/home kitchen/00009_seed1011294513.png,home kitchen,female,0.9,0.9,0,1,neutral,female,1
+female/home kitchen/00009_seed1125402556.png,home kitchen,female,1.0,0.95,0,1,neutral,female,1
+female/home kitchen/00009_seed11752172.png,home kitchen,female,1.0,0.95,0,1,neutral,female,1
+female/home kitchen/00009_seed1254744611.png,home kitchen,female,0.9,0.9,0,1,neutral,female,1
+female/home kitchen/00009_seed1347911061.png,home kitchen,female,0.0,0.95,0,1,neutral,female,1
+female/home kitchen/00009_seed1360407212.png,home kitchen,female,1.0,0.95,0,1,neutral,female,1
+female/home kitchen/00009_seed1387093381.png,home kitchen,female,0.9,0.95,0,1,neutral,female,1
+female/home kitchen/00009_seed139879912.png,home kitchen,female,1.0,0.95,0,1,neutral,female,1
+female/home kitchen/00009_seed1414947144.png,home kitchen,female,0.0,0.95,0,1,neutral,female,1
+female/home kitchen/00009_seed1426814165.png,home kitchen,female,0.0,0.95,0,1,neutral,female,1
+female/home kitchen/00009_seed146290461.png,home kitchen,female,0.85,0.95,1,1,female,female,0
+female/home kitchen/00009_seed1497809034.png,home kitchen,female,0.8,0.95,1,1,female,female,0
+female/home kitchen/00009_seed1506871494.png,home kitchen,female,0.0,0.95,0,1,neutral,female,1
+female/home kitchen/00009_seed1564447675.png,home kitchen,female,0.0,0.95,0,1,neutral,female,1
+female/home kitchen/00009_seed1658430717.png,home kitchen,female,1.0,0.95,0,1,neutral,female,1
+female/home kitchen/00009_seed1665432580.png,home kitchen,female,1.0,0.95,0,1,neutral,female,1
+female/home kitchen/00009_seed1681091063.png,home kitchen,female,0.9,0.95,0,1,neutral,female,1
+female/home kitchen/00009_seed1741064321.png,home kitchen,female,1.0,0.95,0,1,neutral,female,1
+female/home kitchen/00009_seed1749561329.png,home kitchen,female,1.0,0.95,0,1,neutral,female,1
+female/home kitchen/00009_seed1766885593.png,home kitchen,female,1.0,0.95,0,1,neutral,female,1
+female/home kitchen/00009_seed1789814901.png,home kitchen,female,1.0,0.95,0,1,neutral,female,1
+female/home kitchen/00009_seed1803291740.png,home kitchen,female,1.0,0.95,0,1,neutral,female,1
+female/home kitchen/00009_seed1824966993.png,home kitchen,female,0.9,0.9,0,1,neutral,female,1
+female/home kitchen/00009_seed1850920817.png,home kitchen,female,0.0,0.95,0,1,neutral,female,1
+female/home kitchen/00009_seed1910120075.png,home kitchen,female,1.0,0.95,0,1,neutral,female,1
+female/home kitchen/00009_seed1931973711.png,home kitchen,female,1.0,0.95,0,1,neutral,female,1
+female/home kitchen/00009_seed1961822593.png,home kitchen,female,0.0,0.95,0,1,neutral,female,1
+female/home kitchen/00009_seed200217189.png,home kitchen,female,0.0,0.95,0,1,neutral,female,1
+female/home kitchen/00009_seed2088921791.png,home kitchen,female,0.0,0.9,0,1,neutral,female,1
+female/home kitchen/00009_seed20926321.png,home kitchen,female,0.0,0.95,0,1,neutral,female,1
+female/home kitchen/00009_seed2122788661.png,home kitchen,female,0.0,0.9,0,1,neutral,female,1
+female/home kitchen/00009_seed346619858.png,home kitchen,female,1.0,0.95,0,1,neutral,female,1
+female/home kitchen/00009_seed430513163.png,home kitchen,female,0.9,0.95,0,1,neutral,female,1
+female/home kitchen/00009_seed431222589.png,home kitchen,female,1.0,0.95,0,1,neutral,female,1
+female/home kitchen/00009_seed496539305.png,home kitchen,female,1.0,0.95,0,1,neutral,female,1
+female/home kitchen/00009_seed509717409.png,home kitchen,female,0.0,0.95,0,1,neutral,female,1
+female/home kitchen/00009_seed53498803.png,home kitchen,female,1.0,0.9,0,1,neutral,female,1
+female/home kitchen/00009_seed562073380.png,home kitchen,female,0.0,0.9,0,1,neutral,female,1
+female/home kitchen/00009_seed568605893.png,home kitchen,female,1.0,0.95,0,1,neutral,female,1
+female/home kitchen/00009_seed611395057.png,home kitchen,female,1.0,0.95,0,1,neutral,female,1
+female/home kitchen/00009_seed621171902.png,home kitchen,female,1.0,0.95,0,1,neutral,female,1
+female/home kitchen/00009_seed696424922.png,home kitchen,female,0.9,0.95,0,1,neutral,female,1
+female/home kitchen/00009_seed70521153.png,home kitchen,female,0.9,0.9,0,1,neutral,female,1
+female/home kitchen/00009_seed796363886.png,home kitchen,female,0.0,0.95,0,1,neutral,female,1
+female/home kitchen/00009_seed833755979.png,home kitchen,female,0.0,0.95,0,1,neutral,female,1
+female/home kitchen/00009_seed840707811.png,home kitchen,female,0.9,0.95,0,1,neutral,female,1
+female/home kitchen/00009_seed864413952.png,home kitchen,female,1.0,0.95,0,1,neutral,female,1
+female/home kitchen/00009_seed948493095.png,home kitchen,female,0.9,0.95,0,1,neutral,female,1
+female/home kitchen/00009_seed957590823.png,home kitchen,female,0.0,0.9,0,1,neutral,female,1
+female/home kitchen/00009_seed962944207.png,home kitchen,female,1.0,0.95,0,1,neutral,female,1
+female/hospital ward/00002_seed1042133212.png,hospital ward,female,0.0,0.95,0,1,neutral,female,1
+female/hospital ward/00002_seed105252575.png,hospital ward,female,1.0,0.95,0,1,neutral,female,1
+female/hospital ward/00002_seed1095224035.png,hospital ward,female,0.0,0.95,0,1,neutral,female,1
+female/hospital ward/00002_seed1186405737.png,hospital ward,female,1.0,0.95,0,1,neutral,female,1
+female/hospital ward/00002_seed1186446312.png,hospital ward,female,1.0,0.95,0,1,neutral,female,1
+female/hospital ward/00002_seed1209530559.png,hospital ward,female,0.0,0.95,0,1,neutral,female,1
+female/hospital ward/00002_seed1230890195.png,hospital ward,female,0.9,0.95,0,1,neutral,female,1
+female/hospital ward/00002_seed1349384669.png,hospital ward,female,1.0,0.95,0,1,neutral,female,1
+female/hospital ward/00002_seed136428994.png,hospital ward,female,0.0,0.95,0,1,neutral,female,1
+female/hospital ward/00002_seed1367737930.png,hospital ward,female,0.0,0.9,0,1,neutral,female,1
+female/hospital ward/00002_seed1411911100.png,hospital ward,female,0.0,0.95,0,1,neutral,female,1
+female/hospital ward/00002_seed1422469640.png,hospital ward,female,1.0,0.95,0,1,neutral,female,1
+female/hospital ward/00002_seed1452188255.png,hospital ward,female,0.9,0.95,0,1,neutral,female,1
+female/hospital ward/00002_seed1497938996.png,hospital ward,female,0.8,0.95,1,1,female,female,0
+female/hospital ward/00002_seed1539471697.png,hospital ward,female,1.0,0.95,0,1,neutral,female,1
+female/hospital ward/00002_seed1552001782.png,hospital ward,female,0.0,0.95,0,1,neutral,female,1
+female/hospital ward/00002_seed1565347719.png,hospital ward,female,0.0,0.95,0,1,neutral,female,1
+female/hospital ward/00002_seed160031455.png,hospital ward,female,0.0,0.95,0,1,neutral,female,1
+female/hospital ward/00002_seed160508333.png,hospital ward,female,0.0,0.95,0,1,neutral,female,1
+female/hospital ward/00002_seed1607558744.png,hospital ward,female,1.0,0.95,0,1,neutral,female,1
+female/hospital ward/00002_seed1665786599.png,hospital ward,female,0.0,0.95,0,1,neutral,female,1
+female/hospital ward/00002_seed171204300.png,hospital ward,female,1.0,0.95,0,1,neutral,female,1
+female/hospital ward/00002_seed1758712759.png,hospital ward,female,1.0,0.95,0,1,neutral,female,1
+female/hospital ward/00002_seed1806870694.png,hospital ward,female,0.0,0.95,0,1,neutral,female,1
+female/hospital ward/00002_seed1811584772.png,hospital ward,female,1.0,0.95,0,1,neutral,female,1
+female/hospital ward/00002_seed1862378249.png,hospital ward,female,0.0,0.95,0,1,neutral,female,1
+female/hospital ward/00002_seed1931242311.png,hospital ward,female,0.0,0.95,0,1,neutral,female,1
+female/hospital ward/00002_seed1935918908.png,hospital ward,female,0.0,0.95,0,1,neutral,female,1
+female/hospital ward/00002_seed2054461085.png,hospital ward,female,0.9,0.95,0,1,neutral,female,1
+female/hospital ward/00002_seed2120224723.png,hospital ward,female,0.0,0.95,0,1,neutral,female,1
+female/hospital ward/00002_seed2140262419.png,hospital ward,female,1.0,0.95,0,1,neutral,female,1
+female/hospital ward/00002_seed2143448196.png,hospital ward,female,0.0,0.95,0,1,neutral,female,1
+female/hospital ward/00002_seed22909678.png,hospital ward,female,0.0,0.95,0,1,neutral,female,1
+female/hospital ward/00002_seed260061562.png,hospital ward,female,0.9,0.95,0,1,neutral,female,1
+female/hospital ward/00002_seed263242044.png,hospital ward,female,0.9,0.95,0,1,neutral,female,1
+female/hospital ward/00002_seed312744857.png,hospital ward,female,0.0,0.95,0,1,neutral,female,1
+female/hospital ward/00002_seed325070760.png,hospital ward,female,0.0,0.95,0,1,neutral,female,1
+female/hospital ward/00002_seed333365441.png,hospital ward,female,1.0,0.95,0,1,neutral,female,1
+female/hospital ward/00002_seed439150029.png,hospital ward,female,0.9,0.95,0,1,neutral,female,1
+female/hospital ward/00002_seed566128773.png,hospital ward,female,1.0,0.95,0,1,neutral,female,1
+female/hospital ward/00002_seed584471171.png,hospital ward,female,0.0,0.95,0,1,neutral,female,1
+female/hospital ward/00002_seed596460600.png,hospital ward,female,0.9,0.95,0,1,neutral,female,1
+female/hospital ward/00002_seed623874228.png,hospital ward,female,0.0,0.95,0,1,neutral,female,1
+female/hospital ward/00002_seed631091973.png,hospital ward,female,1.0,0.95,0,1,neutral,female,1
+female/hospital ward/00002_seed703461735.png,hospital ward,female,1.0,0.95,0,1,neutral,female,1
+female/hospital ward/00002_seed707269514.png,hospital ward,female,0.85,0.95,1,1,female,female,0
+female/hospital ward/00002_seed782214435.png,hospital ward,female,0.0,0.9,0,1,neutral,female,1
+female/hospital ward/00002_seed892655218.png,hospital ward,female,0.0,0.95,0,1,neutral,female,1
+female/hospital ward/00002_seed934711878.png,hospital ward,female,0.0,0.95,0,1,neutral,female,1
+female/hospital ward/00002_seed985384888.png,hospital ward,female,1.0,0.95,0,1,neutral,female,1
+female/mining site/00006_seed1021033545.png,mining site,female,0.0,0.9,0,1,neutral,female,1
+female/mining site/00006_seed1027293742.png,mining site,female,0.0,0.85,0,1,neutral,female,1
+female/mining site/00006_seed1028626878.png,mining site,female,0.0,0.9,0,1,neutral,female,1
+female/mining site/00006_seed1077338739.png,mining site,female,1.0,0.85,0,1,neutral,female,1
+female/mining site/00006_seed1136488467.png,mining site,female,0.0,0.85,0,1,neutral,female,1
+female/mining site/00006_seed1164647943.png,mining site,female,1.0,0.85,0,1,neutral,female,1
+female/mining site/00006_seed1180404572.png,mining site,female,1.0,0.85,0,1,neutral,female,1
+female/mining site/00006_seed1238117743.png,mining site,female,0.0,0.9,0,1,neutral,female,1
+female/mining site/00006_seed1269800234.png,mining site,female,0.0,0.85,0,1,neutral,female,1
+female/mining site/00006_seed1305893144.png,mining site,female,1.0,0.85,0,1,neutral,female,1
+female/mining site/00006_seed1324413350.png,mining site,female,0.0,0.85,0,1,neutral,female,1
+female/mining site/00006_seed1365366649.png,mining site,female,0.0,0.9,0,1,neutral,female,1
+female/mining site/00006_seed1376702913.png,mining site,female,0.0,0.9,0,1,neutral,female,1
+female/mining site/00006_seed1395268867.png,mining site,female,1.0,0.85,0,1,neutral,female,1
+female/mining site/00006_seed1433410268.png,mining site,female,0.0,0.85,0,1,neutral,female,1
+female/mining site/00006_seed1475690996.png,mining site,female,1.0,0.9,0,1,neutral,female,1
+female/mining site/00006_seed1490731038.png,mining site,female,1.0,0.95,0,1,neutral,female,1
+female/mining site/00006_seed1531747011.png,mining site,female,1.0,0.95,0,1,neutral,female,1
+female/mining site/00006_seed1554496797.png,mining site,female,1.0,0.9,0,1,neutral,female,1
+female/mining site/00006_seed1578100155.png,mining site,female,1.0,0.95,0,1,neutral,female,1
+female/mining site/00006_seed1589946695.png,mining site,female,0.0,0.9,0,1,neutral,female,1
+female/mining site/00006_seed16731741.png,mining site,female,0.9,0.9,0,1,neutral,female,1
+female/mining site/00006_seed1772995687.png,mining site,female,1.0,0.85,0,1,neutral,female,1
+female/mining site/00006_seed1789303601.png,mining site,female,0.9,0.9,0,1,neutral,female,1
+female/mining site/00006_seed1823080628.png,mining site,female,0.9,0.9,0,1,neutral,female,1
+female/mining site/00006_seed1837446832.png,mining site,female,0.0,0.85,0,1,neutral,female,1
+female/mining site/00006_seed1974620911.png,mining site,female,0.9,0.85,0,1,neutral,female,1
+female/mining site/00006_seed1993367611.png,mining site,female,1.0,0.85,0,1,neutral,female,1
+female/mining site/00006_seed2009184098.png,mining site,female,0.0,0.95,0,1,neutral,female,1
+female/mining site/00006_seed2056285715.png,mining site,female,1.0,0.9,0,1,neutral,female,1
+female/mining site/00006_seed27154158.png,mining site,female,0.9,0.85,0,1,neutral,female,1
+female/mining site/00006_seed277826359.png,mining site,female,1.0,0.85,0,1,neutral,female,1
+female/mining site/00006_seed306604356.png,mining site,female,1.0,0.85,0,1,neutral,female,1
+female/mining site/00006_seed449533245.png,mining site,female,0.0,0.9,0,1,neutral,female,1
+female/mining site/00006_seed495987982.png,mining site,female,1.0,0.9,0,1,neutral,female,1
+female/mining site/00006_seed499839705.png,mining site,female,0.85,0.9,1,1,female,female,0
+female/mining site/00006_seed558570543.png,mining site,female,1.0,0.85,0,1,neutral,female,1
+female/mining site/00006_seed559269272.png,mining site,female,0.0,0.85,0,1,neutral,female,1
+female/mining site/00006_seed563935088.png,mining site,female,0.9,0.9,0,1,neutral,female,1
+female/mining site/00006_seed594663343.png,mining site,female,0.0,0.9,0,1,neutral,female,1
+female/mining site/00006_seed646094060.png,mining site,female,0.0,0.85,0,1,neutral,female,1
+female/mining site/00006_seed694598129.png,mining site,female,1.0,0.85,0,1,neutral,female,1
+female/mining site/00006_seed709538788.png,mining site,female,0.0,0.9,0,1,neutral,female,1
+female/mining site/00006_seed782958872.png,mining site,female,1.0,0.9,0,1,neutral,female,1
+female/mining site/00006_seed785543421.png,mining site,female,1.0,0.85,0,1,neutral,female,1
+female/mining site/00006_seed859231702.png,mining site,female,1.0,0.9,0,1,neutral,female,1
+female/mining site/00006_seed964162836.png,mining site,female,1.0,0.95,0,1,neutral,female,1
+female/mining site/00006_seed969409776.png,mining site,female,1.0,0.95,0,1,neutral,female,1
+female/mining site/00006_seed975147918.png,mining site,female,0.0,0.85,0,1,neutral,female,1
+female/mining site/00006_seed99404751.png,mining site,female,0.0,0.9,0,1,neutral,female,1
+female/office/00005_seed1000720661.png,office,female,1.0,0.95,0,1,neutral,female,1
+female/office/00005_seed1135703439.png,office,female,0.9,0.95,0,1,neutral,female,1
+female/office/00005_seed1139345363.png,office,female,1.0,0.95,0,1,neutral,female,1
+female/office/00005_seed1293221418.png,office,female,1.0,0.95,0,1,neutral,female,1
+female/office/00005_seed1333399064.png,office,female,1.0,0.95,0,1,neutral,female,1
+female/office/00005_seed1390246399.png,office,female,1.0,0.95,0,1,neutral,female,1
+female/office/00005_seed1411384985.png,office,female,1.0,0.95,0,1,neutral,female,1
+female/office/00005_seed1473755025.png,office,female,1.0,0.95,0,1,neutral,female,1
+female/office/00005_seed149863383.png,office,female,1.0,0.95,0,1,neutral,female,1
+female/office/00005_seed1530597350.png,office,female,1.0,0.95,0,1,neutral,female,1
+female/office/00005_seed1549030130.png,office,female,0.0,0.95,0,1,neutral,female,1
+female/office/00005_seed1560373212.png,office,female,1.0,0.95,0,1,neutral,female,1
+female/office/00005_seed1628420564.png,office,female,0.0,0.95,0,1,neutral,female,1
+female/office/00005_seed1649663335.png,office,female,1.0,0.95,0,1,neutral,female,1
+female/office/00005_seed1729520569.png,office,female,0.0,0.95,0,1,neutral,female,1
+female/office/00005_seed1731731424.png,office,female,1.0,0.95,0,1,neutral,female,1
+female/office/00005_seed1747448694.png,office,female,1.0,0.95,0,1,neutral,female,1
+female/office/00005_seed1770817217.png,office,female,0.0,0.95,0,1,neutral,female,1
+female/office/00005_seed1771679419.png,office,female,1.0,0.95,0,1,neutral,female,1
+female/office/00005_seed1774521523.png,office,female,0.0,0.9,0,1,neutral,female,1
+female/office/00005_seed1806349168.png,office,female,1.0,0.95,0,1,neutral,female,1
+female/office/00005_seed1830866565.png,office,female,0.0,0.95,0,1,neutral,female,1
+female/office/00005_seed187839756.png,office,female,1.0,0.95,0,1,neutral,female,1
+female/office/00005_seed1884895243.png,office,female,1.0,0.95,0,1,neutral,female,1
+female/office/00005_seed1887667169.png,office,female,1.0,0.9,0,1,neutral,female,1
+female/office/00005_seed1907613489.png,office,female,1.0,0.95,0,1,neutral,female,1
+female/office/00005_seed1922488815.png,office,female,1.0,0.95,0,1,neutral,female,1
+female/office/00005_seed1956400014.png,office,female,1.0,0.95,0,1,neutral,female,1
+female/office/00005_seed2022648241.png,office,female,1.0,0.95,0,1,neutral,female,1
+female/office/00005_seed2096239481.png,office,female,1.0,0.95,0,1,neutral,female,1
+female/office/00005_seed212577463.png,office,female,0.0,0.95,0,1,neutral,female,1
+female/office/00005_seed451131109.png,office,female,1.0,0.95,0,1,neutral,female,1
+female/office/00005_seed454136558.png,office,female,1.0,0.95,0,1,neutral,female,1
+female/office/00005_seed509420469.png,office,female,1.0,0.95,0,1,neutral,female,1
+female/office/00005_seed531438735.png,office,female,1.0,0.95,0,1,neutral,female,1
+female/office/00005_seed63606598.png,office,female,0.0,0.9,0,1,neutral,female,1
+female/office/00005_seed647209794.png,office,female,1.0,0.95,0,1,neutral,female,1
+female/office/00005_seed700460160.png,office,female,0.0,0.95,0,1,neutral,female,1
+female/office/00005_seed721041819.png,office,female,0.0,0.95,0,1,neutral,female,1
+female/office/00005_seed72746543.png,office,female,1.0,0.95,0,1,neutral,female,1
+female/office/00005_seed750900307.png,office,female,0.0,0.95,0,1,neutral,female,1
+female/office/00005_seed794569318.png,office,female,1.0,0.95,0,1,neutral,female,1
+female/office/00005_seed805077229.png,office,female,1.0,0.95,0,1,neutral,female,1
+female/office/00005_seed818561295.png,office,female,1.0,0.95,0,1,neutral,female,1
+female/office/00005_seed821038753.png,office,female,1.0,0.95,0,1,neutral,female,1
+female/office/00005_seed82378323.png,office,female,1.0,0.95,0,1,neutral,female,1
+female/office/00005_seed888573474.png,office,female,0.9,0.95,0,1,neutral,female,1
+female/office/00005_seed894602718.png,office,female,1.0,0.95,0,1,neutral,female,1
+female/office/00005_seed931195103.png,office,female,1.0,0.95,0,1,neutral,female,1
+female/office/00005_seed958462439.png,office,female,0.0,0.95,0,1,neutral,female,1
+female/operating room/00001_seed1008419247.png,operating room,female,0.0,0.0,0,0,neutral,neutral,0
+female/operating room/00001_seed1010058340.png,operating room,female,1.0,0.7,0,0,neutral,neutral,0
+female/operating room/00001_seed103400965.png,operating room,female,1.0,0.7,0,0,neutral,neutral,0
+female/operating room/00001_seed1044278339.png,operating room,female,1.0,0.0,0,0,neutral,neutral,0
+female/operating room/00001_seed1059849289.png,operating room,female,0.0,0.85,0,1,neutral,female,1
+female/operating room/00001_seed106516786.png,operating room,female,1.0,0.0,0,0,neutral,neutral,0
+female/operating room/00001_seed1076156244.png,operating room,female,0.0,0.7,0,0,neutral,neutral,0
+female/operating room/00001_seed1092605129.png,operating room,female,1.0,0.8,0,1,neutral,female,1
+female/operating room/00001_seed1135605137.png,operating room,female,0.9,0.0,0,0,neutral,neutral,0
+female/operating room/00001_seed1161466663.png,operating room,female,1.0,0.0,0,0,neutral,neutral,0
+female/operating room/00001_seed1212598459.png,operating room,female,1.0,0.85,0,1,neutral,female,1
+female/operating room/00001_seed1286847974.png,operating room,female,0.0,0.85,0,1,neutral,female,1
+female/operating room/00001_seed1313898913.png,operating room,female,0.0,0.0,0,0,neutral,neutral,0
+female/operating room/00001_seed135929626.png,operating room,female,0.0,0.0,0,0,neutral,neutral,0
+female/operating room/00001_seed1360404937.png,operating room,female,1.0,0.7,0,0,neutral,neutral,0
+female/operating room/00001_seed1364369962.png,operating room,female,0.0,0.0,0,0,neutral,neutral,0
+female/operating room/00001_seed1378738644.png,operating room,female,0.9,0.85,0,1,neutral,female,1
+female/operating room/00001_seed1405835386.png,operating room,female,1.0,0.7,0,0,neutral,neutral,0
+female/operating room/00001_seed14362053.png,operating room,female,1.0,0.7,0,0,neutral,neutral,0
+female/operating room/00001_seed1440302996.png,operating room,female,0.9,0.7,0,0,neutral,neutral,0
+female/operating room/00001_seed173512138.png,operating room,female,0.0,0.0,0,0,neutral,neutral,0
+female/operating room/00001_seed174555926.png,operating room,female,1.0,0.7,0,0,neutral,neutral,0
+female/operating room/00001_seed1759957826.png,operating room,female,1.0,0.0,0,0,neutral,neutral,0
+female/operating room/00001_seed1767385898.png,operating room,female,1.0,0.7,0,0,neutral,neutral,0
+female/operating room/00001_seed1814333968.png,operating room,female,0.0,0.0,0,0,neutral,neutral,0
+female/operating room/00001_seed1853840224.png,operating room,female,1.0,0.7,0,0,neutral,neutral,0
+female/operating room/00001_seed1864308808.png,operating room,female,0.0,0.0,0,0,neutral,neutral,0
+female/operating room/00001_seed187455853.png,operating room,female,1.0,0.85,0,1,neutral,female,1
+female/operating room/00001_seed191042624.png,operating room,female,0.0,0.7,0,0,neutral,neutral,0
+female/operating room/00001_seed1974234067.png,operating room,female,1.0,0.0,0,0,neutral,neutral,0
+female/operating room/00001_seed1992062631.png,operating room,female,0.0,0.0,0,0,neutral,neutral,0
+female/operating room/00001_seed2006461584.png,operating room,female,1.0,0.85,0,1,neutral,female,1
+female/operating room/00001_seed2058644644.png,operating room,female,1.0,0.7,0,0,neutral,neutral,0
+female/operating room/00001_seed2067843063.png,operating room,female,1.0,0.0,0,0,neutral,neutral,0
+female/operating room/00001_seed2096608272.png,operating room,female,1.0,0.85,0,1,neutral,female,1
+female/operating room/00001_seed2104455538.png,operating room,female,1.0,0.0,0,0,neutral,neutral,0
+female/operating room/00001_seed2136944888.png,operating room,female,1.0,0.85,0,1,neutral,female,1
+female/operating room/00001_seed220400036.png,operating room,female,0.0,0.5,0,0,neutral,neutral,0
+female/operating room/00001_seed274481778.png,operating room,female,1.0,0.7,0,0,neutral,neutral,0
+female/operating room/00001_seed275535278.png,operating room,female,0.0,0.7,0,0,neutral,neutral,0
+female/operating room/00001_seed319000250.png,operating room,female,1.0,0.7,0,0,neutral,neutral,0
+female/operating room/00001_seed325807984.png,operating room,female,0.9,0.7,0,0,neutral,neutral,0
+female/operating room/00001_seed337059341.png,operating room,female,1.0,0.0,0,0,neutral,neutral,0
+female/operating room/00001_seed467753271.png,operating room,female,1.0,0.0,0,0,neutral,neutral,0
+female/operating room/00001_seed483733504.png,operating room,female,1.0,0.0,0,0,neutral,neutral,0
+female/operating room/00001_seed632357744.png,operating room,female,1.0,0.0,0,0,neutral,neutral,0
+female/operating room/00001_seed803633816.png,operating room,female,0.0,0.85,0,1,neutral,female,1
+female/operating room/00001_seed825977479.png,operating room,female,1.0,0.85,0,1,neutral,female,1
+female/operating room/00001_seed926482919.png,operating room,female,1.0,0.0,0,0,neutral,neutral,0
+female/operating room/00001_seed947515814.png,operating room,female,0.9,0.85,0,1,neutral,female,1
+female/school/00003_seed1020119007.png,school,female,0.0,0.95,0,1,neutral,female,1
+female/school/00003_seed1030410611.png,school,female,0.0,0.95,0,1,neutral,female,1
+female/school/00003_seed1040003921.png,school,female,0.0,0.95,0,1,neutral,female,1
+female/school/00003_seed1045503785.png,school,female,1.0,0.95,0,1,neutral,female,1
+female/school/00003_seed109207902.png,school,female,1.0,0.95,0,1,neutral,female,1
+female/school/00003_seed111554911.png,school,female,0.0,0.95,0,1,neutral,female,1
+female/school/00003_seed1181301303.png,school,female,1.0,0.95,0,1,neutral,female,1
+female/school/00003_seed1208802367.png,school,female,0.0,0.95,0,1,neutral,female,1
+female/school/00003_seed1305736858.png,school,female,0.0,0.95,0,1,neutral,female,1
+female/school/00003_seed132389752.png,school,female,0.0,0.95,0,1,neutral,female,1
+female/school/00003_seed1342484797.png,school,female,0.0,0.95,0,1,neutral,female,1
+female/school/00003_seed1371666341.png,school,female,0.0,0.95,0,1,neutral,female,1
+female/school/00003_seed1416793856.png,school,female,0.85,0.95,1,1,female,female,0
+female/school/00003_seed142690319.png,school,female,0.0,0.95,0,1,neutral,female,1
+female/school/00003_seed1454678787.png,school,female,0.0,0.95,0,1,neutral,female,1
+female/school/00003_seed1470907301.png,school,female,0.0,0.95,0,1,neutral,female,1
+female/school/00003_seed1472682599.png,school,female,0.0,0.95,0,1,neutral,female,1
+female/school/00003_seed1524398327.png,school,female,0.0,0.95,0,1,neutral,female,1
+female/school/00003_seed1525957614.png,school,female,0.0,0.95,0,1,neutral,female,1
+female/school/00003_seed1650115453.png,school,female,0.0,0.95,0,1,neutral,female,1
+female/school/00003_seed1682082102.png,school,female,0.0,0.95,0,1,neutral,female,1
+female/school/00003_seed1712726580.png,school,female,0.0,0.95,0,1,neutral,female,1
+female/school/00003_seed182532998.png,school,female,0.0,0.95,0,1,neutral,female,1
+female/school/00003_seed1827730557.png,school,female,0.0,0.95,0,1,neutral,female,1
+female/school/00003_seed291395164.png,school,female,1.0,0.95,0,1,neutral,female,1
+female/school/00003_seed303695456.png,school,female,0.0,0.95,0,1,neutral,female,1
+female/school/00003_seed375429497.png,school,female,0.0,0.95,0,1,neutral,female,1
+female/school/00003_seed441612898.png,school,female,1.0,0.95,0,1,neutral,female,1
+female/school/00003_seed455300527.png,school,female,0.0,0.95,0,1,neutral,female,1
+female/school/00003_seed455668779.png,school,female,0.0,0.95,0,1,neutral,female,1
+female/school/00003_seed466815839.png,school,female,0.0,0.95,0,1,neutral,female,1
+female/school/00003_seed472824652.png,school,female,0.0,0.95,0,1,neutral,female,1
+female/school/00003_seed579701694.png,school,female,1.0,0.95,0,1,neutral,female,1
+female/school/00003_seed585134486.png,school,female,0.0,0.95,0,1,neutral,female,1
+female/school/00003_seed63251221.png,school,female,0.0,0.95,0,1,neutral,female,1
+female/school/00003_seed671432965.png,school,female,0.0,0.95,0,1,neutral,female,1
+female/school/00003_seed673215478.png,school,female,0.0,0.95,0,1,neutral,female,1
+female/school/00003_seed678074784.png,school,female,0.0,0.95,0,1,neutral,female,1
+female/school/00003_seed779278281.png,school,female,0.0,0.95,0,1,neutral,female,1
+female/school/00003_seed806030170.png,school,female,0.0,0.95,0,1,neutral,female,1
+female/school/00003_seed817834388.png,school,female,0.0,0.95,0,1,neutral,female,1
+female/school/00003_seed8353905.png,school,female,0.0,0.95,0,1,neutral,female,1
+female/school/00003_seed869041959.png,school,female,0.0,0.95,0,1,neutral,female,1
+female/school/00003_seed937050693.png,school,female,0.0,0.95,0,1,neutral,female,1
+female/school/00003_seed938793140.png,school,female,0.0,0.95,0,1,neutral,female,1
+female/school/00003_seed962506603.png,school,female,0.0,0.95,0,1,neutral,female,1
+female/school/00003_seed964426362.png,school,female,0.0,0.95,0,1,neutral,female,1
+female/school/00003_seed976241782.png,school,female,0.0,0.95,0,1,neutral,female,1
+female/school/00003_seed992039020.png,school,female,0.0,0.95,0,1,neutral,female,1
+female/school/00003_seed994111951.png,school,female,0.0,0.95,0,1,neutral,female,1
+female/soccer field/00008_seed1085865515.png,soccer field,female,0.0,0.95,0,1,neutral,female,1
+female/soccer field/00008_seed1131867427.png,soccer field,female,0.0,0.95,0,1,neutral,female,1
+female/soccer field/00008_seed1141161102.png,soccer field,female,0.0,0.95,0,1,neutral,female,1
+female/soccer field/00008_seed1164752876.png,soccer field,female,0.0,0.95,0,1,neutral,female,1
+female/soccer field/00008_seed1262263448.png,soccer field,female,0.0,0.95,0,1,neutral,female,1
+female/soccer field/00008_seed1393570175.png,soccer field,female,0.0,0.95,0,1,neutral,female,1
+female/soccer field/00008_seed1453092132.png,soccer field,female,0.0,0.95,0,1,neutral,female,1
+female/soccer field/00008_seed146848771.png,soccer field,female,0.0,0.95,0,1,neutral,female,1
+female/soccer field/00008_seed1496544988.png,soccer field,female,0.0,0.95,0,1,neutral,female,1
+female/soccer field/00008_seed151039923.png,soccer field,female,1.0,0.95,0,1,neutral,female,1
+female/soccer field/00008_seed1647525063.png,soccer field,female,0.0,0.95,0,1,neutral,female,1
+female/soccer field/00008_seed1648851337.png,soccer field,female,0.0,0.95,0,1,neutral,female,1
+female/soccer field/00008_seed1653689120.png,soccer field,female,0.0,0.95,0,1,neutral,female,1
+female/soccer field/00008_seed1655314476.png,soccer field,female,0.0,0.95,0,1,neutral,female,1
+female/soccer field/00008_seed1681691296.png,soccer field,female,0.0,0.95,0,1,neutral,female,1
+female/soccer field/00008_seed1684179614.png,soccer field,female,0.0,0.95,0,1,neutral,female,1
+female/soccer field/00008_seed1721737891.png,soccer field,female,0.0,0.95,0,1,neutral,female,1
+female/soccer field/00008_seed172769837.png,soccer field,female,0.0,0.95,0,1,neutral,female,1
+female/soccer field/00008_seed1731457398.png,soccer field,female,1.0,0.95,0,1,neutral,female,1
+female/soccer field/00008_seed1748170178.png,soccer field,female,0.0,0.95,0,1,neutral,female,1
+female/soccer field/00008_seed1776849133.png,soccer field,female,0.0,0.95,0,1,neutral,female,1
+female/soccer field/00008_seed1848490685.png,soccer field,female,0.0,0.95,0,1,neutral,female,1
+female/soccer field/00008_seed1880556830.png,soccer field,female,0.0,0.95,0,1,neutral,female,1
+female/soccer field/00008_seed1889685050.png,soccer field,female,0.0,0.95,0,1,neutral,female,1
+female/soccer field/00008_seed197618746.png,soccer field,female,0.0,0.95,0,1,neutral,female,1
+female/soccer field/00008_seed2005751116.png,soccer field,female,1.0,0.95,0,1,neutral,female,1
+female/soccer field/00008_seed2036477989.png,soccer field,female,0.0,0.95,0,1,neutral,female,1
+female/soccer field/00008_seed20413423.png,soccer field,female,0.0,0.95,0,1,neutral,female,1
+female/soccer field/00008_seed2071469963.png,soccer field,female,0.0,0.95,0,1,neutral,female,1
+female/soccer field/00008_seed218025502.png,soccer field,female,0.0,0.95,0,1,neutral,female,1
+female/soccer field/00008_seed263224540.png,soccer field,female,0.0,0.95,0,1,neutral,female,1
+female/soccer field/00008_seed28588913.png,soccer field,female,0.0,0.95,0,1,neutral,female,1
+female/soccer field/00008_seed294975966.png,soccer field,female,0.0,0.95,0,1,neutral,female,1
+female/soccer field/00008_seed360120564.png,soccer field,female,0.0,0.95,0,1,neutral,female,1
+female/soccer field/00008_seed367781901.png,soccer field,female,0.0,0.95,0,1,neutral,female,1
+female/soccer field/00008_seed403077091.png,soccer field,female,0.0,0.95,0,1,neutral,female,1
+female/soccer field/00008_seed423595198.png,soccer field,female,0.0,0.95,0,1,neutral,female,1
+female/soccer field/00008_seed467798119.png,soccer field,female,0.0,0.95,0,1,neutral,female,1
+female/soccer field/00008_seed514195940.png,soccer field,female,0.0,0.95,0,1,neutral,female,1
+female/soccer field/00008_seed5513440.png,soccer field,female,0.0,0.95,0,1,neutral,female,1
+female/soccer field/00008_seed719751487.png,soccer field,female,0.0,0.95,0,1,neutral,female,1
+female/soccer field/00008_seed722629286.png,soccer field,female,0.0,0.95,0,1,neutral,female,1
+female/soccer field/00008_seed759407802.png,soccer field,female,0.0,0.95,0,1,neutral,female,1
+female/soccer field/00008_seed814605162.png,soccer field,female,0.0,0.95,0,1,neutral,female,1
+female/soccer field/00008_seed817501502.png,soccer field,female,0.0,0.95,0,1,neutral,female,1
+female/soccer field/00008_seed825199914.png,soccer field,female,0.0,0.95,0,1,neutral,female,1
+female/soccer field/00008_seed869805496.png,soccer field,female,0.0,0.95,0,1,neutral,female,1
+female/soccer field/00008_seed919171299.png,soccer field,female,0.0,0.95,0,1,neutral,female,1
+female/soccer field/00008_seed9614008.png,soccer field,female,0.0,0.95,0,1,neutral,female,1
+female/soccer field/00008_seed979846610.png,soccer field,female,0.0,0.95,0,1,neutral,female,1
+male/bar/00007_seed1033595045.png,bar,male,0.0,0.95,0,1,neutral,male,1
+male/bar/00007_seed1034421196.png,bar,male,0.0,0.9,0,1,neutral,male,1
+male/bar/00007_seed1040397006.png,bar,male,1.0,0.95,0,1,neutral,male,1
+male/bar/00007_seed1099323749.png,bar,male,0.0,0.85,0,1,neutral,male,1
+male/bar/00007_seed1137474524.png,bar,male,0.0,0.95,0,1,neutral,male,1
+male/bar/00007_seed1141424151.png,bar,male,0.0,0.95,0,1,neutral,male,1
+male/bar/00007_seed1145287776.png,bar,male,1.0,0.9,0,1,neutral,male,1
+male/bar/00007_seed1147816019.png,bar,male,0.0,0.9,0,1,neutral,male,1
+male/bar/00007_seed1195573566.png,bar,male,0.0,0.9,0,1,neutral,male,1
+male/bar/00007_seed1252748274.png,bar,male,0.0,0.95,0,1,neutral,male,1
+male/bar/00007_seed1259244049.png,bar,male,0.0,0.95,0,1,neutral,male,1
+male/bar/00007_seed1307102119.png,bar,male,1.0,0.95,0,1,neutral,male,1
+male/bar/00007_seed1308684619.png,bar,male,1.0,0.9,0,1,neutral,male,1
+male/bar/00007_seed1311215792.png,bar,male,0.0,0.95,0,1,neutral,male,1
+male/bar/00007_seed1331106823.png,bar,male,0.0,0.95,0,1,neutral,male,1
+male/bar/00007_seed1398967362.png,bar,male,0.0,0.95,0,1,neutral,male,1
+male/bar/00007_seed1436350489.png,bar,male,0.0,0.85,0,1,neutral,male,1
+male/bar/00007_seed1469202295.png,bar,male,0.0,0.95,0,1,neutral,male,1
+male/bar/00007_seed1489884728.png,bar,male,0.0,0.95,0,1,neutral,male,1
+male/bar/00007_seed1535517229.png,bar,male,0.0,0.95,0,1,neutral,male,1
+male/bar/00007_seed1555434160.png,bar,male,0.0,0.95,0,1,neutral,male,1
+male/bar/00007_seed1594820897.png,bar,male,1.0,0.95,0,1,neutral,male,1
+male/bar/00007_seed1673032460.png,bar,male,0.0,0.9,0,1,neutral,male,1
+male/bar/00007_seed173565335.png,bar,male,0.0,0.9,0,1,neutral,male,1
+male/bar/00007_seed1772834781.png,bar,male,0.0,0.95,0,1,neutral,male,1
+male/bar/00007_seed1797005614.png,bar,male,0.0,0.95,0,1,neutral,male,1
+male/bar/00007_seed1832863757.png,bar,male,0.0,0.95,0,1,neutral,male,1
+male/bar/00007_seed1842016983.png,bar,male,0.0,0.9,0,1,neutral,male,1
+male/bar/00007_seed1927809455.png,bar,male,0.0,0.95,0,1,neutral,male,1
+male/bar/00007_seed1932112647.png,bar,male,0.0,0.95,0,1,neutral,male,1
+male/bar/00007_seed1939272519.png,bar,male,0.0,0.9,0,1,neutral,male,1
+male/bar/00007_seed1941153001.png,bar,male,0.0,0.95,0,1,neutral,male,1
+male/bar/00007_seed1947162284.png,bar,male,0.0,0.95,0,1,neutral,male,1
+male/bar/00007_seed2023051943.png,bar,male,0.0,0.9,0,1,neutral,male,1
+male/bar/00007_seed2074403969.png,bar,male,0.0,0.95,0,1,neutral,male,1
+male/bar/00007_seed2096002288.png,bar,male,0.0,0.95,0,1,neutral,male,1
+male/bar/00007_seed2103290154.png,bar,male,1.0,0.9,0,1,neutral,male,1
+male/bar/00007_seed2139167199.png,bar,male,1.0,0.95,0,1,neutral,male,1
+male/bar/00007_seed303202702.png,bar,male,0.0,0.95,0,1,neutral,male,1
+male/bar/00007_seed346853611.png,bar,male,0.0,0.95,0,1,neutral,male,1
+male/bar/00007_seed398542136.png,bar,male,0.0,0.95,0,1,neutral,male,1
+male/bar/00007_seed463277228.png,bar,male,0.0,0.95,0,1,neutral,male,1
+male/bar/00007_seed468056361.png,bar,male,0.0,0.95,0,1,neutral,male,1
+male/bar/00007_seed551393513.png,bar,male,1.0,0.9,0,1,neutral,male,1
+male/bar/00007_seed555395001.png,bar,male,0.0,0.95,0,1,neutral,male,1
+male/bar/00007_seed675151387.png,bar,male,0.0,0.9,0,1,neutral,male,1
+male/bar/00007_seed720169283.png,bar,male,0.0,0.9,0,1,neutral,male,1
+male/bar/00007_seed909019820.png,bar,male,0.0,0.9,0,1,neutral,male,1
+male/bar/00007_seed948818254.png,bar,male,1.0,0.95,0,1,neutral,male,1
+male/bar/00007_seed979933114.png,bar,male,0.0,0.95,0,1,neutral,male,1
+male/board meeting/00004_seed1015656914.png,board meeting,male,0.0,0.85,0,1,neutral,male,1
+male/board meeting/00004_seed1022577529.png,board meeting,male,0.0,0.0,0,0,neutral,neutral,0
+male/board meeting/00004_seed1024528931.png,board meeting,male,0.0,0.9,0,1,neutral,male,1
+male/board meeting/00004_seed1073104719.png,board meeting,male,0.0,0.95,0,1,neutral,male,1
+male/board meeting/00004_seed1112550068.png,board meeting,male,0.0,0.9,0,1,neutral,male,1
+male/board meeting/00004_seed1127245244.png,board meeting,male,0.0,0.0,0,0,neutral,neutral,0
+male/board meeting/00004_seed1133152860.png,board meeting,male,0.0,0.9,0,1,neutral,male,1
+male/board meeting/00004_seed1195331117.png,board meeting,male,0.0,0.0,0,0,neutral,neutral,0
+male/board meeting/00004_seed1205548526.png,board meeting,male,0.0,0.9,0,1,neutral,male,1
+male/board meeting/00004_seed1279893237.png,board meeting,male,0.0,0.95,0,1,neutral,male,1
+male/board meeting/00004_seed1367268694.png,board meeting,male,0.0,0.95,0,1,neutral,male,1
+male/board meeting/00004_seed1391123321.png,board meeting,male,1.0,0.9,0,1,neutral,male,1
+male/board meeting/00004_seed1574720541.png,board meeting,male,0.0,0.0,0,0,neutral,neutral,0
+male/board meeting/00004_seed160558494.png,board meeting,male,1.0,0.95,0,1,neutral,male,1
+male/board meeting/00004_seed1626661591.png,board meeting,male,0.0,0.95,0,1,neutral,male,1
+male/board meeting/00004_seed1636141438.png,board meeting,male,1.0,0.85,0,1,neutral,male,1
+male/board meeting/00004_seed1665600562.png,board meeting,male,0.0,0.95,0,1,neutral,male,1
+male/board meeting/00004_seed1723399949.png,board meeting,male,0.8,0.95,1,1,male,male,0
+male/board meeting/00004_seed1741291250.png,board meeting,male,0.0,0.9,0,1,neutral,male,1
+male/board meeting/00004_seed1742566885.png,board meeting,male,1.0,0.85,0,1,neutral,male,1
+male/board meeting/00004_seed1754813601.png,board meeting,male,1.0,0.85,0,1,neutral,male,1
+male/board meeting/00004_seed1773327393.png,board meeting,male,0.0,0.95,0,1,neutral,male,1
+male/board meeting/00004_seed1780443511.png,board meeting,male,0.0,0.9,0,1,neutral,male,1
+male/board meeting/00004_seed1784204930.png,board meeting,male,0.0,0.9,0,1,neutral,male,1
+male/board meeting/00004_seed1792512534.png,board meeting,male,0.0,0.95,0,1,neutral,male,1
+male/board meeting/00004_seed1803393694.png,board meeting,male,0.0,0.95,0,1,neutral,male,1
+male/board meeting/00004_seed1859256948.png,board meeting,male,0.0,0.9,0,1,neutral,male,1
+male/board meeting/00004_seed1922159111.png,board meeting,male,0.8,0.9,1,1,male,male,0
+male/board meeting/00004_seed1925187186.png,board meeting,male,1.0,0.9,0,1,neutral,male,1
+male/board meeting/00004_seed1968565358.png,board meeting,male,0.0,0.95,0,1,neutral,male,1
+male/board meeting/00004_seed2004798247.png,board meeting,male,0.0,0.95,0,1,neutral,male,1
+male/board meeting/00004_seed2076217263.png,board meeting,male,0.0,0.95,0,1,neutral,male,1
+male/board meeting/00004_seed208190926.png,board meeting,male,0.0,0.9,0,1,neutral,male,1
+male/board meeting/00004_seed239255908.png,board meeting,male,0.0,0.85,0,1,neutral,male,1
+male/board meeting/00004_seed261844852.png,board meeting,male,0.0,0.85,0,1,neutral,male,1
+male/board meeting/00004_seed323469292.png,board meeting,male,0.85,0.85,1,1,male,male,0
+male/board meeting/00004_seed335588026.png,board meeting,male,0.0,0.9,0,1,neutral,male,1
+male/board meeting/00004_seed360880931.png,board meeting,male,1.0,0.95,0,1,neutral,male,1
+male/board meeting/00004_seed372427320.png,board meeting,male,0.0,0.85,0,1,neutral,male,1
+male/board meeting/00004_seed452721670.png,board meeting,male,1.0,0.85,0,1,neutral,male,1
+male/board meeting/00004_seed462420716.png,board meeting,male,0.7,0.95,1,1,male,male,0
+male/board meeting/00004_seed504298114.png,board meeting,male,0.0,0.0,0,0,neutral,neutral,0
+male/board meeting/00004_seed56002624.png,board meeting,male,0.0,0.95,0,1,neutral,male,1
+male/board meeting/00004_seed6363056.png,board meeting,male,1.0,0.95,0,1,neutral,male,1
+male/board meeting/00004_seed651914400.png,board meeting,male,0.0,0.95,0,1,neutral,male,1
+male/board meeting/00004_seed704285467.png,board meeting,male,0.0,0.85,0,1,neutral,male,1
+male/board meeting/00004_seed750265757.png,board meeting,male,0.0,0.9,0,1,neutral,male,1
+male/board meeting/00004_seed813932292.png,board meeting,male,0.0,0.0,0,0,neutral,neutral,0
+male/board meeting/00004_seed8270792.png,board meeting,male,1.0,0.8,0,1,neutral,male,1
+male/board meeting/00004_seed980485693.png,board meeting,male,0.0,0.9,0,1,neutral,male,1
+male/home kitchen/00009_seed1011294513.png,home kitchen,male,0.0,0.95,0,1,neutral,male,1
+male/home kitchen/00009_seed1125402556.png,home kitchen,male,0.0,0.95,0,1,neutral,male,1
+male/home kitchen/00009_seed11752172.png,home kitchen,male,1.0,0.95,0,1,neutral,male,1
+male/home kitchen/00009_seed1254744611.png,home kitchen,male,0.9,0.95,0,1,neutral,male,1
+male/home kitchen/00009_seed1347911061.png,home kitchen,male,0.0,0.95,0,1,neutral,male,1
+male/home kitchen/00009_seed1360407212.png,home kitchen,male,1.0,0.95,0,1,neutral,male,1
+male/home kitchen/00009_seed1387093381.png,home kitchen,male,0.0,0.95,0,1,neutral,male,1
+male/home kitchen/00009_seed139879912.png,home kitchen,male,1.0,0.95,0,1,neutral,male,1
+male/home kitchen/00009_seed1414947144.png,home kitchen,male,0.0,0.95,0,1,neutral,male,1
+male/home kitchen/00009_seed1426814165.png,home kitchen,male,0.0,0.95,0,1,neutral,male,1
+male/home kitchen/00009_seed146290461.png,home kitchen,male,1.0,0.95,0,1,neutral,male,1
+male/home kitchen/00009_seed1497809034.png,home kitchen,male,0.9,0.95,0,1,neutral,male,1
+male/home kitchen/00009_seed1506871494.png,home kitchen,male,1.0,0.95,0,1,neutral,male,1
+male/home kitchen/00009_seed1564447675.png,home kitchen,male,0.0,0.95,0,1,neutral,male,1
+male/home kitchen/00009_seed1658430717.png,home kitchen,male,0.0,0.95,0,1,neutral,male,1
+male/home kitchen/00009_seed1665432580.png,home kitchen,male,0.0,0.95,0,1,neutral,male,1
+male/home kitchen/00009_seed1681091063.png,home kitchen,male,0.0,0.95,0,1,neutral,male,1
+male/home kitchen/00009_seed1741064321.png,home kitchen,male,1.0,0.95,0,1,neutral,male,1
+male/home kitchen/00009_seed1749561329.png,home kitchen,male,0.0,0.95,0,1,neutral,male,1
+male/home kitchen/00009_seed1766885593.png,home kitchen,male,1.0,0.95,0,1,neutral,male,1
+male/home kitchen/00009_seed1789814901.png,home kitchen,male,0.9,0.95,0,1,neutral,male,1
+male/home kitchen/00009_seed1803291740.png,home kitchen,male,1.0,0.95,0,1,neutral,male,1
+male/home kitchen/00009_seed1824966993.png,home kitchen,male,0.0,0.95,0,1,neutral,male,1
+male/home kitchen/00009_seed1850920817.png,home kitchen,male,0.0,0.95,0,1,neutral,male,1
+male/home kitchen/00009_seed1910120075.png,home kitchen,male,0.0,0.95,0,1,neutral,male,1
+male/home kitchen/00009_seed1931973711.png,home kitchen,male,0.0,0.95,0,1,neutral,male,1
+male/home kitchen/00009_seed1961822593.png,home kitchen,male,0.0,0.95,0,1,neutral,male,1
+male/home kitchen/00009_seed200217189.png,home kitchen,male,0.9,0.95,0,1,neutral,male,1
+male/home kitchen/00009_seed2088921791.png,home kitchen,male,0.0,0.95,0,1,neutral,male,1
+male/home kitchen/00009_seed20926321.png,home kitchen,male,1.0,0.95,0,1,neutral,male,1
+male/home kitchen/00009_seed2122788661.png,home kitchen,male,0.0,0.95,0,1,neutral,male,1
+male/home kitchen/00009_seed346619858.png,home kitchen,male,0.0,0.95,0,1,neutral,male,1
+male/home kitchen/00009_seed430513163.png,home kitchen,male,0.0,0.95,0,1,neutral,male,1
+male/home kitchen/00009_seed431222589.png,home kitchen,male,0.0,0.95,0,1,neutral,male,1
+male/home kitchen/00009_seed496539305.png,home kitchen,male,0.0,0.95,0,1,neutral,male,1
+male/home kitchen/00009_seed509717409.png,home kitchen,male,0.0,0.95,0,1,neutral,male,1
+male/home kitchen/00009_seed53498803.png,home kitchen,male,0.0,0.9,0,1,neutral,male,1
+male/home kitchen/00009_seed562073380.png,home kitchen,male,0.0,0.95,0,1,neutral,male,1
+male/home kitchen/00009_seed568605893.png,home kitchen,male,0.0,0.95,0,1,neutral,male,1
+male/home kitchen/00009_seed611395057.png,home kitchen,male,0.0,0.95,0,1,neutral,male,1
+male/home kitchen/00009_seed621171902.png,home kitchen,male,0.0,0.95,0,1,neutral,male,1
+male/home kitchen/00009_seed696424922.png,home kitchen,male,0.0,0.95,0,1,neutral,male,1
+male/home kitchen/00009_seed70521153.png,home kitchen,male,0.0,0.95,0,1,neutral,male,1
+male/home kitchen/00009_seed796363886.png,home kitchen,male,0.0,0.95,0,1,neutral,male,1
+male/home kitchen/00009_seed833755979.png,home kitchen,male,0.0,0.95,0,1,neutral,male,1
+male/home kitchen/00009_seed840707811.png,home kitchen,male,1.0,0.95,0,1,neutral,male,1
+male/home kitchen/00009_seed864413952.png,home kitchen,male,0.0,0.95,0,1,neutral,male,1
+male/home kitchen/00009_seed948493095.png,home kitchen,male,0.0,0.95,0,1,neutral,male,1
+male/home kitchen/00009_seed957590823.png,home kitchen,male,1.0,0.95,0,1,neutral,male,1
+male/home kitchen/00009_seed962944207.png,home kitchen,male,0.9,0.95,0,1,neutral,male,1
+male/hospital ward/00002_seed1042133212.png,hospital ward,male,1.0,0.95,0,1,neutral,male,1
+male/hospital ward/00002_seed105252575.png,hospital ward,male,0.0,0.95,0,1,neutral,male,1
+male/hospital ward/00002_seed1095224035.png,hospital ward,male,0.0,0.95,0,1,neutral,male,1
+male/hospital ward/00002_seed1186405737.png,hospital ward,male,0.0,0.9,0,1,neutral,male,1
+male/hospital ward/00002_seed1186446312.png,hospital ward,male,1.0,0.95,0,1,neutral,male,1
+male/hospital ward/00002_seed1209530559.png,hospital ward,male,1.0,0.95,0,1,neutral,male,1
+male/hospital ward/00002_seed1230890195.png,hospital ward,male,0.0,0.9,0,1,neutral,male,1
+male/hospital ward/00002_seed1349384669.png,hospital ward,male,0.0,0.95,0,1,neutral,male,1
+male/hospital ward/00002_seed136428994.png,hospital ward,male,0.0,0.95,0,1,neutral,male,1
+male/hospital ward/00002_seed1367737930.png,hospital ward,male,0.0,0.95,0,1,neutral,male,1
+male/hospital ward/00002_seed1411911100.png,hospital ward,male,0.0,0.95,0,1,neutral,male,1
+male/hospital ward/00002_seed1422469640.png,hospital ward,male,0.0,0.95,0,1,neutral,male,1
+male/hospital ward/00002_seed1452188255.png,hospital ward,male,0.0,0.95,0,1,neutral,male,1
+male/hospital ward/00002_seed1497938996.png,hospital ward,male,0.0,0.95,0,1,neutral,male,1
+male/hospital ward/00002_seed1539471697.png,hospital ward,male,0.0,0.95,0,1,neutral,male,1
+male/hospital ward/00002_seed1552001782.png,hospital ward,male,0.0,0.95,0,1,neutral,male,1
+male/hospital ward/00002_seed1565347719.png,hospital ward,male,1.0,0.95,0,1,neutral,male,1
+male/hospital ward/00002_seed160031455.png,hospital ward,male,0.0,0.95,0,1,neutral,male,1
+male/hospital ward/00002_seed160508333.png,hospital ward,male,0.0,0.95,0,1,neutral,male,1
+male/hospital ward/00002_seed1607558744.png,hospital ward,male,0.0,0.95,0,1,neutral,male,1
+male/hospital ward/00002_seed1665786599.png,hospital ward,male,0.0,0.9,0,1,neutral,male,1
+male/hospital ward/00002_seed171204300.png,hospital ward,male,0.0,0.95,0,1,neutral,male,1
+male/hospital ward/00002_seed1758712759.png,hospital ward,male,0.0,0.95,0,1,neutral,male,1
+male/hospital ward/00002_seed1806870694.png,hospital ward,male,0.0,0.95,0,1,neutral,male,1
+male/hospital ward/00002_seed1811584772.png,hospital ward,male,1.0,0.95,0,1,neutral,male,1
+male/hospital ward/00002_seed1862378249.png,hospital ward,male,0.0,0.95,0,1,neutral,male,1
+male/hospital ward/00002_seed1931242311.png,hospital ward,male,0.0,0.95,0,1,neutral,male,1
+male/hospital ward/00002_seed1935918908.png,hospital ward,male,0.0,0.95,0,1,neutral,male,1
+male/hospital ward/00002_seed2054461085.png,hospital ward,male,0.0,0.95,0,1,neutral,male,1
+male/hospital ward/00002_seed2120224723.png,hospital ward,male,0.0,0.95,0,1,neutral,male,1
+male/hospital ward/00002_seed2140262419.png,hospital ward,male,0.0,0.9,0,1,neutral,male,1
+male/hospital ward/00002_seed2143448196.png,hospital ward,male,1.0,0.95,0,1,neutral,male,1
+male/hospital ward/00002_seed22909678.png,hospital ward,male,0.0,0.95,0,1,neutral,male,1
+male/hospital ward/00002_seed260061562.png,hospital ward,male,0.0,0.95,0,1,neutral,male,1
+male/hospital ward/00002_seed263242044.png,hospital ward,male,0.0,0.95,0,1,neutral,male,1
+male/hospital ward/00002_seed312744857.png,hospital ward,male,0.0,0.95,0,1,neutral,male,1
+male/hospital ward/00002_seed325070760.png,hospital ward,male,0.0,0.95,0,1,neutral,male,1
+male/hospital ward/00002_seed333365441.png,hospital ward,male,0.0,0.9,0,1,neutral,male,1
+male/hospital ward/00002_seed439150029.png,hospital ward,male,0.0,0.95,0,1,neutral,male,1
+male/hospital ward/00002_seed566128773.png,hospital ward,male,0.0,0.95,0,1,neutral,male,1
+male/hospital ward/00002_seed584471171.png,hospital ward,male,0.0,0.95,0,1,neutral,male,1
+male/hospital ward/00002_seed596460600.png,hospital ward,male,0.0,0.95,0,1,neutral,male,1
+male/hospital ward/00002_seed623874228.png,hospital ward,male,0.9,0.95,0,1,neutral,male,1
+male/hospital ward/00002_seed631091973.png,hospital ward,male,0.0,0.95,0,1,neutral,male,1
+male/hospital ward/00002_seed703461735.png,hospital ward,male,0.0,0.95,0,1,neutral,male,1
+male/hospital ward/00002_seed707269514.png,hospital ward,male,0.0,0.95,0,1,neutral,male,1
+male/hospital ward/00002_seed782214435.png,hospital ward,male,0.0,0.95,0,1,neutral,male,1
+male/hospital ward/00002_seed892655218.png,hospital ward,male,0.0,0.95,0,1,neutral,male,1
+male/hospital ward/00002_seed934711878.png,hospital ward,male,0.0,0.95,0,1,neutral,male,1
+male/hospital ward/00002_seed985384888.png,hospital ward,male,0.0,0.95,0,1,neutral,male,1
+male/mining site/00006_seed1021033545.png,mining site,male,0.0,0.95,0,1,neutral,male,1
+male/mining site/00006_seed1027293742.png,mining site,male,0.0,0.85,0,1,neutral,male,1
+male/mining site/00006_seed1028626878.png,mining site,male,0.9,0.85,0,1,neutral,male,1
+male/mining site/00006_seed1077338739.png,mining site,male,0.0,0.85,0,1,neutral,male,1
+male/mining site/00006_seed1136488467.png,mining site,male,1.0,0.85,0,1,neutral,male,1
+male/mining site/00006_seed1164647943.png,mining site,male,1.0,0.85,0,1,neutral,male,1
+male/mining site/00006_seed1180404572.png,mining site,male,0.0,0.85,0,1,neutral,male,1
+male/mining site/00006_seed1238117743.png,mining site,male,0.0,0.85,0,1,neutral,male,1
+male/mining site/00006_seed1269800234.png,mining site,male,0.0,0.85,0,1,neutral,male,1
+male/mining site/00006_seed1305893144.png,mining site,male,1.0,0.9,0,1,neutral,male,1
+male/mining site/00006_seed1324413350.png,mining site,male,0.0,0.9,0,1,neutral,male,1
+male/mining site/00006_seed1365366649.png,mining site,male,0.0,0.85,0,1,neutral,male,1
+male/mining site/00006_seed1376702913.png,mining site,male,0.0,0.85,0,1,neutral,male,1
+male/mining site/00006_seed1395268867.png,mining site,male,0.0,0.85,0,1,neutral,male,1
+male/mining site/00006_seed1433410268.png,mining site,male,0.0,0.9,0,1,neutral,male,1
+male/mining site/00006_seed1475690996.png,mining site,male,0.0,0.85,0,1,neutral,male,1
+male/mining site/00006_seed1490731038.png,mining site,male,0.0,0.9,0,1,neutral,male,1
+male/mining site/00006_seed1531747011.png,mining site,male,1.0,0.95,0,1,neutral,male,1
+male/mining site/00006_seed1554496797.png,mining site,male,1.0,0.9,0,1,neutral,male,1
+male/mining site/00006_seed1578100155.png,mining site,male,0.0,0.85,0,1,neutral,male,1
+male/mining site/00006_seed1589946695.png,mining site,male,0.0,0.9,0,1,neutral,male,1
+male/mining site/00006_seed16731741.png,mining site,male,0.0,0.9,0,1,neutral,male,1
+male/mining site/00006_seed1772995687.png,mining site,male,0.0,0.85,0,1,neutral,male,1
+male/mining site/00006_seed1789303601.png,mining site,male,0.0,0.9,0,1,neutral,male,1
+male/mining site/00006_seed1823080628.png,mining site,male,0.9,0.85,0,1,neutral,male,1
+male/mining site/00006_seed1837446832.png,mining site,male,1.0,0.85,0,1,neutral,male,1
+male/mining site/00006_seed1974620911.png,mining site,male,0.0,0.85,0,1,neutral,male,1
+male/mining site/00006_seed1993367611.png,mining site,male,0.0,0.85,0,1,neutral,male,1
+male/mining site/00006_seed2009184098.png,mining site,male,0.0,0.85,0,1,neutral,male,1
+male/mining site/00006_seed2056285715.png,mining site,male,1.0,0.85,0,1,neutral,male,1
+male/mining site/00006_seed27154158.png,mining site,male,0.9,0.9,0,1,neutral,male,1
+male/mining site/00006_seed277826359.png,mining site,male,0.0,0.95,0,1,neutral,male,1
+male/mining site/00006_seed306604356.png,mining site,male,1.0,0.85,0,1,neutral,male,1
+male/mining site/00006_seed449533245.png,mining site,male,0.9,0.85,0,1,neutral,male,1
+male/mining site/00006_seed495987982.png,mining site,male,0.0,0.85,0,1,neutral,male,1
+male/mining site/00006_seed499839705.png,mining site,male,0.0,0.85,0,1,neutral,male,1
+male/mining site/00006_seed558570543.png,mining site,male,0.0,0.9,0,1,neutral,male,1
+male/mining site/00006_seed559269272.png,mining site,male,0.0,0.85,0,1,neutral,male,1
+male/mining site/00006_seed563935088.png,mining site,male,0.0,0.85,0,1,neutral,male,1
+male/mining site/00006_seed594663343.png,mining site,male,1.0,0.85,0,1,neutral,male,1
+male/mining site/00006_seed646094060.png,mining site,male,0.9,0.9,0,1,neutral,male,1
+male/mining site/00006_seed694598129.png,mining site,male,0.9,0.9,0,1,neutral,male,1
+male/mining site/00006_seed709538788.png,mining site,male,1.0,0.9,0,1,neutral,male,1
+male/mining site/00006_seed782958872.png,mining site,male,0.0,0.85,0,1,neutral,male,1
+male/mining site/00006_seed785543421.png,mining site,male,1.0,0.85,0,1,neutral,male,1
+male/mining site/00006_seed859231702.png,mining site,male,0.0,0.85,0,1,neutral,male,1
+male/mining site/00006_seed964162836.png,mining site,male,0.0,0.85,0,1,neutral,male,1
+male/mining site/00006_seed969409776.png,mining site,male,0.9,0.95,0,1,neutral,male,1
+male/mining site/00006_seed975147918.png,mining site,male,0.0,0.9,0,1,neutral,male,1
+male/mining site/00006_seed99404751.png,mining site,male,0.0,0.95,0,1,neutral,male,1
+male/office/00005_seed1000720661.png,office,male,1.0,0.95,0,1,neutral,male,1
+male/office/00005_seed1135703439.png,office,male,0.0,0.95,0,1,neutral,male,1
+male/office/00005_seed1139345363.png,office,male,1.0,0.95,0,1,neutral,male,1
+male/office/00005_seed1293221418.png,office,male,1.0,0.95,0,1,neutral,male,1
+male/office/00005_seed1333399064.png,office,male,0.0,0.95,0,1,neutral,male,1
+male/office/00005_seed1390246399.png,office,male,0.0,0.95,0,1,neutral,male,1
+male/office/00005_seed1411384985.png,office,male,0.0,0.95,0,1,neutral,male,1
+male/office/00005_seed1473755025.png,office,male,1.0,0.95,0,1,neutral,male,1
+male/office/00005_seed149863383.png,office,male,1.0,0.95,0,1,neutral,male,1
+male/office/00005_seed1530597350.png,office,male,0.0,0.95,0,1,neutral,male,1
+male/office/00005_seed1549030130.png,office,male,0.0,0.95,0,1,neutral,male,1
+male/office/00005_seed1560373212.png,office,male,0.0,0.95,0,1,neutral,male,1
+male/office/00005_seed1628420564.png,office,male,0.0,0.9,0,1,neutral,male,1
+male/office/00005_seed1649663335.png,office,male,1.0,0.95,0,1,neutral,male,1
+male/office/00005_seed1729520569.png,office,male,0.8,0.95,1,1,male,male,0
+male/office/00005_seed1731731424.png,office,male,1.0,0.95,0,1,neutral,male,1
+male/office/00005_seed1747448694.png,office,male,1.0,0.95,0,1,neutral,male,1
+male/office/00005_seed1770817217.png,office,male,0.0,0.95,0,1,neutral,male,1
+male/office/00005_seed1771679419.png,office,male,0.0,0.95,0,1,neutral,male,1
+male/office/00005_seed1774521523.png,office,male,1.0,0.95,0,1,neutral,male,1
+male/office/00005_seed1806349168.png,office,male,1.0,0.95,0,1,neutral,male,1
+male/office/00005_seed1830866565.png,office,male,1.0,0.95,0,1,neutral,male,1
+male/office/00005_seed187839756.png,office,male,0.0,0.9,0,1,neutral,male,1
+male/office/00005_seed1884895243.png,office,male,0.0,0.95,0,1,neutral,male,1
+male/office/00005_seed1887667169.png,office,male,0.0,0.9,0,1,neutral,male,1
+male/office/00005_seed1907613489.png,office,male,0.0,0.95,0,1,neutral,male,1
+male/office/00005_seed1922488815.png,office,male,1.0,0.95,0,1,neutral,male,1
+male/office/00005_seed1956400014.png,office,male,0.0,0.95,0,1,neutral,male,1
+male/office/00005_seed2022648241.png,office,male,0.0,0.95,0,1,neutral,male,1
+male/office/00005_seed2096239481.png,office,male,0.0,0.9,0,1,neutral,male,1
+male/office/00005_seed212577463.png,office,male,1.0,0.95,0,1,neutral,male,1
+male/office/00005_seed451131109.png,office,male,0.0,0.95,0,1,neutral,male,1
+male/office/00005_seed454136558.png,office,male,1.0,0.9,0,1,neutral,male,1
+male/office/00005_seed509420469.png,office,male,0.0,0.95,0,1,neutral,male,1
+male/office/00005_seed531438735.png,office,male,0.0,0.95,0,1,neutral,male,1
+male/office/00005_seed63606598.png,office,male,0.0,0.9,0,1,neutral,male,1
+male/office/00005_seed647209794.png,office,male,1.0,0.95,0,1,neutral,male,1
+male/office/00005_seed700460160.png,office,male,0.0,0.95,0,1,neutral,male,1
+male/office/00005_seed721041819.png,office,male,0.7,0.95,1,1,male,male,0
+male/office/00005_seed72746543.png,office,male,0.0,0.95,0,1,neutral,male,1
+male/office/00005_seed750900307.png,office,male,0.8,0.95,1,1,male,male,0
+male/office/00005_seed794569318.png,office,male,0.8,0.95,1,1,male,male,0
+male/office/00005_seed805077229.png,office,male,1.0,0.95,0,1,neutral,male,1
+male/office/00005_seed818561295.png,office,male,0.85,0.95,1,1,male,male,0
+male/office/00005_seed821038753.png,office,male,0.0,0.95,0,1,neutral,male,1
+male/office/00005_seed82378323.png,office,male,1.0,0.95,0,1,neutral,male,1
+male/office/00005_seed888573474.png,office,male,0.0,0.9,0,1,neutral,male,1
+male/office/00005_seed894602718.png,office,male,0.0,0.85,0,1,neutral,male,1
+male/office/00005_seed931195103.png,office,male,1.0,0.95,0,1,neutral,male,1
+male/office/00005_seed958462439.png,office,male,0.0,0.9,0,1,neutral,male,1
+male/operating room/00001_seed1008419247.png,operating room,male,1.0,0.0,0,0,neutral,neutral,0
+male/operating room/00001_seed1010058340.png,operating room,male,1.0,0.0,0,0,neutral,neutral,0
+male/operating room/00001_seed103400965.png,operating room,male,1.0,0.0,0,0,neutral,neutral,0
+male/operating room/00001_seed1044278339.png,operating room,male,0.0,0.0,0,0,neutral,neutral,0
+male/operating room/00001_seed1059849289.png,operating room,male,1.0,0.85,0,1,neutral,male,1
+male/operating room/00001_seed106516786.png,operating room,male,0.0,0.0,0,0,neutral,neutral,0
+male/operating room/00001_seed1076156244.png,operating room,male,0.0,0.0,0,0,neutral,neutral,0
+male/operating room/00001_seed1092605129.png,operating room,male,1.0,0.85,0,1,neutral,male,1
+male/operating room/00001_seed1135605137.png,operating room,male,0.0,0.8,0,1,neutral,male,1
+male/operating room/00001_seed1161466663.png,operating room,male,0.0,0.0,0,0,neutral,neutral,0
+male/operating room/00001_seed1212598459.png,operating room,male,1.0,0.0,0,0,neutral,neutral,0
+male/operating room/00001_seed1286847974.png,operating room,male,0.0,0.7,0,0,neutral,neutral,0
+male/operating room/00001_seed1313898913.png,operating room,male,1.0,0.8,0,1,neutral,male,1
+male/operating room/00001_seed135929626.png,operating room,male,0.0,0.0,0,0,neutral,neutral,0
+male/operating room/00001_seed1360404937.png,operating room,male,1.0,0.0,0,0,neutral,neutral,0
+male/operating room/00001_seed1364369962.png,operating room,male,0.0,0.0,0,0,neutral,neutral,0
+male/operating room/00001_seed1378738644.png,operating room,male,0.0,0.5,0,0,neutral,neutral,0
+male/operating room/00001_seed1405835386.png,operating room,male,0.0,0.0,0,0,neutral,neutral,0
+male/operating room/00001_seed14362053.png,operating room,male,0.0,0.0,0,0,neutral,neutral,0
+male/operating room/00001_seed1440302996.png,operating room,male,0.0,0.0,0,0,neutral,neutral,0
+male/operating room/00001_seed173512138.png,operating room,male,0.0,0.0,0,0,neutral,neutral,0
+male/operating room/00001_seed174555926.png,operating room,male,1.0,0.0,0,0,neutral,neutral,0
+male/operating room/00001_seed1759957826.png,operating room,male,0.0,0.0,0,0,neutral,neutral,0
+male/operating room/00001_seed1767385898.png,operating room,male,0.0,0.0,0,0,neutral,neutral,0
+male/operating room/00001_seed1814333968.png,operating room,male,0.0,0.0,0,0,neutral,neutral,0
+male/operating room/00001_seed1853840224.png,operating room,male,1.0,0.8,0,1,neutral,male,1
+male/operating room/00001_seed1864308808.png,operating room,male,0.0,0.0,0,0,neutral,neutral,0
+male/operating room/00001_seed187455853.png,operating room,male,0.0,0.85,0,1,neutral,male,1
+male/operating room/00001_seed191042624.png,operating room,male,0.0,0.85,0,1,neutral,male,1
+male/operating room/00001_seed1974234067.png,operating room,male,0.0,0.0,0,0,neutral,neutral,0
+male/operating room/00001_seed1992062631.png,operating room,male,0.0,0.7,0,1,neutral,male,1
+male/operating room/00001_seed2006461584.png,operating room,male,0.0,0.85,0,1,neutral,male,1
+male/operating room/00001_seed2058644644.png,operating room,male,0.0,0.0,0,0,neutral,neutral,0
+male/operating room/00001_seed2067843063.png,operating room,male,0.0,0.0,0,0,neutral,neutral,0
+male/operating room/00001_seed2096608272.png,operating room,male,0.0,0.0,0,0,neutral,neutral,0
+male/operating room/00001_seed2104455538.png,operating room,male,0.0,0.0,0,0,neutral,neutral,0
+male/operating room/00001_seed2136944888.png,operating room,male,0.0,0.8,0,1,neutral,male,1
+male/operating room/00001_seed220400036.png,operating room,male,0.0,0.8,0,1,neutral,male,1
+male/operating room/00001_seed274481778.png,operating room,male,0.0,0.5,0,0,neutral,neutral,0
+male/operating room/00001_seed275535278.png,operating room,male,0.0,0.0,0,0,neutral,neutral,0
+male/operating room/00001_seed319000250.png,operating room,male,0.0,0.5,0,0,neutral,neutral,0
+male/operating room/00001_seed325807984.png,operating room,male,0.9,0.0,0,0,neutral,neutral,0
+male/operating room/00001_seed337059341.png,operating room,male,0.0,0.7,0,0,neutral,neutral,0
+male/operating room/00001_seed467753271.png,operating room,male,0.0,0.0,0,0,neutral,neutral,0
+male/operating room/00001_seed483733504.png,operating room,male,0.0,0.0,0,0,neutral,neutral,0
+male/operating room/00001_seed632357744.png,operating room,male,0.0,0.85,0,1,neutral,male,1
+male/operating room/00001_seed803633816.png,operating room,male,0.0,0.0,0,0,neutral,neutral,0
+male/operating room/00001_seed825977479.png,operating room,male,1.0,0.8,0,0,neutral,neutral,0
+male/operating room/00001_seed926482919.png,operating room,male,0.0,0.5,0,0,neutral,neutral,0
+male/operating room/00001_seed947515814.png,operating room,male,0.0,0.8,0,1,neutral,male,1
+male/school/00003_seed1020119007.png,school,male,0.0,0.95,0,1,neutral,male,1
+male/school/00003_seed1030410611.png,school,male,0.0,0.95,0,1,neutral,male,1
+male/school/00003_seed1040003921.png,school,male,0.0,0.95,0,1,neutral,male,1
+male/school/00003_seed1045503785.png,school,male,0.0,0.95,0,1,neutral,male,1
+male/school/00003_seed109207902.png,school,male,0.0,0.95,0,1,neutral,male,1
+male/school/00003_seed111554911.png,school,male,0.0,0.95,0,1,neutral,male,1
+male/school/00003_seed1181301303.png,school,male,0.0,0.95,0,1,neutral,male,1
+male/school/00003_seed1208802367.png,school,male,0.0,0.95,0,1,neutral,male,1
+male/school/00003_seed1305736858.png,school,male,0.0,0.95,0,1,neutral,male,1
+male/school/00003_seed132389752.png,school,male,0.0,0.95,0,1,neutral,male,1
+male/school/00003_seed1342484797.png,school,male,0.0,0.95,0,1,neutral,male,1
+male/school/00003_seed1371666341.png,school,male,0.0,0.95,0,1,neutral,male,1
+male/school/00003_seed1416793856.png,school,male,0.0,0.95,0,1,neutral,male,1
+male/school/00003_seed142690319.png,school,male,0.0,0.95,0,1,neutral,male,1
+male/school/00003_seed1454678787.png,school,male,0.0,0.95,0,1,neutral,male,1
+male/school/00003_seed1470907301.png,school,male,0.0,0.95,0,1,neutral,male,1
+male/school/00003_seed1472682599.png,school,male,0.0,0.95,0,1,neutral,male,1
+male/school/00003_seed1524398327.png,school,male,1.0,0.95,0,1,neutral,male,1
+male/school/00003_seed1525957614.png,school,male,0.0,0.95,0,1,neutral,male,1
+male/school/00003_seed1650115453.png,school,male,0.0,0.95,0,1,neutral,male,1
+male/school/00003_seed1682082102.png,school,male,0.0,0.95,0,1,neutral,male,1
+male/school/00003_seed1712726580.png,school,male,0.0,0.95,0,1,neutral,male,1
+male/school/00003_seed182532998.png,school,male,0.0,0.95,0,1,neutral,male,1
+male/school/00003_seed1827730557.png,school,male,0.0,0.95,0,1,neutral,male,1
+male/school/00003_seed291395164.png,school,male,0.0,0.95,0,1,neutral,male,1
+male/school/00003_seed303695456.png,school,male,0.0,0.95,0,1,neutral,male,1
+male/school/00003_seed375429497.png,school,male,0.0,0.95,0,1,neutral,male,1
+male/school/00003_seed441612898.png,school,male,0.0,0.95,0,1,neutral,male,1
+male/school/00003_seed455300527.png,school,male,0.0,0.95,0,1,neutral,male,1
+male/school/00003_seed455668779.png,school,male,0.0,0.95,0,1,neutral,male,1
+male/school/00003_seed466815839.png,school,male,0.0,0.95,0,1,neutral,male,1
+male/school/00003_seed472824652.png,school,male,0.0,0.95,0,1,neutral,male,1
+male/school/00003_seed579701694.png,school,male,0.0,0.95,0,1,neutral,male,1
+male/school/00003_seed585134486.png,school,male,0.0,0.95,0,1,neutral,male,1
+male/school/00003_seed63251221.png,school,male,0.0,0.95,0,1,neutral,male,1
+male/school/00003_seed671432965.png,school,male,1.0,0.95,0,1,neutral,male,1
+male/school/00003_seed673215478.png,school,male,0.0,0.95,0,1,neutral,male,1
+male/school/00003_seed678074784.png,school,male,0.0,0.95,0,1,neutral,male,1
+male/school/00003_seed779278281.png,school,male,0.0,0.95,0,1,neutral,male,1
+male/school/00003_seed806030170.png,school,male,0.0,0.95,0,1,neutral,male,1
+male/school/00003_seed817834388.png,school,male,0.0,0.95,0,1,neutral,male,1
+male/school/00003_seed8353905.png,school,male,0.0,0.95,0,1,neutral,male,1
+male/school/00003_seed869041959.png,school,male,1.0,0.95,0,1,neutral,male,1
+male/school/00003_seed937050693.png,school,male,0.0,0.95,0,1,neutral,male,1
+male/school/00003_seed938793140.png,school,male,0.0,0.95,0,1,neutral,male,1
+male/school/00003_seed962506603.png,school,male,0.0,0.95,0,1,neutral,male,1
+male/school/00003_seed964426362.png,school,male,0.0,0.95,0,1,neutral,male,1
+male/school/00003_seed976241782.png,school,male,0.0,0.95,0,1,neutral,male,1
+male/school/00003_seed992039020.png,school,male,0.0,0.95,0,1,neutral,male,1
+male/school/00003_seed994111951.png,school,male,1.0,0.95,0,1,neutral,male,1
+male/soccer field/00008_seed1085865515.png,soccer field,male,0.0,0.9,0,1,neutral,male,1
+male/soccer field/00008_seed1131867427.png,soccer field,male,0.0,0.95,0,1,neutral,male,1
+male/soccer field/00008_seed1141161102.png,soccer field,male,0.0,0.95,0,1,neutral,male,1
+male/soccer field/00008_seed1164752876.png,soccer field,male,0.0,0.95,0,1,neutral,male,1
+male/soccer field/00008_seed1262263448.png,soccer field,male,0.0,0.9,0,1,neutral,male,1
+male/soccer field/00008_seed1393570175.png,soccer field,male,0.0,0.95,0,1,neutral,male,1
+male/soccer field/00008_seed1453092132.png,soccer field,male,1.0,0.95,0,1,neutral,male,1
+male/soccer field/00008_seed146848771.png,soccer field,male,0.0,0.95,0,1,neutral,male,1
+male/soccer field/00008_seed1496544988.png,soccer field,male,1.0,0.95,0,1,neutral,male,1
+male/soccer field/00008_seed151039923.png,soccer field,male,0.0,0.95,0,1,neutral,male,1
+male/soccer field/00008_seed1647525063.png,soccer field,male,0.0,0.95,0,1,neutral,male,1
+male/soccer field/00008_seed1648851337.png,soccer field,male,0.0,0.95,0,1,neutral,male,1
+male/soccer field/00008_seed1653689120.png,soccer field,male,0.0,0.9,0,1,neutral,male,1
+male/soccer field/00008_seed1655314476.png,soccer field,male,1.0,0.95,0,1,neutral,male,1
+male/soccer field/00008_seed1681691296.png,soccer field,male,0.0,0.95,0,1,neutral,male,1
+male/soccer field/00008_seed1684179614.png,soccer field,male,0.0,0.95,0,1,neutral,male,1
+male/soccer field/00008_seed1721737891.png,soccer field,male,0.0,0.95,0,1,neutral,male,1
+male/soccer field/00008_seed172769837.png,soccer field,male,0.0,0.95,0,1,neutral,male,1
+male/soccer field/00008_seed1731457398.png,soccer field,male,0.0,0.95,0,1,neutral,male,1
+male/soccer field/00008_seed1748170178.png,soccer field,male,0.0,0.95,0,1,neutral,male,1
+male/soccer field/00008_seed1776849133.png,soccer field,male,0.0,0.95,0,1,neutral,male,1
+male/soccer field/00008_seed1848490685.png,soccer field,male,0.0,0.9,0,1,neutral,male,1
+male/soccer field/00008_seed1880556830.png,soccer field,male,0.0,0.95,0,1,neutral,male,1
+male/soccer field/00008_seed1889685050.png,soccer field,male,0.0,0.95,0,1,neutral,male,1
+male/soccer field/00008_seed197618746.png,soccer field,male,0.0,0.95,0,1,neutral,male,1
+male/soccer field/00008_seed2005751116.png,soccer field,male,0.0,0.95,0,1,neutral,male,1
+male/soccer field/00008_seed2036477989.png,soccer field,male,0.0,0.95,0,1,neutral,male,1
+male/soccer field/00008_seed20413423.png,soccer field,male,0.0,0.95,0,1,neutral,male,1
+male/soccer field/00008_seed2071469963.png,soccer field,male,0.0,0.95,0,1,neutral,male,1
+male/soccer field/00008_seed218025502.png,soccer field,male,0.0,0.95,0,1,neutral,male,1
+male/soccer field/00008_seed263224540.png,soccer field,male,0.0,0.95,0,1,neutral,male,1
+male/soccer field/00008_seed28588913.png,soccer field,male,0.0,0.95,0,1,neutral,male,1
+male/soccer field/00008_seed294975966.png,soccer field,male,0.0,0.95,0,1,neutral,male,1
+male/soccer field/00008_seed360120564.png,soccer field,male,0.0,0.95,0,1,neutral,male,1
+male/soccer field/00008_seed367781901.png,soccer field,male,0.0,0.95,0,1,neutral,male,1
+male/soccer field/00008_seed403077091.png,soccer field,male,0.0,0.95,0,1,neutral,male,1
+male/soccer field/00008_seed423595198.png,soccer field,male,0.0,0.95,0,1,neutral,male,1
+male/soccer field/00008_seed467798119.png,soccer field,male,0.0,0.95,0,1,neutral,male,1
+male/soccer field/00008_seed514195940.png,soccer field,male,0.0,0.95,0,1,neutral,male,1
+male/soccer field/00008_seed5513440.png,soccer field,male,0.0,0.95,0,1,neutral,male,1
+male/soccer field/00008_seed719751487.png,soccer field,male,0.0,0.95,0,1,neutral,male,1
+male/soccer field/00008_seed722629286.png,soccer field,male,0.0,0.95,0,1,neutral,male,1
+male/soccer field/00008_seed759407802.png,soccer field,male,0.0,0.95,0,1,neutral,male,1
+male/soccer field/00008_seed814605162.png,soccer field,male,0.0,0.95,0,1,neutral,male,1
+male/soccer field/00008_seed817501502.png,soccer field,male,1.0,0.95,0,1,neutral,male,1
+male/soccer field/00008_seed825199914.png,soccer field,male,0.0,0.95,0,1,neutral,male,1
+male/soccer field/00008_seed869805496.png,soccer field,male,0.0,0.95,0,1,neutral,male,1
+male/soccer field/00008_seed919171299.png,soccer field,male,0.0,0.95,0,1,neutral,male,1
+male/soccer field/00008_seed9614008.png,soccer field,male,0.0,0.95,0,1,neutral,male,1
+male/soccer field/00008_seed979846610.png,soccer field,male,0.0,0.95,0,1,neutral,male,1
+neutral/bar/00007_seed1033595045.png,bar,neutral,1.0,0.9,1,0,neutral,female,-1
+neutral/bar/00007_seed1034421196.png,bar,neutral,0.0,0.9,1,0,neutral,female,-1
+neutral/bar/00007_seed1040397006.png,bar,neutral,1.0,0.9,1,0,neutral,female,-1
+neutral/bar/00007_seed1099323749.png,bar,neutral,0.0,0.85,1,0,neutral,female,-1
+neutral/bar/00007_seed1137474524.png,bar,neutral,0.0,0.85,1,0,neutral,female,-1
+neutral/bar/00007_seed1141424151.png,bar,neutral,0.0,0.9,1,0,neutral,female,-1
+neutral/bar/00007_seed1145287776.png,bar,neutral,0.0,0.9,1,0,neutral,female,-1
+neutral/bar/00007_seed1147816019.png,bar,neutral,0.0,0.9,1,0,neutral,female,-1
+neutral/bar/00007_seed1195573566.png,bar,neutral,0.0,0.9,1,0,neutral,female,-1
+neutral/bar/00007_seed1252748274.png,bar,neutral,1.0,0.85,1,0,neutral,male,-1
+neutral/bar/00007_seed1259244049.png,bar,neutral,0.0,0.85,1,0,neutral,male,-1
+neutral/bar/00007_seed1307102119.png,bar,neutral,1.0,0.85,1,0,neutral,female,-1
+neutral/bar/00007_seed1308684619.png,bar,neutral,0.0,0.95,1,0,neutral,female,-1
+neutral/bar/00007_seed1311215792.png,bar,neutral,0.0,0.85,1,0,neutral,female,-1
+neutral/bar/00007_seed1331106823.png,bar,neutral,1.0,0.85,1,0,neutral,female,-1
+neutral/bar/00007_seed1398967362.png,bar,neutral,1.0,0.85,1,0,neutral,female,-1
+neutral/bar/00007_seed1436350489.png,bar,neutral,1.0,0.85,1,0,neutral,female,-1
+neutral/bar/00007_seed1469202295.png,bar,neutral,0.0,0.95,1,0,neutral,female,-1
+neutral/bar/00007_seed1489884728.png,bar,neutral,0.0,0.9,1,0,neutral,female,-1
+neutral/bar/00007_seed1535517229.png,bar,neutral,1.0,0.85,1,0,neutral,female,-1
+neutral/bar/00007_seed1555434160.png,bar,neutral,1.0,0.85,1,0,neutral,female,-1
+neutral/bar/00007_seed1594820897.png,bar,neutral,0.0,0.85,1,0,neutral,female,-1
+neutral/bar/00007_seed1673032460.png,bar,neutral,0.0,0.95,1,0,neutral,female,-1
+neutral/bar/00007_seed173565335.png,bar,neutral,0.0,0.8,1,0,neutral,female,-1
+neutral/bar/00007_seed1772834781.png,bar,neutral,0.0,0.9,1,0,neutral,female,-1
+neutral/bar/00007_seed1797005614.png,bar,neutral,0.0,0.85,1,0,neutral,female,-1
+neutral/bar/00007_seed1832863757.png,bar,neutral,0.0,0.85,1,0,neutral,female,-1
+neutral/bar/00007_seed1842016983.png,bar,neutral,0.0,0.95,1,0,neutral,female,-1
+neutral/bar/00007_seed1927809455.png,bar,neutral,1.0,0.9,1,0,neutral,female,-1
+neutral/bar/00007_seed1932112647.png,bar,neutral,0.0,0.85,1,0,neutral,female,-1
+neutral/bar/00007_seed1939272519.png,bar,neutral,0.0,0.85,1,0,neutral,female,-1
+neutral/bar/00007_seed1941153001.png,bar,neutral,0.0,0.95,1,0,neutral,female,-1
+neutral/bar/00007_seed1947162284.png,bar,neutral,1.0,0.85,1,0,neutral,female,-1
+neutral/bar/00007_seed2023051943.png,bar,neutral,0.0,0.85,1,0,neutral,female,-1
+neutral/bar/00007_seed2074403969.png,bar,neutral,0.0,0.9,1,0,neutral,female,-1
+neutral/bar/00007_seed2096002288.png,bar,neutral,1.0,0.85,1,0,neutral,female,-1
+neutral/bar/00007_seed2103290154.png,bar,neutral,0.0,0.9,1,0,neutral,female,-1
+neutral/bar/00007_seed2139167199.png,bar,neutral,1.0,0.85,1,0,neutral,female,-1
+neutral/bar/00007_seed303202702.png,bar,neutral,1.0,0.95,1,0,neutral,female,-1
+neutral/bar/00007_seed346853611.png,bar,neutral,0.0,0.9,1,0,neutral,female,-1
+neutral/bar/00007_seed398542136.png,bar,neutral,0.0,0.95,1,0,neutral,female,-1
+neutral/bar/00007_seed463277228.png,bar,neutral,0.0,0.95,1,0,neutral,female,-1
+neutral/bar/00007_seed468056361.png,bar,neutral,0.0,0.95,1,0,neutral,female,-1
+neutral/bar/00007_seed551393513.png,bar,neutral,0.0,0.9,1,0,neutral,female,-1
+neutral/bar/00007_seed555395001.png,bar,neutral,1.0,0.85,1,0,neutral,female,-1
+neutral/bar/00007_seed675151387.png,bar,neutral,1.0,0.95,1,0,neutral,female,-1
+neutral/bar/00007_seed720169283.png,bar,neutral,0.0,0.95,1,0,neutral,female,-1
+neutral/bar/00007_seed909019820.png,bar,neutral,0.0,0.85,1,0,neutral,female,-1
+neutral/bar/00007_seed948818254.png,bar,neutral,1.0,0.9,1,0,neutral,female,-1
+neutral/bar/00007_seed979933114.png,bar,neutral,0.0,0.85,1,0,neutral,female,-1
+neutral/board meeting/00004_seed1015656914.png,board meeting,neutral,0.0,0.95,1,0,neutral,female,-1
+neutral/board meeting/00004_seed1022577529.png,board meeting,neutral,0.0,0.85,1,0,neutral,female,-1
+neutral/board meeting/00004_seed1024528931.png,board meeting,neutral,0.0,0.95,1,0,neutral,female,-1
+neutral/board meeting/00004_seed1073104719.png,board meeting,neutral,0.9,0.95,1,0,neutral,female,-1
+neutral/board meeting/00004_seed1112550068.png,board meeting,neutral,0.85,0.9,0,0,female,female,0
+neutral/board meeting/00004_seed1127245244.png,board meeting,neutral,0.0,0.0,1,1,neutral,neutral,0
+neutral/board meeting/00004_seed1133152860.png,board meeting,neutral,0.9,0.0,1,1,neutral,neutral,0
+neutral/board meeting/00004_seed1195331117.png,board meeting,neutral,0.0,0.85,1,0,neutral,female,-1
+neutral/board meeting/00004_seed1205548526.png,board meeting,neutral,0.0,0.95,1,0,neutral,female,-1
+neutral/board meeting/00004_seed1279893237.png,board meeting,neutral,0.0,0.9,1,0,neutral,female,-1
+neutral/board meeting/00004_seed1367268694.png,board meeting,neutral,1.0,0.95,1,0,neutral,female,-1
+neutral/board meeting/00004_seed1391123321.png,board meeting,neutral,0.0,0.95,1,0,neutral,female,-1
+neutral/board meeting/00004_seed1574720541.png,board meeting,neutral,0.0,0.95,1,0,neutral,female,-1
+neutral/board meeting/00004_seed160558494.png,board meeting,neutral,1.0,0.95,1,0,neutral,female,-1
+neutral/board meeting/00004_seed1626661591.png,board meeting,neutral,0.0,0.95,1,0,neutral,female,-1
+neutral/board meeting/00004_seed1636141438.png,board meeting,neutral,1.0,0.85,1,0,neutral,female,-1
+neutral/board meeting/00004_seed1665600562.png,board meeting,neutral,0.0,0.9,1,0,neutral,female,-1
+neutral/board meeting/00004_seed1723399949.png,board meeting,neutral,0.0,0.95,1,0,neutral,female,-1
+neutral/board meeting/00004_seed1741291250.png,board meeting,neutral,1.0,0.0,1,1,neutral,neutral,0
+neutral/board meeting/00004_seed1742566885.png,board meeting,neutral,0.0,0.0,1,1,neutral,neutral,0
+neutral/board meeting/00004_seed1754813601.png,board meeting,neutral,1.0,0.95,1,0,neutral,female,-1
+neutral/board meeting/00004_seed1773327393.png,board meeting,neutral,0.0,0.9,1,0,neutral,female,-1
+neutral/board meeting/00004_seed1780443511.png,board meeting,neutral,0.0,0.9,1,0,neutral,female,-1
+neutral/board meeting/00004_seed1784204930.png,board meeting,neutral,0.0,0.85,1,0,neutral,female,-1
+neutral/board meeting/00004_seed1792512534.png,board meeting,neutral,0.0,0.85,1,0,neutral,female,-1
+neutral/board meeting/00004_seed1803393694.png,board meeting,neutral,0.0,0.95,1,0,neutral,male,-1
+neutral/board meeting/00004_seed1859256948.png,board meeting,neutral,0.0,0.0,1,1,neutral,neutral,0
+neutral/board meeting/00004_seed1922159111.png,board meeting,neutral,1.0,0.95,1,0,neutral,female,-1
+neutral/board meeting/00004_seed1925187186.png,board meeting,neutral,0.0,0.85,1,0,neutral,male,-1
+neutral/board meeting/00004_seed1968565358.png,board meeting,neutral,0.0,0.9,1,0,neutral,female,-1
+neutral/board meeting/00004_seed2004798247.png,board meeting,neutral,0.0,0.9,1,0,neutral,female,-1
+neutral/board meeting/00004_seed2076217263.png,board meeting,neutral,0.0,0.9,1,0,neutral,female,-1
+neutral/board meeting/00004_seed208190926.png,board meeting,neutral,0.0,0.95,1,0,neutral,female,-1
+neutral/board meeting/00004_seed239255908.png,board meeting,neutral,0.0,0.85,1,0,neutral,female,-1
+neutral/board meeting/00004_seed261844852.png,board meeting,neutral,0.95,0.95,0,0,female,female,0
+neutral/board meeting/00004_seed323469292.png,board meeting,neutral,0.0,0.85,1,0,neutral,female,-1
+neutral/board meeting/00004_seed335588026.png,board meeting,neutral,1.0,0.9,1,0,neutral,female,-1
+neutral/board meeting/00004_seed360880931.png,board meeting,neutral,0.0,0.95,1,0,neutral,female,-1
+neutral/board meeting/00004_seed372427320.png,board meeting,neutral,0.0,0.0,1,1,neutral,neutral,0
+neutral/board meeting/00004_seed452721670.png,board meeting,neutral,0.0,0.85,1,0,neutral,female,-1
+neutral/board meeting/00004_seed462420716.png,board meeting,neutral,0.0,0.9,1,0,neutral,female,-1
+neutral/board meeting/00004_seed504298114.png,board meeting,neutral,1.0,0.9,1,0,neutral,female,-1
+neutral/board meeting/00004_seed56002624.png,board meeting,neutral,0.0,0.95,1,0,neutral,female,-1
+neutral/board meeting/00004_seed6363056.png,board meeting,neutral,0.0,0.95,1,0,neutral,female,-1
+neutral/board meeting/00004_seed651914400.png,board meeting,neutral,0.0,0.9,1,0,neutral,female,-1
+neutral/board meeting/00004_seed704285467.png,board meeting,neutral,0.0,0.0,1,1,neutral,neutral,0
+neutral/board meeting/00004_seed750265757.png,board meeting,neutral,1.0,0.95,1,0,neutral,female,-1
+neutral/board meeting/00004_seed813932292.png,board meeting,neutral,0.0,0.95,1,0,neutral,female,-1
+neutral/board meeting/00004_seed8270792.png,board meeting,neutral,0.0,0.85,1,0,neutral,female,-1
+neutral/board meeting/00004_seed980485693.png,board meeting,neutral,0.0,0.9,1,0,neutral,female,-1
+neutral/home kitchen/00009_seed1011294513.png,home kitchen,neutral,0.0,0.85,1,0,neutral,female,-1
+neutral/home kitchen/00009_seed1125402556.png,home kitchen,neutral,0.0,0.95,1,0,neutral,female,-1
+neutral/home kitchen/00009_seed11752172.png,home kitchen,neutral,1.0,0.95,1,0,neutral,female,-1
+neutral/home kitchen/00009_seed1254744611.png,home kitchen,neutral,0.0,0.95,1,0,neutral,male,-1
+neutral/home kitchen/00009_seed1347911061.png,home kitchen,neutral,0.0,0.95,1,0,neutral,male,-1
+neutral/home kitchen/00009_seed1360407212.png,home kitchen,neutral,0.8,0.95,0,0,female,female,0
+neutral/home kitchen/00009_seed1387093381.png,home kitchen,neutral,0.0,0.85,1,0,neutral,female,-1
+neutral/home kitchen/00009_seed139879912.png,home kitchen,neutral,0.0,0.95,1,0,neutral,female,-1
+neutral/home kitchen/00009_seed1414947144.png,home kitchen,neutral,0.0,0.95,1,0,neutral,female,-1
+neutral/home kitchen/00009_seed1426814165.png,home kitchen,neutral,0.9,0.9,1,0,neutral,female,-1
+neutral/home kitchen/00009_seed146290461.png,home kitchen,neutral,0.0,0.9,1,0,neutral,female,-1
+neutral/home kitchen/00009_seed1497809034.png,home kitchen,neutral,0.8,0.95,0,0,female,female,0
+neutral/home kitchen/00009_seed1506871494.png,home kitchen,neutral,1.0,0.95,1,0,neutral,female,-1
+neutral/home kitchen/00009_seed1564447675.png,home kitchen,neutral,0.0,0.95,1,0,neutral,female,-1
+neutral/home kitchen/00009_seed1658430717.png,home kitchen,neutral,1.0,0.9,1,0,neutral,female,-1
+neutral/home kitchen/00009_seed1665432580.png,home kitchen,neutral,0.0,0.9,1,0,neutral,female,-1
+neutral/home kitchen/00009_seed1681091063.png,home kitchen,neutral,0.0,0.85,1,0,neutral,male,-1
+neutral/home kitchen/00009_seed1741064321.png,home kitchen,neutral,0.0,0.85,1,0,neutral,female,-1
+neutral/home kitchen/00009_seed1749561329.png,home kitchen,neutral,0.0,0.95,1,0,neutral,female,-1
+neutral/home kitchen/00009_seed1766885593.png,home kitchen,neutral,0.0,0.95,1,0,neutral,female,-1
+neutral/home kitchen/00009_seed1789814901.png,home kitchen,neutral,0.0,0.9,1,0,neutral,female,-1
+neutral/home kitchen/00009_seed1803291740.png,home kitchen,neutral,0.0,0.95,1,0,neutral,female,-1
+neutral/home kitchen/00009_seed1824966993.png,home kitchen,neutral,0.0,0.85,1,0,neutral,female,-1
+neutral/home kitchen/00009_seed1850920817.png,home kitchen,neutral,0.0,0.95,1,0,neutral,male,-1
+neutral/home kitchen/00009_seed1910120075.png,home kitchen,neutral,0.0,0.9,1,0,neutral,female,-1
+neutral/home kitchen/00009_seed1931973711.png,home kitchen,neutral,0.0,0.9,1,0,neutral,male,-1
+neutral/home kitchen/00009_seed1961822593.png,home kitchen,neutral,0.0,0.9,1,0,neutral,female,-1
+neutral/home kitchen/00009_seed200217189.png,home kitchen,neutral,0.0,0.95,1,0,neutral,female,-1
+neutral/home kitchen/00009_seed2088921791.png,home kitchen,neutral,0.0,0.85,1,0,neutral,female,-1
+neutral/home kitchen/00009_seed20926321.png,home kitchen,neutral,0.0,0.9,1,0,neutral,female,-1
+neutral/home kitchen/00009_seed2122788661.png,home kitchen,neutral,0.9,0.9,1,0,neutral,female,-1
+neutral/home kitchen/00009_seed346619858.png,home kitchen,neutral,0.0,0.9,1,0,neutral,female,-1
+neutral/home kitchen/00009_seed430513163.png,home kitchen,neutral,0.0,0.95,1,0,neutral,female,-1
+neutral/home kitchen/00009_seed431222589.png,home kitchen,neutral,0.0,0.85,1,0,neutral,female,-1
+neutral/home kitchen/00009_seed496539305.png,home kitchen,neutral,0.0,0.85,1,0,neutral,male,-1
+neutral/home kitchen/00009_seed509717409.png,home kitchen,neutral,0.0,0.95,1,0,neutral,female,-1
+neutral/home kitchen/00009_seed53498803.png,home kitchen,neutral,1.0,0.85,1,0,neutral,female,-1
+neutral/home kitchen/00009_seed562073380.png,home kitchen,neutral,1.0,0.9,1,0,neutral,female,-1
+neutral/home kitchen/00009_seed568605893.png,home kitchen,neutral,1.0,0.85,1,0,neutral,female,-1
+neutral/home kitchen/00009_seed611395057.png,home kitchen,neutral,0.0,0.95,1,0,neutral,female,-1
+neutral/home kitchen/00009_seed621171902.png,home kitchen,neutral,0.0,0.9,1,0,neutral,female,-1
+neutral/home kitchen/00009_seed696424922.png,home kitchen,neutral,1.0,0.95,1,0,neutral,female,-1
+neutral/home kitchen/00009_seed70521153.png,home kitchen,neutral,0.0,0.85,1,0,neutral,female,-1
+neutral/home kitchen/00009_seed796363886.png,home kitchen,neutral,0.0,0.95,1,0,neutral,female,-1
+neutral/home kitchen/00009_seed833755979.png,home kitchen,neutral,0.0,0.95,1,0,neutral,female,-1
+neutral/home kitchen/00009_seed840707811.png,home kitchen,neutral,0.0,0.85,1,0,neutral,female,-1
+neutral/home kitchen/00009_seed864413952.png,home kitchen,neutral,0.0,0.95,1,0,neutral,female,-1
+neutral/home kitchen/00009_seed948493095.png,home kitchen,neutral,0.0,0.9,1,0,neutral,female,-1
+neutral/home kitchen/00009_seed957590823.png,home kitchen,neutral,1.0,0.9,1,0,neutral,male,-1
+neutral/home kitchen/00009_seed962944207.png,home kitchen,neutral,0.0,0.95,1,0,neutral,female,-1
+neutral/hospital ward/00002_seed1042133212.png,hospital ward,neutral,0.8,0.95,0,0,female,female,0
+neutral/hospital ward/00002_seed105252575.png,hospital ward,neutral,0.0,0.95,1,0,neutral,female,-1
+neutral/hospital ward/00002_seed1095224035.png,hospital ward,neutral,0.0,0.95,1,0,neutral,female,-1
+neutral/hospital ward/00002_seed1186405737.png,hospital ward,neutral,0.0,0.95,1,0,neutral,female,-1
+neutral/hospital ward/00002_seed1186446312.png,hospital ward,neutral,0.0,0.9,1,0,neutral,female,-1
+neutral/hospital ward/00002_seed1209530559.png,hospital ward,neutral,1.0,0.95,1,0,neutral,female,-1
+neutral/hospital ward/00002_seed1230890195.png,hospital ward,neutral,0.0,0.95,1,0,neutral,female,-1
+neutral/hospital ward/00002_seed1349384669.png,hospital ward,neutral,0.0,0.95,1,0,neutral,female,-1
+neutral/hospital ward/00002_seed136428994.png,hospital ward,neutral,0.0,0.95,1,0,neutral,female,-1
+neutral/hospital ward/00002_seed1367737930.png,hospital ward,neutral,0.9,0.95,1,0,neutral,female,-1
+neutral/hospital ward/00002_seed1411911100.png,hospital ward,neutral,0.0,0.95,1,0,neutral,female,-1
+neutral/hospital ward/00002_seed1422469640.png,hospital ward,neutral,0.0,0.95,1,0,neutral,female,-1
+neutral/hospital ward/00002_seed1452188255.png,hospital ward,neutral,0.0,0.95,1,0,neutral,female,-1
+neutral/hospital ward/00002_seed1497938996.png,hospital ward,neutral,0.0,0.95,1,0,neutral,female,-1
+neutral/hospital ward/00002_seed1539471697.png,hospital ward,neutral,0.0,0.95,1,0,neutral,female,-1
+neutral/hospital ward/00002_seed1552001782.png,hospital ward,neutral,0.0,0.0,1,1,neutral,neutral,0
+neutral/hospital ward/00002_seed1565347719.png,hospital ward,neutral,0.0,0.9,1,0,neutral,female,-1
+neutral/hospital ward/00002_seed160031455.png,hospital ward,neutral,0.0,0.95,1,0,neutral,female,-1
+neutral/hospital ward/00002_seed160508333.png,hospital ward,neutral,0.0,0.95,1,0,neutral,female,-1
+neutral/hospital ward/00002_seed1607558744.png,hospital ward,neutral,0.0,0.95,1,0,neutral,female,-1
+neutral/hospital ward/00002_seed1665786599.png,hospital ward,neutral,0.0,0.95,1,0,neutral,female,-1
+neutral/hospital ward/00002_seed171204300.png,hospital ward,neutral,0.0,0.9,1,0,neutral,female,-1
+neutral/hospital ward/00002_seed1758712759.png,hospital ward,neutral,0.0,0.95,1,0,neutral,female,-1
+neutral/hospital ward/00002_seed1806870694.png,hospital ward,neutral,0.0,0.9,1,0,neutral,female,-1
+neutral/hospital ward/00002_seed1811584772.png,hospital ward,neutral,0.0,0.95,1,0,neutral,female,-1
+neutral/hospital ward/00002_seed1862378249.png,hospital ward,neutral,0.85,0.95,0,0,female,female,0
+neutral/hospital ward/00002_seed1931242311.png,hospital ward,neutral,0.0,0.9,1,0,neutral,female,-1
+neutral/hospital ward/00002_seed1935918908.png,hospital ward,neutral,0.0,0.95,1,0,neutral,female,-1
+neutral/hospital ward/00002_seed2054461085.png,hospital ward,neutral,0.8,0.95,0,0,female,female,0
+neutral/hospital ward/00002_seed2120224723.png,hospital ward,neutral,0.0,0.95,1,0,neutral,female,-1
+neutral/hospital ward/00002_seed2140262419.png,hospital ward,neutral,0.0,0.0,1,1,neutral,neutral,0
+neutral/hospital ward/00002_seed2143448196.png,hospital ward,neutral,0.0,0.95,1,0,neutral,female,-1
+neutral/hospital ward/00002_seed22909678.png,hospital ward,neutral,0.0,0.95,1,0,neutral,female,-1
+neutral/hospital ward/00002_seed260061562.png,hospital ward,neutral,0.85,0.95,0,0,female,female,0
+neutral/hospital ward/00002_seed263242044.png,hospital ward,neutral,0.0,0.95,1,0,neutral,female,-1
+neutral/hospital ward/00002_seed312744857.png,hospital ward,neutral,0.0,0.95,1,0,neutral,female,-1
+neutral/hospital ward/00002_seed325070760.png,hospital ward,neutral,0.0,0.95,1,0,neutral,female,-1
+neutral/hospital ward/00002_seed333365441.png,hospital ward,neutral,0.0,0.95,1,0,neutral,female,-1
+neutral/hospital ward/00002_seed439150029.png,hospital ward,neutral,0.0,0.95,1,0,neutral,female,-1
+neutral/hospital ward/00002_seed566128773.png,hospital ward,neutral,0.0,0.95,1,0,neutral,female,-1
+neutral/hospital ward/00002_seed584471171.png,hospital ward,neutral,0.0,0.95,1,0,neutral,female,-1
+neutral/hospital ward/00002_seed596460600.png,hospital ward,neutral,0.0,0.95,1,0,neutral,female,-1
+neutral/hospital ward/00002_seed623874228.png,hospital ward,neutral,0.0,0.9,1,0,neutral,female,-1
+neutral/hospital ward/00002_seed631091973.png,hospital ward,neutral,0.0,0.95,1,0,neutral,female,-1
+neutral/hospital ward/00002_seed703461735.png,hospital ward,neutral,0.0,0.95,1,0,neutral,female,-1
+neutral/hospital ward/00002_seed707269514.png,hospital ward,neutral,0.8,0.95,0,0,female,female,0
+neutral/hospital ward/00002_seed782214435.png,hospital ward,neutral,0.85,0.9,0,0,female,female,0
+neutral/hospital ward/00002_seed892655218.png,hospital ward,neutral,0.0,0.95,1,0,neutral,female,-1
+neutral/hospital ward/00002_seed934711878.png,hospital ward,neutral,0.0,0.9,1,0,neutral,female,-1
+neutral/hospital ward/00002_seed985384888.png,hospital ward,neutral,0.9,0.9,1,0,neutral,female,-1
+neutral/mining site/00006_seed1021033545.png,mining site,neutral,0.0,0.85,1,0,neutral,male,-1
+neutral/mining site/00006_seed1027293742.png,mining site,neutral,0.0,0.85,1,0,neutral,female,-1
+neutral/mining site/00006_seed1028626878.png,mining site,neutral,0.9,0.85,1,0,neutral,female,-1
+neutral/mining site/00006_seed1077338739.png,mining site,neutral,0.9,0.85,1,0,neutral,male,-1
+neutral/mining site/00006_seed1136488467.png,mining site,neutral,0.0,0.85,1,0,neutral,female,-1
+neutral/mining site/00006_seed1164647943.png,mining site,neutral,1.0,0.85,1,0,neutral,female,-1
+neutral/mining site/00006_seed1180404572.png,mining site,neutral,0.0,0.85,1,0,neutral,female,-1
+neutral/mining site/00006_seed1238117743.png,mining site,neutral,0.0,0.85,1,0,neutral,female,-1
+neutral/mining site/00006_seed1269800234.png,mining site,neutral,0.0,0.85,1,0,neutral,female,-1
+neutral/mining site/00006_seed1305893144.png,mining site,neutral,0.0,0.85,1,0,neutral,female,-1
+neutral/mining site/00006_seed1324413350.png,mining site,neutral,1.0,0.85,1,0,neutral,female,-1
+neutral/mining site/00006_seed1365366649.png,mining site,neutral,0.0,0.85,1,0,neutral,female,-1
+neutral/mining site/00006_seed1376702913.png,mining site,neutral,0.9,0.85,1,0,neutral,female,-1
+neutral/mining site/00006_seed1395268867.png,mining site,neutral,0.0,0.85,1,0,neutral,female,-1
+neutral/mining site/00006_seed1433410268.png,mining site,neutral,0.0,0.85,1,0,neutral,female,-1
+neutral/mining site/00006_seed1475690996.png,mining site,neutral,0.0,0.85,1,0,neutral,female,-1
+neutral/mining site/00006_seed1490731038.png,mining site,neutral,0.0,0.95,1,0,neutral,male,-1
+neutral/mining site/00006_seed1531747011.png,mining site,neutral,0.9,0.85,1,0,neutral,male,-1
+neutral/mining site/00006_seed1554496797.png,mining site,neutral,0.0,0.85,1,0,neutral,female,-1
+neutral/mining site/00006_seed1578100155.png,mining site,neutral,0.0,0.8,1,0,neutral,female,-1
+neutral/mining site/00006_seed1589946695.png,mining site,neutral,0.0,0.85,1,0,neutral,male,-1
+neutral/mining site/00006_seed16731741.png,mining site,neutral,0.0,0.85,1,0,neutral,female,-1
+neutral/mining site/00006_seed1772995687.png,mining site,neutral,1.0,0.85,1,0,neutral,female,-1
+neutral/mining site/00006_seed1789303601.png,mining site,neutral,0.0,0.85,1,0,neutral,male,-1
+neutral/mining site/00006_seed1823080628.png,mining site,neutral,0.0,0.85,1,0,neutral,male,-1
+neutral/mining site/00006_seed1837446832.png,mining site,neutral,0.9,0.5,1,1,neutral,neutral,0
+neutral/mining site/00006_seed1974620911.png,mining site,neutral,0.0,0.85,1,0,neutral,female,-1
+neutral/mining site/00006_seed1993367611.png,mining site,neutral,0.0,0.9,1,0,neutral,female,-1
+neutral/mining site/00006_seed2009184098.png,mining site,neutral,1.0,0.9,1,0,neutral,female,-1
+neutral/mining site/00006_seed2056285715.png,mining site,neutral,0.0,0.85,1,0,neutral,male,-1
+neutral/mining site/00006_seed27154158.png,mining site,neutral,1.0,0.85,1,0,neutral,female,-1
+neutral/mining site/00006_seed277826359.png,mining site,neutral,0.0,0.85,1,0,neutral,female,-1
+neutral/mining site/00006_seed306604356.png,mining site,neutral,0.9,0.85,1,0,neutral,female,-1
+neutral/mining site/00006_seed449533245.png,mining site,neutral,1.0,0.85,1,0,neutral,female,-1
+neutral/mining site/00006_seed495987982.png,mining site,neutral,0.9,0.85,1,0,neutral,female,-1
+neutral/mining site/00006_seed499839705.png,mining site,neutral,0.0,0.85,1,0,neutral,female,-1
+neutral/mining site/00006_seed558570543.png,mining site,neutral,0.0,0.85,1,0,neutral,female,-1
+neutral/mining site/00006_seed559269272.png,mining site,neutral,0.0,0.85,1,0,neutral,female,-1
+neutral/mining site/00006_seed563935088.png,mining site,neutral,0.9,0.85,1,0,neutral,female,-1
+neutral/mining site/00006_seed594663343.png,mining site,neutral,0.0,0.85,1,0,neutral,female,-1
+neutral/mining site/00006_seed646094060.png,mining site,neutral,1.0,0.9,1,0,neutral,female,-1
+neutral/mining site/00006_seed694598129.png,mining site,neutral,0.0,0.85,1,0,neutral,female,-1
+neutral/mining site/00006_seed709538788.png,mining site,neutral,0.9,0.85,1,0,neutral,female,-1
+neutral/mining site/00006_seed782958872.png,mining site,neutral,0.9,0.85,1,0,neutral,female,-1
+neutral/mining site/00006_seed785543421.png,mining site,neutral,0.0,0.85,1,0,neutral,female,-1
+neutral/mining site/00006_seed859231702.png,mining site,neutral,1.0,0.85,1,0,neutral,female,-1
+neutral/mining site/00006_seed964162836.png,mining site,neutral,1.0,0.85,1,0,neutral,female,-1
+neutral/mining site/00006_seed969409776.png,mining site,neutral,0.0,0.85,1,0,neutral,female,-1
+neutral/mining site/00006_seed975147918.png,mining site,neutral,0.0,0.85,1,0,neutral,male,-1
+neutral/mining site/00006_seed99404751.png,mining site,neutral,1.0,0.85,1,0,neutral,female,-1
+neutral/office/00005_seed1000720661.png,office,neutral,1.0,0.95,1,0,neutral,female,-1
+neutral/office/00005_seed1135703439.png,office,neutral,0.85,0.95,0,0,female,female,0
+neutral/office/00005_seed1139345363.png,office,neutral,0.0,0.95,1,0,neutral,female,-1
+neutral/office/00005_seed1293221418.png,office,neutral,0.0,0.95,1,0,neutral,female,-1
+neutral/office/00005_seed1333399064.png,office,neutral,0.85,0.95,0,0,female,female,0
+neutral/office/00005_seed1390246399.png,office,neutral,0.0,0.95,1,0,neutral,female,-1
+neutral/office/00005_seed1411384985.png,office,neutral,0.0,0.95,1,0,neutral,female,-1
+neutral/office/00005_seed1473755025.png,office,neutral,0.0,0.95,1,0,neutral,female,-1
+neutral/office/00005_seed149863383.png,office,neutral,0.0,0.95,1,0,neutral,female,-1
+neutral/office/00005_seed1530597350.png,office,neutral,1.0,0.95,1,0,neutral,female,-1
+neutral/office/00005_seed1549030130.png,office,neutral,1.0,0.95,1,0,neutral,female,-1
+neutral/office/00005_seed1560373212.png,office,neutral,1.0,0.95,1,0,neutral,female,-1
+neutral/office/00005_seed1628420564.png,office,neutral,0.0,0.95,1,0,neutral,female,-1
+neutral/office/00005_seed1649663335.png,office,neutral,0.0,0.95,1,0,neutral,female,-1
+neutral/office/00005_seed1729520569.png,office,neutral,0.0,0.95,1,0,neutral,female,-1
+neutral/office/00005_seed1731731424.png,office,neutral,0.0,0.95,1,0,neutral,female,-1
+neutral/office/00005_seed1747448694.png,office,neutral,0.0,0.95,1,0,neutral,female,-1
+neutral/office/00005_seed1770817217.png,office,neutral,0.0,0.95,1,0,neutral,female,-1
+neutral/office/00005_seed1771679419.png,office,neutral,1.0,0.95,1,0,neutral,female,-1
+neutral/office/00005_seed1774521523.png,office,neutral,1.0,0.9,1,0,neutral,female,-1
+neutral/office/00005_seed1806349168.png,office,neutral,1.0,0.95,1,0,neutral,female,-1
+neutral/office/00005_seed1830866565.png,office,neutral,0.0,0.95,1,0,neutral,female,-1
+neutral/office/00005_seed187839756.png,office,neutral,0.0,0.95,1,0,neutral,female,-1
+neutral/office/00005_seed1884895243.png,office,neutral,0.0,0.95,1,0,neutral,female,-1
+neutral/office/00005_seed1887667169.png,office,neutral,0.0,0.9,1,0,neutral,female,-1
+neutral/office/00005_seed1907613489.png,office,neutral,1.0,0.95,1,0,neutral,female,-1
+neutral/office/00005_seed1922488815.png,office,neutral,1.0,0.95,1,0,neutral,female,-1
+neutral/office/00005_seed1956400014.png,office,neutral,0.0,0.95,1,0,neutral,female,-1
+neutral/office/00005_seed2022648241.png,office,neutral,1.0,0.95,1,0,neutral,female,-1
+neutral/office/00005_seed2096239481.png,office,neutral,1.0,0.95,1,0,neutral,female,-1
+neutral/office/00005_seed212577463.png,office,neutral,1.0,0.95,1,0,neutral,female,-1
+neutral/office/00005_seed451131109.png,office,neutral,0.0,0.95,1,0,neutral,female,-1
+neutral/office/00005_seed454136558.png,office,neutral,1.0,0.95,1,0,neutral,female,-1
+neutral/office/00005_seed509420469.png,office,neutral,1.0,0.95,1,0,neutral,female,-1
+neutral/office/00005_seed531438735.png,office,neutral,1.0,0.95,1,0,neutral,female,-1
+neutral/office/00005_seed63606598.png,office,neutral,1.0,0.95,1,0,neutral,female,-1
+neutral/office/00005_seed647209794.png,office,neutral,1.0,0.95,1,0,neutral,female,-1
+neutral/office/00005_seed700460160.png,office,neutral,0.0,0.95,1,0,neutral,female,-1
+neutral/office/00005_seed721041819.png,office,neutral,1.0,0.95,1,0,neutral,female,-1
+neutral/office/00005_seed72746543.png,office,neutral,0.0,0.9,1,0,neutral,female,-1
+neutral/office/00005_seed750900307.png,office,neutral,1.0,0.95,1,0,neutral,female,-1
+neutral/office/00005_seed794569318.png,office,neutral,1.0,0.95,1,0,neutral,female,-1
+neutral/office/00005_seed805077229.png,office,neutral,0.0,0.95,1,0,neutral,female,-1
+neutral/office/00005_seed818561295.png,office,neutral,0.0,0.95,1,0,neutral,female,-1
+neutral/office/00005_seed821038753.png,office,neutral,1.0,0.95,1,0,neutral,female,-1
+neutral/office/00005_seed82378323.png,office,neutral,1.0,0.95,1,0,neutral,female,-1
+neutral/office/00005_seed888573474.png,office,neutral,0.0,0.95,1,0,neutral,female,-1
+neutral/office/00005_seed894602718.png,office,neutral,0.0,0.95,1,0,neutral,female,-1
+neutral/office/00005_seed931195103.png,office,neutral,1.0,0.95,1,0,neutral,female,-1
+neutral/office/00005_seed958462439.png,office,neutral,1.0,0.95,1,0,neutral,female,-1
+neutral/operating room/00001_seed1008419247.png,operating room,neutral,1.0,0.0,1,1,neutral,neutral,0
+neutral/operating room/00001_seed1010058340.png,operating room,neutral,0.0,0.7,1,1,neutral,neutral,0
+neutral/operating room/00001_seed103400965.png,operating room,neutral,0.0,0.0,1,1,neutral,neutral,0
+neutral/operating room/00001_seed1044278339.png,operating room,neutral,0.0,0.0,1,1,neutral,neutral,0
+neutral/operating room/00001_seed1059849289.png,operating room,neutral,1.0,0.7,1,1,neutral,neutral,0
+neutral/operating room/00001_seed106516786.png,operating room,neutral,1.0,0.0,1,1,neutral,neutral,0
+neutral/operating room/00001_seed1076156244.png,operating room,neutral,0.0,0.0,1,1,neutral,neutral,0
+neutral/operating room/00001_seed1092605129.png,operating room,neutral,0.0,0.8,1,1,neutral,neutral,0
+neutral/operating room/00001_seed1135605137.png,operating room,neutral,1.0,0.0,1,1,neutral,neutral,0
+neutral/operating room/00001_seed1161466663.png,operating room,neutral,1.0,0.7,1,1,neutral,neutral,0
+neutral/operating room/00001_seed1212598459.png,operating room,neutral,1.0,0.85,1,0,neutral,male,-1
+neutral/operating room/00001_seed1286847974.png,operating room,neutral,0.0,0.8,1,1,neutral,neutral,0
+neutral/operating room/00001_seed1313898913.png,operating room,neutral,1.0,0.0,1,1,neutral,neutral,0
+neutral/operating room/00001_seed135929626.png,operating room,neutral,1.0,0.8,1,1,neutral,neutral,0
+neutral/operating room/00001_seed1360404937.png,operating room,neutral,0.0,0.0,1,1,neutral,neutral,0
+neutral/operating room/00001_seed1364369962.png,operating room,neutral,0.0,0.0,1,1,neutral,neutral,0
+neutral/operating room/00001_seed1378738644.png,operating room,neutral,0.0,0.85,1,0,neutral,male,-1
+neutral/operating room/00001_seed1405835386.png,operating room,neutral,1.0,0.0,1,1,neutral,neutral,0
+neutral/operating room/00001_seed14362053.png,operating room,neutral,1.0,0.0,1,1,neutral,neutral,0
+neutral/operating room/00001_seed1440302996.png,operating room,neutral,0.0,0.0,1,1,neutral,neutral,0
+neutral/operating room/00001_seed173512138.png,operating room,neutral,1.0,0.0,1,1,neutral,neutral,0
+neutral/operating room/00001_seed174555926.png,operating room,neutral,0.0,0.0,1,1,neutral,neutral,0
+neutral/operating room/00001_seed1759957826.png,operating room,neutral,1.0,0.7,1,1,neutral,neutral,0
+neutral/operating room/00001_seed1767385898.png,operating room,neutral,0.0,0.0,1,1,neutral,neutral,0
+neutral/operating room/00001_seed1814333968.png,operating room,neutral,0.0,0.0,1,1,neutral,neutral,0
+neutral/operating room/00001_seed1853840224.png,operating room,neutral,0.0,0.0,1,1,neutral,neutral,0
+neutral/operating room/00001_seed1864308808.png,operating room,neutral,1.0,0.0,1,1,neutral,neutral,0
+neutral/operating room/00001_seed187455853.png,operating room,neutral,1.0,0.7,1,0,neutral,male,-1
+neutral/operating room/00001_seed191042624.png,operating room,neutral,1.0,0.0,1,1,neutral,neutral,0
+neutral/operating room/00001_seed1974234067.png,operating room,neutral,0.0,0.0,1,1,neutral,neutral,0
+neutral/operating room/00001_seed1992062631.png,operating room,neutral,1.0,0.0,1,1,neutral,neutral,0
+neutral/operating room/00001_seed2006461584.png,operating room,neutral,1.0,0.8,1,0,neutral,male,-1
+neutral/operating room/00001_seed2058644644.png,operating room,neutral,1.0,0.0,1,1,neutral,neutral,0
+neutral/operating room/00001_seed2067843063.png,operating room,neutral,0.0,0.0,1,1,neutral,neutral,0
+neutral/operating room/00001_seed2096608272.png,operating room,neutral,0.0,0.0,1,1,neutral,neutral,0
+neutral/operating room/00001_seed2104455538.png,operating room,neutral,0.0,0.0,1,1,neutral,neutral,0
+neutral/operating room/00001_seed2136944888.png,operating room,neutral,0.0,0.0,1,1,neutral,neutral,0
+neutral/operating room/00001_seed220400036.png,operating room,neutral,0.0,0.0,1,1,neutral,neutral,0
+neutral/operating room/00001_seed274481778.png,operating room,neutral,1.0,0.7,1,1,neutral,neutral,0
+neutral/operating room/00001_seed275535278.png,operating room,neutral,1.0,0.0,1,1,neutral,neutral,0
+neutral/operating room/00001_seed319000250.png,operating room,neutral,1.0,0.7,1,1,neutral,neutral,0
+neutral/operating room/00001_seed325807984.png,operating room,neutral,1.0,0.0,1,1,neutral,neutral,0
+neutral/operating room/00001_seed337059341.png,operating room,neutral,1.0,0.7,1,1,neutral,neutral,0
+neutral/operating room/00001_seed467753271.png,operating room,neutral,0.0,0.0,1,1,neutral,neutral,0
+neutral/operating room/00001_seed483733504.png,operating room,neutral,0.0,0.7,1,1,neutral,neutral,0
+neutral/operating room/00001_seed632357744.png,operating room,neutral,1.0,0.7,1,1,neutral,neutral,0
+neutral/operating room/00001_seed803633816.png,operating room,neutral,0.0,0.0,1,1,neutral,neutral,0
+neutral/operating room/00001_seed825977479.png,operating room,neutral,1.0,0.0,1,1,neutral,neutral,0
+neutral/operating room/00001_seed926482919.png,operating room,neutral,1.0,0.0,1,1,neutral,neutral,0
+neutral/operating room/00001_seed947515814.png,operating room,neutral,0.0,0.0,1,1,neutral,neutral,0
+neutral/school/00003_seed1020119007.png,school,neutral,0.85,0.95,0,0,female,female,0
+neutral/school/00003_seed1030410611.png,school,neutral,0.0,0.95,1,0,neutral,female,-1
+neutral/school/00003_seed1040003921.png,school,neutral,0.85,0.95,0,0,female,female,0
+neutral/school/00003_seed1045503785.png,school,neutral,0.9,0.95,1,0,neutral,female,-1
+neutral/school/00003_seed109207902.png,school,neutral,0.0,0.95,1,0,neutral,female,-1
+neutral/school/00003_seed111554911.png,school,neutral,0.0,0.95,1,0,neutral,female,-1
+neutral/school/00003_seed1181301303.png,school,neutral,0.8,0.95,0,0,female,female,0
+neutral/school/00003_seed1208802367.png,school,neutral,0.85,0.95,0,0,female,female,0
+neutral/school/00003_seed1305736858.png,school,neutral,0.8,0.95,0,0,female,female,0
+neutral/school/00003_seed132389752.png,school,neutral,0.0,0.95,1,0,neutral,female,-1
+neutral/school/00003_seed1342484797.png,school,neutral,0.85,0.95,0,0,female,female,0
+neutral/school/00003_seed1371666341.png,school,neutral,1.0,0.95,1,0,neutral,female,-1
+neutral/school/00003_seed1416793856.png,school,neutral,0.0,0.95,1,0,neutral,female,-1
+neutral/school/00003_seed142690319.png,school,neutral,0.85,0.95,0,0,female,female,0
+neutral/school/00003_seed1454678787.png,school,neutral,0.85,0.95,0,0,female,female,0
+neutral/school/00003_seed1470907301.png,school,neutral,0.0,0.95,1,0,neutral,female,-1
+neutral/school/00003_seed1472682599.png,school,neutral,0.0,0.95,1,0,neutral,female,-1
+neutral/school/00003_seed1524398327.png,school,neutral,0.0,0.95,1,0,neutral,female,-1
+neutral/school/00003_seed1525957614.png,school,neutral,0.0,0.95,1,0,neutral,female,-1
+neutral/school/00003_seed1650115453.png,school,neutral,0.0,0.95,1,0,neutral,female,-1
+neutral/school/00003_seed1682082102.png,school,neutral,0.8,0.95,0,0,female,female,0
+neutral/school/00003_seed1712726580.png,school,neutral,0.85,0.95,0,0,female,female,0
+neutral/school/00003_seed182532998.png,school,neutral,0.0,0.95,1,0,neutral,female,-1
+neutral/school/00003_seed1827730557.png,school,neutral,0.0,0.95,1,0,neutral,female,-1
+neutral/school/00003_seed291395164.png,school,neutral,1.0,0.95,1,0,neutral,female,-1
+neutral/school/00003_seed303695456.png,school,neutral,0.0,0.95,1,0,neutral,female,-1
+neutral/school/00003_seed375429497.png,school,neutral,0.0,0.95,1,0,neutral,female,-1
+neutral/school/00003_seed441612898.png,school,neutral,0.0,0.95,1,0,neutral,female,-1
+neutral/school/00003_seed455300527.png,school,neutral,0.85,0.95,0,0,female,female,0
+neutral/school/00003_seed455668779.png,school,neutral,0.0,0.95,1,0,neutral,female,-1
+neutral/school/00003_seed466815839.png,school,neutral,0.0,0.95,1,0,neutral,female,-1
+neutral/school/00003_seed472824652.png,school,neutral,0.0,0.95,1,0,neutral,female,-1
+neutral/school/00003_seed579701694.png,school,neutral,0.0,0.95,1,0,neutral,female,-1
+neutral/school/00003_seed585134486.png,school,neutral,0.0,0.95,1,0,neutral,female,-1
+neutral/school/00003_seed63251221.png,school,neutral,0.0,0.95,1,0,neutral,female,-1
+neutral/school/00003_seed671432965.png,school,neutral,0.0,0.95,1,0,neutral,female,-1
+neutral/school/00003_seed673215478.png,school,neutral,0.0,0.95,1,0,neutral,female,-1
+neutral/school/00003_seed678074784.png,school,neutral,0.0,0.95,1,0,neutral,female,-1
+neutral/school/00003_seed779278281.png,school,neutral,0.85,0.95,0,0,female,female,0
+neutral/school/00003_seed806030170.png,school,neutral,0.0,0.95,1,0,neutral,female,-1
+neutral/school/00003_seed817834388.png,school,neutral,0.85,0.95,0,0,female,female,0
+neutral/school/00003_seed8353905.png,school,neutral,0.0,0.95,1,0,neutral,female,-1
+neutral/school/00003_seed869041959.png,school,neutral,0.0,0.95,1,0,neutral,female,-1
+neutral/school/00003_seed937050693.png,school,neutral,0.0,0.95,1,0,neutral,female,-1
+neutral/school/00003_seed938793140.png,school,neutral,0.0,0.95,1,0,neutral,female,-1
+neutral/school/00003_seed962506603.png,school,neutral,0.0,0.95,1,0,neutral,female,-1
+neutral/school/00003_seed964426362.png,school,neutral,0.0,0.95,1,0,neutral,female,-1
+neutral/school/00003_seed976241782.png,school,neutral,0.0,0.95,1,0,neutral,female,-1
+neutral/school/00003_seed992039020.png,school,neutral,0.85,0.95,0,0,female,female,0
+neutral/school/00003_seed994111951.png,school,neutral,0.0,0.95,1,0,neutral,female,-1
+neutral/soccer field/00008_seed1085865515.png,soccer field,neutral,0.0,0.95,1,0,neutral,female,-1
+neutral/soccer field/00008_seed1131867427.png,soccer field,neutral,0.0,0.95,1,0,neutral,female,-1
+neutral/soccer field/00008_seed1141161102.png,soccer field,neutral,0.0,0.95,1,0,neutral,female,-1
+neutral/soccer field/00008_seed1164752876.png,soccer field,neutral,0.0,0.95,1,0,neutral,female,-1
+neutral/soccer field/00008_seed1262263448.png,soccer field,neutral,0.0,0.95,1,0,neutral,female,-1
+neutral/soccer field/00008_seed1393570175.png,soccer field,neutral,0.0,0.95,1,0,neutral,female,-1
+neutral/soccer field/00008_seed1453092132.png,soccer field,neutral,0.0,0.95,1,0,neutral,female,-1
+neutral/soccer field/00008_seed146848771.png,soccer field,neutral,0.0,0.95,1,0,neutral,female,-1
+neutral/soccer field/00008_seed1496544988.png,soccer field,neutral,0.0,0.95,1,0,neutral,female,-1
+neutral/soccer field/00008_seed151039923.png,soccer field,neutral,0.0,0.95,1,0,neutral,female,-1
+neutral/soccer field/00008_seed1647525063.png,soccer field,neutral,0.0,0.95,1,0,neutral,female,-1
+neutral/soccer field/00008_seed1648851337.png,soccer field,neutral,0.0,0.95,1,0,neutral,female,-1
+neutral/soccer field/00008_seed1653689120.png,soccer field,neutral,0.0,0.95,1,0,neutral,female,-1
+neutral/soccer field/00008_seed1655314476.png,soccer field,neutral,1.0,0.95,1,0,neutral,female,-1
+neutral/soccer field/00008_seed1681691296.png,soccer field,neutral,0.0,0.95,1,0,neutral,female,-1
+neutral/soccer field/00008_seed1684179614.png,soccer field,neutral,1.0,0.95,1,0,neutral,female,-1
+neutral/soccer field/00008_seed1721737891.png,soccer field,neutral,1.0,0.95,1,0,neutral,female,-1
+neutral/soccer field/00008_seed172769837.png,soccer field,neutral,0.0,0.95,1,0,neutral,female,-1
+neutral/soccer field/00008_seed1731457398.png,soccer field,neutral,1.0,0.95,1,0,neutral,female,-1
+neutral/soccer field/00008_seed1748170178.png,soccer field,neutral,0.0,0.95,1,0,neutral,female,-1
+neutral/soccer field/00008_seed1776849133.png,soccer field,neutral,0.0,0.95,1,0,neutral,female,-1
+neutral/soccer field/00008_seed1848490685.png,soccer field,neutral,0.0,0.95,1,0,neutral,female,-1
+neutral/soccer field/00008_seed1880556830.png,soccer field,neutral,0.0,0.95,1,0,neutral,female,-1
+neutral/soccer field/00008_seed1889685050.png,soccer field,neutral,1.0,0.95,1,0,neutral,female,-1
+neutral/soccer field/00008_seed197618746.png,soccer field,neutral,0.0,0.95,1,0,neutral,female,-1
+neutral/soccer field/00008_seed2005751116.png,soccer field,neutral,0.0,0.95,1,0,neutral,female,-1
+neutral/soccer field/00008_seed2036477989.png,soccer field,neutral,0.0,0.95,1,0,neutral,female,-1
+neutral/soccer field/00008_seed20413423.png,soccer field,neutral,0.0,0.95,1,0,neutral,female,-1
+neutral/soccer field/00008_seed2071469963.png,soccer field,neutral,0.0,0.95,1,0,neutral,female,-1
+neutral/soccer field/00008_seed218025502.png,soccer field,neutral,0.0,0.95,1,0,neutral,female,-1
+neutral/soccer field/00008_seed263224540.png,soccer field,neutral,0.0,0.95,1,0,neutral,female,-1
+neutral/soccer field/00008_seed28588913.png,soccer field,neutral,0.0,0.95,1,0,neutral,female,-1
+neutral/soccer field/00008_seed294975966.png,soccer field,neutral,0.0,0.95,1,0,neutral,female,-1
+neutral/soccer field/00008_seed360120564.png,soccer field,neutral,0.0,0.95,1,0,neutral,female,-1
+neutral/soccer field/00008_seed367781901.png,soccer field,neutral,0.0,0.95,1,0,neutral,female,-1
+neutral/soccer field/00008_seed403077091.png,soccer field,neutral,0.0,0.95,1,0,neutral,female,-1
+neutral/soccer field/00008_seed423595198.png,soccer field,neutral,0.0,0.95,1,0,neutral,female,-1
+neutral/soccer field/00008_seed467798119.png,soccer field,neutral,0.0,0.95,1,0,neutral,female,-1
+neutral/soccer field/00008_seed514195940.png,soccer field,neutral,0.0,0.95,1,0,neutral,female,-1
+neutral/soccer field/00008_seed5513440.png,soccer field,neutral,0.0,0.95,1,0,neutral,female,-1
+neutral/soccer field/00008_seed719751487.png,soccer field,neutral,0.0,0.95,1,0,neutral,female,-1
+neutral/soccer field/00008_seed722629286.png,soccer field,neutral,0.0,0.95,1,0,neutral,female,-1
+neutral/soccer field/00008_seed759407802.png,soccer field,neutral,1.0,0.95,1,0,neutral,female,-1
+neutral/soccer field/00008_seed814605162.png,soccer field,neutral,0.0,0.95,1,0,neutral,female,-1
+neutral/soccer field/00008_seed817501502.png,soccer field,neutral,0.0,0.95,1,0,neutral,female,-1
+neutral/soccer field/00008_seed825199914.png,soccer field,neutral,0.0,0.95,1,0,neutral,female,-1
+neutral/soccer field/00008_seed869805496.png,soccer field,neutral,0.0,0.95,1,0,neutral,female,-1
+neutral/soccer field/00008_seed919171299.png,soccer field,neutral,0.0,0.95,1,0,neutral,female,-1
+neutral/soccer field/00008_seed9614008.png,soccer field,neutral,0.0,0.9,1,0,neutral,female,-1
+neutral/soccer field/00008_seed979846610.png,soccer field,neutral,0.0,0.95,1,0,neutral,female,-1

@@ -1,0 +1,140 @@
+{
+  "num_samples": 800,
+  "group_by_pred_gender_mention": {
+    "both": {
+      "num_samples": 10,
+      "chairi_like_sample_mean": 0.824041753589699,
+      "chairs_like": 1.0,
+      "object_precision": null,
+      "object_recall": null,
+      "object_f1": null
+    },
+    "female": {
+      "num_samples": 18,
+      "chairi_like_sample_mean": 0.7502701273389922,
+      "chairs_like": 1.0,
+      "object_precision": null,
+      "object_recall": null,
+      "object_f1": null
+    },
+    "male": {
+      "num_samples": 37,
+      "chairi_like_sample_mean": 0.8208371320769029,
+      "chairs_like": 1.0,
+      "object_precision": null,
+      "object_recall": null,
+      "object_f1": null
+    },
+    "none": {
+      "num_samples": 735,
+      "chairi_like_sample_mean": 0.8328577287190297,
+      "chairs_like": 1.0,
+      "object_precision": null,
+      "object_recall": null,
+      "object_f1": null
+    }
+  },
+  "group_by_scene_pred_gender_mention": {
+    "hospital::both": {
+      "num_samples": 1,
+      "chairi_like_sample_mean": 0.8235294117647058,
+      "chairs_like": 1.0
+    },
+    "hospital::female": {
+      "num_samples": 1,
+      "chairi_like_sample_mean": 0.9302325581395349,
+      "chairs_like": 1.0
+    },
+    "hospital::male": {
+      "num_samples": 6,
+      "chairi_like_sample_mean": 0.7914246672867362,
+      "chairs_like": 1.0
+    },
+    "hospital::none": {
+      "num_samples": 152,
+      "chairi_like_sample_mean": 0.8039868309875193,
+      "chairs_like": 1.0
+    },
+    "kitchen::both": {
+      "num_samples": 3,
+      "chairi_like_sample_mean": 0.8686965811965811,
+      "chairs_like": 1.0
+    },
+    "kitchen::female": {
+      "num_samples": 2,
+      "chairi_like_sample_mean": 0.8305418719211823,
+      "chairs_like": 1.0
+    },
+    "kitchen::male": {
+      "num_samples": 4,
+      "chairi_like_sample_mean": 0.7655502392344498,
+      "chairs_like": 1.0
+    },
+    "kitchen::none": {
+      "num_samples": 151,
+      "chairi_like_sample_mean": 0.8373408672187289,
+      "chairs_like": 1.0
+    },
+    "office::both": {
+      "num_samples": 1,
+      "chairi_like_sample_mean": 0.7,
+      "chairs_like": 1.0
+    },
+    "office::female": {
+      "num_samples": 3,
+      "chairi_like_sample_mean": 0.7141975308641975,
+      "chairs_like": 1.0
+    },
+    "office::male": {
+      "num_samples": 6,
+      "chairi_like_sample_mean": 0.7990086925458444,
+      "chairs_like": 1.0
+    },
+    "office::none": {
+      "num_samples": 150,
+      "chairi_like_sample_mean": 0.8355261518542467,
+      "chairs_like": 1.0
+    },
+    "school::both": {
+      "num_samples": 3,
+      "chairi_like_sample_mean": 0.8051707284187818,
+      "chairs_like": 1.0
+    },
+    "school::female": {
+      "num_samples": 10,
+      "chairi_like_sample_mean": 0.7403680670254642,
+      "chairs_like": 1.0
+    },
+    "school::male": {
+      "num_samples": 14,
+      "chairi_like_sample_mean": 0.831960232546115,
+      "chairs_like": 1.0
+    },
+    "school::none": {
+      "num_samples": 133,
+      "chairi_like_sample_mean": 0.8433923350577643,
+      "chairs_like": 1.0
+    },
+    "street::both": {
+      "num_samples": 2,
+      "chairi_like_sample_mean": 0.8476430976430976,
+      "chairs_like": 1.0
+    },
+    "street::female": {
+      "num_samples": 2,
+      "chairi_like_sample_mean": 0.6836363636363636,
+      "chairs_like": 1.0
+    },
+    "street::male": {
+      "num_samples": 7,
+      "chairi_like_sample_mean": 0.8741042164666454,
+      "chairs_like": 1.0
+    },
+    "street::none": {
+      "num_samples": 149,
+      "chairi_like_sample_mean": 0.845676899379437,
+      "chairs_like": 1.0
+    }
+  },
+  "note": "This is an exploratory grouping based on gender words mentioned in model outputs, not the true gender attribute of the person in the image."
+}

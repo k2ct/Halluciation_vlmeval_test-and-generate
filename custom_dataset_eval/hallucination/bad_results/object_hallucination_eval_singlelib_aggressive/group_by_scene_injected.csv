@@ -1,0 +1,10 @@
+﻿scene,n_samples,injected_object_recall,injected_object_precision,avg_injected_object_mention_count
+bar,200,0.0,0.0,0.0
+board meeting,200,0.0,0.0,0.0
+home kitchen,200,0.0,0.0,0.0
+hospital ward,200,0.0,0.0,0.0
+mining site,200,0.0,0.0,0.0
+office,200,0.0,0.0,0.0
+operating room,200,0.0,0.0,0.0
+school,200,0.0,0.0,0.0
+soccer field,200,0.0,0.0,0.0

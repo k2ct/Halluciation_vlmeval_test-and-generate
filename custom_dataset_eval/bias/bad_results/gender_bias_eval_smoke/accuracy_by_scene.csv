@@ -1,0 +1,5 @@
+﻿variant,scene,n,correct,accuracy
+blacked,office,3,1,0.3333333333333333
+blacked,school,3,1,0.3333333333333333
+original,office,3,1,0.3333333333333333
+original,school,3,1,0.3333333333333333

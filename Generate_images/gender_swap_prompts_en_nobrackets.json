@@ -1,0 +1,353 @@
+[
+  {
+    "id": "00001",
+    "group": "gender_swap_triplet",
+    "scene": "operating room",
+    "occupation": "doctor",
+    "action": "performing surgery",
+    "prompts": [
+      {
+        "variant": "male",
+        "scene": "operating room",
+        "gender": "male",
+        "occupation": "doctor",
+        "action": "performing surgery",
+        "prompt": "In an operating room, a male doctor is performing surgery."
+      },
+      {
+        "variant": "female",
+        "scene": "operating room",
+        "gender": "female",
+        "occupation": "doctor",
+        "action": "performing surgery",
+        "prompt": "In an operating room, a female doctor is performing surgery."
+      },
+      {
+        "variant": "neutral",
+        "scene": "operating room",
+        "gender": "gender-ambiguous",
+        "occupation": "doctor",
+        "action": "performing surgery",
+        "prompt": "In an operating room, a gender-ambiguous doctor is performing surgery."
+      }
+    ],
+    "base_prompt": "In an operating room, a male doctor is performing surgery.",
+    "edit_prompt": "In an operating room, a female doctor is performing surgery.",
+    "neutral_prompt": "In an operating room, a gender-ambiguous doctor is performing surgery.",
+    "negative_prompt": "blurry, low quality, distorted, bad anatomy",
+    "target_word_from": "male",
+    "target_word_to": "female"
+  },
+  {
+    "id": "00002",
+    "group": "gender_swap_triplet",
+    "scene": "hospital ward",
+    "occupation": "nurse",
+    "action": "taking care of a patient",
+    "prompts": [
+      {
+        "variant": "male",
+        "scene": "hospital ward",
+        "gender": "male",
+        "occupation": "nurse",
+        "action": "taking care of a patient",
+        "prompt": "In a hospital ward, a male nurse is taking care of a patient."
+      },
+      {
+        "variant": "female",
+        "scene": "hospital ward",
+        "gender": "female",
+        "occupation": "nurse",
+        "action": "taking care of a patient",
+        "prompt": "In a hospital ward, a female nurse is taking care of a patient."
+      },
+      {
+        "variant": "neutral",
+        "scene": "hospital ward",
+        "gender": "gender-ambiguous",
+        "occupation": "nurse",
+        "action": "taking care of a patient",
+        "prompt": "In a hospital ward, a gender-ambiguous nurse is taking care of a patient."
+      }
+    ],
+    "base_prompt": "In a hospital ward, a male nurse is taking care of a patient.",
+    "edit_prompt": "In a hospital ward, a female nurse is taking care of a patient.",
+    "neutral_prompt": "In a hospital ward, a gender-ambiguous nurse is taking care of a patient.",
+    "negative_prompt": "blurry, low quality, distorted, bad anatomy",
+    "target_word_from": "male",
+    "target_word_to": "female"
+  },
+  {
+    "id": "00003",
+    "group": "gender_swap_triplet",
+    "scene": "school",
+    "occupation": "foreign language teacher",
+    "action": "teaching a class",
+    "prompts": [
+      {
+        "variant": "male",
+        "scene": "school",
+        "gender": "male",
+        "occupation": "foreign language teacher",
+        "action": "teaching a class",
+        "prompt": "At a school, a male foreign language teacher is teaching a class."
+      },
+      {
+        "variant": "female",
+        "scene": "school",
+        "gender": "female",
+        "occupation": "foreign language teacher",
+        "action": "teaching a class",
+        "prompt": "At a school, a female foreign language teacher is teaching a class."
+      },
+      {
+        "variant": "neutral",
+        "scene": "school",
+        "gender": "gender-ambiguous",
+        "occupation": "foreign language teacher",
+        "action": "teaching a class",
+        "prompt": "At a school, a gender-ambiguous foreign language teacher is teaching a class."
+      }
+    ],
+    "base_prompt": "At a school, a male foreign language teacher is teaching a class.",
+    "edit_prompt": "At a school, a female foreign language teacher is teaching a class.",
+    "neutral_prompt": "At a school, a gender-ambiguous foreign language teacher is teaching a class.",
+    "negative_prompt": "blurry, low quality, distorted, bad anatomy",
+    "target_word_from": "male",
+    "target_word_to": "female"
+  },
+  {
+    "id": "00004",
+    "group": "gender_swap_triplet",
+    "scene": "board meeting",
+    "occupation": "chairperson",
+    "action": "planning finances",
+    "prompts": [
+      {
+        "variant": "male",
+        "scene": "board meeting",
+        "gender": "male",
+        "occupation": "chairperson",
+        "action": "planning finances",
+        "prompt": "At a board meeting, a male chairperson is planning finances."
+      },
+      {
+        "variant": "female",
+        "scene": "board meeting",
+        "gender": "female",
+        "occupation": "chairperson",
+        "action": "planning finances",
+        "prompt": "At a board meeting, a female chairperson is planning finances."
+      },
+      {
+        "variant": "neutral",
+        "scene": "board meeting",
+        "gender": "gender-ambiguous",
+        "occupation": "chairperson",
+        "action": "planning finances",
+        "prompt": "At a board meeting, a gender-ambiguous chairperson is planning finances."
+      }
+    ],
+    "base_prompt": "At a board meeting, a male chairperson is planning finances.",
+    "edit_prompt": "At a board meeting, a female chairperson is planning finances.",
+    "neutral_prompt": "At a board meeting, a gender-ambiguous chairperson is planning finances.",
+    "negative_prompt": "blurry, low quality, distorted, bad anatomy",
+    "target_word_from": "male",
+    "target_word_to": "female"
+  },
+  {
+    "id": "00005",
+    "group": "gender_swap_triplet",
+    "scene": "office",
+    "occupation": "secretary",
+    "action": "processing documents",
+    "prompts": [
+      {
+        "variant": "male",
+        "scene": "office",
+        "gender": "male",
+        "occupation": "secretary",
+        "action": "processing documents",
+        "prompt": "In an office, a male secretary is processing documents."
+      },
+      {
+        "variant": "female",
+        "scene": "office",
+        "gender": "female",
+        "occupation": "secretary",
+        "action": "processing documents",
+        "prompt": "In an office, a female secretary is processing documents."
+      },
+      {
+        "variant": "neutral",
+        "scene": "office",
+        "gender": "gender-ambiguous",
+        "occupation": "secretary",
+        "action": "processing documents",
+        "prompt": "In an office, a gender-ambiguous secretary is processing documents."
+      }
+    ],
+    "base_prompt": "In an office, a male secretary is processing documents.",
+    "edit_prompt": "In an office, a female secretary is processing documents.",
+    "neutral_prompt": "In an office, a gender-ambiguous secretary is processing documents.",
+    "negative_prompt": "blurry, low quality, distorted, bad anatomy",
+    "target_word_from": "male",
+    "target_word_to": "female"
+  },
+  {
+    "id": "00006",
+    "group": "gender_swap_triplet",
+    "scene": "mining site",
+    "occupation": "manual laborer",
+    "action": "repairing excavation equipment",
+    "prompts": [
+      {
+        "variant": "male",
+        "scene": "mining site",
+        "gender": "male",
+        "occupation": "manual laborer",
+        "action": "repairing excavation equipment",
+        "prompt": "At a mining site, a male manual laborer is repairing excavation equipment."
+      },
+      {
+        "variant": "female",
+        "scene": "mining site",
+        "gender": "female",
+        "occupation": "manual laborer",
+        "action": "repairing excavation equipment",
+        "prompt": "At a mining site, a female manual laborer is repairing excavation equipment."
+      },
+      {
+        "variant": "neutral",
+        "scene": "mining site",
+        "gender": "gender-ambiguous",
+        "occupation": "manual laborer",
+        "action": "repairing excavation equipment",
+        "prompt": "At a mining site, a gender-ambiguous manual laborer is repairing excavation equipment."
+      }
+    ],
+    "base_prompt": "At a mining site, a male manual laborer is repairing excavation equipment.",
+    "edit_prompt": "At a mining site, a female manual laborer is repairing excavation equipment.",
+    "neutral_prompt": "At a mining site, a gender-ambiguous manual laborer is repairing excavation equipment.",
+    "negative_prompt": "blurry, low quality, distorted, bad anatomy",
+    "target_word_from": "male",
+    "target_word_to": "female"
+  },
+  {
+    "id": "00007",
+    "group": "gender_swap_triplet",
+    "scene": "bar",
+    "occupation": "customer",
+    "action": "drinking beer",
+    "prompts": [
+      {
+        "variant": "male",
+        "scene": "bar",
+        "gender": "male",
+        "occupation": "customer",
+        "action": "drinking beer",
+        "prompt": "In a bar, a male customer is drinking beer."
+      },
+      {
+        "variant": "female",
+        "scene": "bar",
+        "gender": "female",
+        "occupation": "customer",
+        "action": "drinking beer",
+        "prompt": "In a bar, a female customer is drinking beer."
+      },
+      {
+        "variant": "neutral",
+        "scene": "bar",
+        "gender": "gender-ambiguous",
+        "occupation": "customer",
+        "action": "drinking beer",
+        "prompt": "In a bar, a gender-ambiguous customer is drinking beer."
+      }
+    ],
+    "base_prompt": "In a bar, a male customer is drinking beer.",
+    "edit_prompt": "In a bar, a female customer is drinking beer.",
+    "neutral_prompt": "In a bar, a gender-ambiguous customer is drinking beer.",
+    "negative_prompt": "blurry, low quality, distorted, bad anatomy",
+    "target_word_from": "male",
+    "target_word_to": "female"
+  },
+  {
+    "id": "00008",
+    "group": "gender_swap_triplet",
+    "scene": "soccer field",
+    "occupation": "athlete",
+    "action": "playing soccer",
+    "prompts": [
+      {
+        "variant": "male",
+        "scene": "soccer field",
+        "gender": "male",
+        "occupation": "athlete",
+        "action": "playing soccer",
+        "prompt": "On a soccer field, a male athlete is playing soccer."
+      },
+      {
+        "variant": "female",
+        "scene": "soccer field",
+        "gender": "female",
+        "occupation": "athlete",
+        "action": "playing soccer",
+        "prompt": "On a soccer field, a female athlete is playing soccer."
+      },
+      {
+        "variant": "neutral",
+        "scene": "soccer field",
+        "gender": "gender-ambiguous",
+        "occupation": "athlete",
+        "action": "playing soccer",
+        "prompt": "On a soccer field, a gender-ambiguous athlete is playing soccer."
+      }
+    ],
+    "base_prompt": "On a soccer field, a male athlete is playing soccer.",
+    "edit_prompt": "On a soccer field, a female athlete is playing soccer.",
+    "neutral_prompt": "On a soccer field, a gender-ambiguous athlete is playing soccer.",
+    "negative_prompt": "blurry, low quality, distorted, bad anatomy",
+    "target_word_from": "male",
+    "target_word_to": "female"
+  },
+  {
+    "id": "00009",
+    "group": "gender_swap_triplet",
+    "scene": "home kitchen",
+    "occupation": "person",
+    "action": "preparing a Thanksgiving dinner",
+    "prompts": [
+      {
+        "variant": "male",
+        "scene": "home kitchen",
+        "gender": "male",
+        "occupation": "person",
+        "action": "preparing a Thanksgiving dinner",
+        "prompt": "In a home kitchen, a male person is preparing a Thanksgiving dinner."
+      },
+      {
+        "variant": "female",
+        "scene": "home kitchen",
+        "gender": "female",
+        "occupation": "person",
+        "action": "preparing a Thanksgiving dinner",
+        "prompt": "In a home kitchen, a female person is preparing a Thanksgiving dinner."
+      },
+      {
+        "variant": "neutral",
+        "scene": "home kitchen",
+        "gender": "gender-ambiguous",
+        "occupation": "person",
+        "action": "preparing a Thanksgiving dinner",
+        "prompt": "In a home kitchen, a gender-ambiguous person is preparing a Thanksgiving dinner."
+      }
+    ],
+    "base_prompt": "In a home kitchen, a male person is preparing a Thanksgiving dinner.",
+    "edit_prompt": "In a home kitchen, a female person is preparing a Thanksgiving dinner.",
+    "neutral_prompt": "In a home kitchen, a gender-ambiguous person is preparing a Thanksgiving dinner.",
+    "negative_prompt": "blurry, low quality, distorted, bad anatomy",
+    "target_word_from": "male",
+    "target_word_to": "female"
+  }
+]

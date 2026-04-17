@@ -1,0 +1,3 @@
+﻿prompt_gender,n_samples,extended_chairi_like,extended_chairs_like,extended_precision,extended_recall,extended_f1,extended_missing_rate
+female,18,0.0,0.0,0.0,0.0,0.0,1.0
+male,18,0.0,0.0,0.0,0.0,0.0,1.0

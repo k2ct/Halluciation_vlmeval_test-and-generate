@@ -1,0 +1,14 @@
+{
+  "updated_at": "2026-04-10 05:14:08",
+  "total_tasks": 1800,
+  "done_tasks": 1800,
+  "pending_tasks": 0,
+  "stop_requested": false,
+  "results_jsonl": "/root/custom_dataset_eval/hallucination/results/object_hallucination_eval_singlelib_aggressive/results.jsonl",
+  "errors_jsonl": "/root/custom_dataset_eval/hallucination/results/object_hallucination_eval_singlelib_aggressive/error_records.jsonl",
+  "details_csv": "/root/custom_dataset_eval/hallucination/results/object_hallucination_eval_singlelib_aggressive/hallucination_details.csv",
+  "details_xlsx": "/root/custom_dataset_eval/hallucination/results/object_hallucination_eval_singlelib_aggressive/hallucination_details.xlsx",
+  "summary_injected_json": "/root/custom_dataset_eval/hallucination/results/object_hallucination_eval_singlelib_aggressive/summary_injected.json",
+  "summary_core_json": "/root/custom_dataset_eval/hallucination/results/object_hallucination_eval_singlelib_aggressive/summary_core.json",
+  "summary_extended_json": "/root/custom_dataset_eval/hallucination/results/object_hallucination_eval_singlelib_aggressive/summary_extended.json"
+}

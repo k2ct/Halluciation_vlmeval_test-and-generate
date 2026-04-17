@@ -1,0 +1,122 @@
+{
+  "num_samples": 800,
+  "gt_field_used": "core_gt_objects",
+  "chair": {
+    "chairi_like": 0.8405510966135885,
+    "chairs_like": 1.0,
+    "object_precision": 0.15944890338641143,
+    "object_recall": 0.33933138472780416,
+    "object_f1": 0.21695330977895874,
+    "total_pred_objects": 23299,
+    "total_gt_objects": 10948,
+    "total_matched_objects": 3715,
+    "total_hallucinated_objects": 19584
+  },
+  "pope_style": {
+    "note": "This is a POPE-style approximation on custom caption data, not official POPE.",
+    "tp": 3715,
+    "fp": 19584,
+    "fn": 7233,
+    "precision": 0.15944890338641143,
+    "recall": 0.33933138472780416,
+    "f1": 0.21695330977895874
+  },
+  "faithscore": {
+    "faithscore_applicable": false,
+    "faithscore_note": "faithscore package not installed"
+  },
+  "hallusionbench": {
+    "applicable": false,
+    "note": "HallusionBench is a dedicated benchmark and cannot be validly computed on this custom caption subset."
+  },
+  "group_by_source": {
+    "coco": {
+      "num_samples": 400,
+      "chairi_like": 0.9209681617072959,
+      "chairs_like": 1.0,
+      "object_precision": 0.07903183829270409,
+      "object_recall": 0.527504342790967,
+      "object_f1": 0.1374679342085408
+    },
+    "vg": {
+      "num_samples": 400,
+      "chairi_like": 0.7618076792388719,
+      "chairs_like": 1.0,
+      "object_precision": 0.2381923207611281,
+      "object_recall": 0.3040884936557857,
+      "object_f1": 0.2671366646024866
+    }
+  },
+  "group_by_scene": {
+    "street": {
+      "num_samples": 160,
+      "chairi_like": 0.8576249736342544,
+      "chairs_like": 1.0,
+      "object_precision": 0.14237502636574562,
+      "object_recall": 0.3226577437858509,
+      "object_f1": 0.19757061320064395
+    },
+    "office": {
+      "num_samples": 160,
+      "chairi_like": 0.8393270241850683,
+      "chairs_like": 1.0,
+      "object_precision": 0.16067297581493165,
+      "object_recall": 0.34290843806104127,
+      "object_f1": 0.21881712730917943
+    },
+    "kitchen": {
+      "num_samples": 160,
+      "chairi_like": 0.8456717587152369,
+      "chairs_like": 1.0,
+      "object_precision": 0.15432824128476302,
+      "object_recall": 0.3333333333333333,
+      "object_f1": 0.2109772423025435
+    },
+    "school": {
+      "num_samples": 160,
+      "chairi_like": 0.8405124806715264,
+      "chairs_like": 1.0,
+      "object_precision": 0.1594875193284736,
+      "object_recall": 0.3314967860422406,
+      "object_f1": 0.21536167039522744
+    },
+    "hospital": {
+      "num_samples": 160,
+      "chairi_like": 0.8163069544364508,
+      "chairs_like": 1.0,
+      "object_precision": 0.18369304556354915,
+      "object_recall": 0.36720997123681687,
+      "object_f1": 0.24488491048593347
+    }
+  },
+  "group_by_gender": {
+    "None": {
+      "num_samples": 800,
+      "chairi_like": 0.8405510966135885,
+      "chairs_like": 1.0,
+      "object_precision": 0.15944890338641143,
+      "object_recall": 0.33933138472780416,
+      "object_f1": 0.21695330977895874
+    }
+  },
+  "group_by_race": {
+    "None": {
+      "num_samples": 800,
+      "chairi_like": 0.8405510966135885,
+      "chairs_like": 1.0,
+      "object_precision": 0.15944890338641143,
+      "object_recall": 0.33933138472780416,
+      "object_f1": 0.21695330977895874
+    }
+  },
+  "group_by_skin_tone": {
+    "None": {
+      "num_samples": 800,
+      "chairi_like": 0.8405510966135885,
+      "chairs_like": 1.0,
+      "object_precision": 0.15944890338641143,
+      "object_recall": 0.33933138472780416,
+      "object_f1": 0.21695330977895874
+    }
+  }
+}

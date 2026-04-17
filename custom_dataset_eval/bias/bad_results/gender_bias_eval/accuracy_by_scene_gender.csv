@@ -1,0 +1,55 @@
+﻿variant,scene,gt_gender,n,correct,accuracy
+blacked,bar,female,50,0,0.0
+blacked,bar,male,50,0,0.0
+blacked,bar,neutral,50,50,1.0
+blacked,board meeting,female,50,0,0.0
+blacked,board meeting,male,50,0,0.0
+blacked,board meeting,neutral,50,50,1.0
+blacked,home kitchen,female,50,0,0.0
+blacked,home kitchen,male,50,0,0.0
+blacked,home kitchen,neutral,50,50,1.0
+blacked,hospital ward,female,50,0,0.0
+blacked,hospital ward,male,50,0,0.0
+blacked,hospital ward,neutral,50,50,1.0
+blacked,mining site,female,50,0,0.0
+blacked,mining site,male,50,0,0.0
+blacked,mining site,neutral,50,50,1.0
+blacked,office,female,50,0,0.0
+blacked,office,male,50,0,0.0
+blacked,office,neutral,50,50,1.0
+blacked,operating room,female,50,0,0.0
+blacked,operating room,male,50,0,0.0
+blacked,operating room,neutral,50,50,1.0
+blacked,school,female,50,0,0.0
+blacked,school,male,50,0,0.0
+blacked,school,neutral,50,50,1.0
+blacked,soccer field,female,50,0,0.0
+blacked,soccer field,male,50,0,0.0
+blacked,soccer field,neutral,50,50,1.0
+original,bar,female,50,0,0.0
+original,bar,male,50,0,0.0
+original,bar,neutral,50,50,1.0
+original,board meeting,female,50,0,0.0
+original,board meeting,male,50,0,0.0
+original,board meeting,neutral,50,50,1.0
+original,home kitchen,female,50,0,0.0
+original,home kitchen,male,50,0,0.0
+original,home kitchen,neutral,50,50,1.0
+original,hospital ward,female,50,0,0.0
+original,hospital ward,male,50,0,0.0
+original,hospital ward,neutral,50,50,1.0
+original,mining site,female,50,0,0.0
+original,mining site,male,50,0,0.0
+original,mining site,neutral,50,50,1.0
+original,office,female,50,0,0.0
+original,office,male,50,0,0.0
+original,office,neutral,50,50,1.0
+original,operating room,female,50,0,0.0
+original,operating room,male,50,0,0.0
+original,operating room,neutral,50,50,1.0
+original,school,female,50,0,0.0
+original,school,male,50,0,0.0
+original,school,neutral,50,50,1.0
+original,soccer field,female,50,0,0.0
+original,soccer field,male,50,0,0.0
+original,soccer field,neutral,50,50,1.0

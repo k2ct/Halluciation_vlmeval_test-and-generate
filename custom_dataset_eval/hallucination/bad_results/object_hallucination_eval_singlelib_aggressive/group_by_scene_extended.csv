@@ -1,0 +1,10 @@
+﻿scene,n_samples,extended_chairi_like,extended_chairs_like,extended_precision,extended_recall,extended_f1,extended_missing_rate
+bar,200,0.0,0.0,0.0,0.0,0.0,1.0
+board meeting,200,0.0,0.0,0.0,0.0,0.0,1.0
+home kitchen,200,0.0,0.0,0.0,0.0,0.0,1.0
+hospital ward,200,0.0,0.0,0.0,0.0,0.0,1.0
+mining site,200,0.0,0.0,0.0,0.0,0.0,1.0
+office,200,0.0,0.0,0.0,0.0,0.0,1.0
+operating room,200,0.0,0.0,0.0,0.0,0.0,1.0
+school,200,0.0,0.0,0.0,0.0,0.0,1.0
+soccer field,200,0.0,0.0,0.0,0.0,0.0,1.0

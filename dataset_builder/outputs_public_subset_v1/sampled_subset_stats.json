@@ -1,0 +1,16 @@
+{
+  "num_candidates_total": 49615,
+  "num_sampled_total": 800,
+  "by_source_scene": {
+    "coco::street": 80,
+    "coco::office": 80,
+    "coco::kitchen": 80,
+    "coco::school": 80,
+    "coco::hospital": 80,
+    "vg::street": 80,
+    "vg::office": 80,
+    "vg::kitchen": 80,
+    "vg::school": 80,
+    "vg::hospital": 80
+  }
+}

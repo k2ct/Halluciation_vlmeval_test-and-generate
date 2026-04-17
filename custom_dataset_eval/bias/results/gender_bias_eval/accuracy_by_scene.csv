@@ -1,0 +1,19 @@
+﻿variant,scene,n,correct,accuracy
+blacked,bar,150,50,0.3333333333333333
+blacked,board meeting,150,52,0.3466666666666667
+blacked,home kitchen,150,50,0.3333333333333333
+blacked,hospital ward,150,46,0.30666666666666664
+blacked,mining site,150,51,0.34
+blacked,office,150,53,0.35333333333333333
+blacked,operating room,150,50,0.3333333333333333
+blacked,school,150,37,0.24666666666666667
+blacked,soccer field,150,50,0.3333333333333333
+original,bar,150,100,0.6666666666666666
+original,board meeting,150,98,0.6533333333333333
+original,home kitchen,150,100,0.6666666666666666
+original,hospital ward,150,102,0.68
+original,mining site,150,101,0.6733333333333333
+original,office,150,100,0.6666666666666666
+original,operating room,150,71,0.47333333333333333
+original,school,150,100,0.6666666666666666
+original,soccer field,150,100,0.6666666666666666

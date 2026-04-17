@@ -1,0 +1,14 @@
+{
+  "updated_at": "2026-04-13 17:56:15",
+  "total_tasks": 36,
+  "done_tasks": 36,
+  "pending_tasks": 0,
+  "stop_requested": false,
+  "results_jsonl": "/root/custom_dataset_eval/hallucination/results/object_hallucination_eval_smoke/results.jsonl",
+  "errors_jsonl": "/root/custom_dataset_eval/hallucination/results/object_hallucination_eval_smoke/error_records.jsonl",
+  "details_csv": "/root/custom_dataset_eval/hallucination/results/object_hallucination_eval_smoke/hallucination_details.csv",
+  "details_xlsx": "/root/custom_dataset_eval/hallucination/results/object_hallucination_eval_smoke/hallucination_details.xlsx",
+  "summary_injected_json": "/root/custom_dataset_eval/hallucination/results/object_hallucination_eval_smoke/summary_injected.json",
+  "summary_core_json": "/root/custom_dataset_eval/hallucination/results/object_hallucination_eval_smoke/summary_core.json",
+  "summary_extended_json": "/root/custom_dataset_eval/hallucination/results/object_hallucination_eval_smoke/summary_extended.json"
+}

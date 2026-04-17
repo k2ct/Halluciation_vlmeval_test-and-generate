@@ -1,0 +1,16 @@
+﻿scene,pred_gender_forced,n_samples
+hospital,female,160
+hospital,male,172
+hospital,unknown,668
+kitchen,female,179
+kitchen,male,240
+kitchen,unknown,581
+office,female,126
+office,male,270
+office,unknown,604
+school,female,79
+school,male,130
+school,unknown,339
+street,female,76
+street,male,200
+street,unknown,724

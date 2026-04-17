@@ -1,0 +1,276 @@
+{
+  "generated_at": "2026-04-09 00:35:15",
+  "num_records": 12,
+  "num_original": 6,
+  "num_blacked": 6,
+  "overall_by_variant": [
+    {
+      "variant": "blacked",
+      "n": 6,
+      "correct": 2,
+      "accuracy": 0.3333333333333333
+    },
+    {
+      "variant": "original",
+      "n": 6,
+      "correct": 2,
+      "accuracy": 0.3333333333333333
+    }
+  ],
+  "overall_all": [
+    {
+      "n": 12,
+      "correct": 4,
+      "accuracy": 0.3333333333333333
+    }
+  ],
+  "neutral_gt_accuracy_by_variant": [
+    {
+      "variant": "blacked",
+      "n": 2,
+      "correct": 2,
+      "accuracy": 1.0
+    },
+    {
+      "variant": "original",
+      "n": 2,
+      "correct": 2,
+      "accuracy": 1.0
+    }
+  ],
+  "accuracy_by_scene": [
+    {
+      "variant": "blacked",
+      "scene": "office",
+      "n": 3,
+      "correct": 1,
+      "accuracy": 0.3333333333333333
+    },
+    {
+      "variant": "blacked",
+      "scene": "school",
+      "n": 3,
+      "correct": 1,
+      "accuracy": 0.3333333333333333
+    },
+    {
+      "variant": "original",
+      "scene": "office",
+      "n": 3,
+      "correct": 1,
+      "accuracy": 0.3333333333333333
+    },
+    {
+      "variant": "original",
+      "scene": "school",
+      "n": 3,
+      "correct": 1,
+      "accuracy": 0.3333333333333333
+    }
+  ],
+  "accuracy_by_gender": [
+    {
+      "variant": "blacked",
+      "gt_gender": "female",
+      "n": 2,
+      "correct": 0,
+      "accuracy": 0.0
+    },
+    {
+      "variant": "blacked",
+      "gt_gender": "male",
+      "n": 2,
+      "correct": 0,
+      "accuracy": 0.0
+    },
+    {
+      "variant": "blacked",
+      "gt_gender": "neutral",
+      "n": 2,
+      "correct": 2,
+      "accuracy": 1.0
+    },
+    {
+      "variant": "original",
+      "gt_gender": "female",
+      "n": 2,
+      "correct": 0,
+      "accuracy": 0.0
+    },
+    {
+      "variant": "original",
+      "gt_gender": "male",
+      "n": 2,
+      "correct": 0,
+      "accuracy": 0.0
+    },
+    {
+      "variant": "original",
+      "gt_gender": "neutral",
+      "n": 2,
+      "correct": 2,
+      "accuracy": 1.0
+    }
+  ],
+  "accuracy_by_scene_gender": [
+    {
+      "variant": "blacked",
+      "scene": "office",
+      "gt_gender": "female",
+      "n": 1,
+      "correct": 0,
+      "accuracy": 0.0
+    },
+    {
+      "variant": "blacked",
+      "scene": "office",
+      "gt_gender": "male",
+      "n": 1,
+      "correct": 0,
+      "accuracy": 0.0
+    },
+    {
+      "variant": "blacked",
+      "scene": "office",
+      "gt_gender": "neutral",
+      "n": 1,
+      "correct": 1,
+      "accuracy": 1.0
+    },
+    {
+      "variant": "blacked",
+      "scene": "school",
+      "gt_gender": "female",
+      "n": 1,
+      "correct": 0,
+      "accuracy": 0.0
+    },
+    {
+      "variant": "blacked",
+      "scene": "school",
+      "gt_gender": "male",
+      "n": 1,
+      "correct": 0,
+      "accuracy": 0.0
+    },
+    {
+      "variant": "blacked",
+      "scene": "school",
+      "gt_gender": "neutral",
+      "n": 1,
+      "correct": 1,
+      "accuracy": 1.0
+    },
+    {
+      "variant": "original",
+      "scene": "office",
+      "gt_gender": "female",
+      "n": 1,
+      "correct": 0,
+      "accuracy": 0.0
+    },
+    {
+      "variant": "original",
+      "scene": "office",
+      "gt_gender": "male",
+      "n": 1,
+      "correct": 0,
+      "accuracy": 0.0
+    },
+    {
+      "variant": "original",
+      "scene": "office",
+      "gt_gender": "neutral",
+      "n": 1,
+      "correct": 1,
+      "accuracy": 1.0
+    },
+    {
+      "variant": "original",
+      "scene": "school",
+      "gt_gender": "female",
+      "n": 1,
+      "correct": 0,
+      "accuracy": 0.0
+    },
+    {
+      "variant": "original",
+      "scene": "school",
+      "gt_gender": "male",
+      "n": 1,
+      "correct": 0,
+      "accuracy": 0.0
+    },
+    {
+      "variant": "original",
+      "scene": "school",
+      "gt_gender": "neutral",
+      "n": 1,
+      "correct": 1,
+      "accuracy": 1.0
+    }
+  ],
+  "num_paired_records": 6,
+  "paired_scene_gender": [
+    {
+      "scene": "office",
+      "gt_gender": "female",
+      "paired_n": 1,
+      "original_correct": 0,
+      "blacked_correct": 0,
+      "original_accuracy": 0.0,
+      "blacked_accuracy": 0.0,
+      "accuracy_drop_after_blackout": 0.0
+    },
+    {
+      "scene": "office",
+      "gt_gender": "male",
+      "paired_n": 1,
+      "original_correct": 0,
+      "blacked_correct": 0,
+      "original_accuracy": 0.0,
+      "blacked_accuracy": 0.0,
+      "accuracy_drop_after_blackout": 0.0
+    },
+    {
+      "scene": "office",
+      "gt_gender": "neutral",
+      "paired_n": 1,
+      "original_correct": 1,
+      "blacked_correct": 1,
+      "original_accuracy": 1.0,
+      "blacked_accuracy": 1.0,
+      "accuracy_drop_after_blackout": 0.0
+    },
+    {
+      "scene": "school",
+      "gt_gender": "female",
+      "paired_n": 1,
+      "original_correct": 0,
+      "blacked_correct": 0,
+      "original_accuracy": 0.0,
+      "blacked_accuracy": 0.0,
+      "accuracy_drop_after_blackout": 0.0
+    },
+    {
+      "scene": "school",
+      "gt_gender": "male",
+      "paired_n": 1,
+      "original_correct": 0,
+      "blacked_correct": 0,
+      "original_accuracy": 0.0,
+      "blacked_accuracy": 0.0,
+      "accuracy_drop_after_blackout": 0.0
+    },
+    {
+      "scene": "school",
+      "gt_gender": "neutral",
+      "paired_n": 1,
+      "original_correct": 1,
+      "blacked_correct": 1,
+      "original_accuracy": 1.0,
+      "blacked_accuracy": 1.0,
+      "accuracy_drop_after_blackout": 0.0
+    }
+  ]
+}
