@@ -109,11 +109,17 @@ def main() -> None:
     write_metadata(metadata_path, records)
 
     if args.dry_run:
-        print(f"Dry run complete: {len(records)} records, metadata: {metadata_path} / Dry run 完成：共 {len(records)} 条记录，metadata: {metadata_path}")
+        print(
+            f"Dry run complete: {len(records)} records, metadata: {metadata_path} "
+            f"/ Dry run 完成：共 {len(records)} 条记录，metadata: {metadata_path}"
+        )
         return
 
     generate_images(args, prompts, image_dir)
-    print(f"Generation complete: {len(records)} images, output: {output_dir} / 生成完成：共 {len(records)} 张图像，输出目录: {output_dir}")
+    print(
+        f"Generation complete: {len(records)} images, output: {output_dir} "
+        f"/ 生成完成：共 {len(records)} 张图像，输出目录: {output_dir}"
+    )
 
 
 if __name__ == "__main__":
