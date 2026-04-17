@@ -349,3 +349,26 @@ COCO/VG 原始数据
 ## 12. 一句话总结
 
 本仓库提供了一条从 **公开数据构建 → VLMEvalKit 推理 → 统一 hallucination evaluator**，以及从 **SD3.5 控制生成 → 物体注入 → 多层 GT 构建 → 偏见与幻觉联合评估** 的完整、可复现实验链路。
+
+
+🛠️ 环境配置指南
+你可以根据习惯选择 Conda 或 Pip 进行环境安装。
+
+方式 1：使用 Conda (推荐)
+通过 .yml 文件一键创建完整的虚拟环境：
+
+Bash
+# 创建基础研究环境
+conda env create -f environment-base.yml
+
+# 或者创建包含评测工具的环境
+conda env create -f environment-vlmeval.yml
+方式 2：使用 Pip
+在已有的 Python 环境中安装依赖：
+
+Bash
+# 安装基础依赖
+pip install -r requirements-base.txt
+
+# 安装评测相关依赖
+pip install -r requirements-vlmeval.txt
