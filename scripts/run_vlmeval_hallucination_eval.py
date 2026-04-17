@@ -66,7 +66,8 @@ def main() -> None:
             subprocess.run(command, check=True)
         except subprocess.CalledProcessError as error:
             raise SystemExit(
-                f"vlmeval command failed / vlmeval 命令执行失败: {shlex.join(command)}"
+                f"vlmeval command failed (exit {error.returncode}) / "
+                f"vlmeval 命令执行失败（退出码 {error.returncode}）: {shlex.join(command)}"
             ) from error
 
 

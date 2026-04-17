@@ -56,6 +56,7 @@ def build_records(prompts: list[str], image_dir: Path) -> list[dict]:
                 "id": index,
                 "prompt": prompt,
                 "image": (image_dir / filename).as_posix(),
+                "image_generated": False,
             }
         )
     return records
@@ -113,9 +114,13 @@ def main() -> None:
             f"Dry run complete: {len(records)} records, metadata: {metadata_path} "
             f"/ Dry run 完成：共 {len(records)} 条记录，metadata: {metadata_path}"
         )
+        print("Images are not generated in dry-run mode. / dry-run 模式下不会生成图像。")
         return
 
     generate_images(args, prompts, image_dir)
+    for record in records:
+        record["image_generated"] = True
+    write_metadata(metadata_path, records)
     print(
         f"Generation complete: {len(records)} images, output: {output_dir} "
         f"/ 生成完成：共 {len(records)} 张图像，输出目录: {output_dir}"
