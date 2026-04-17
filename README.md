@@ -1,102 +1,56 @@
-下面给你一版更适合直接放进 **Git 仓库 `README.md`** 的目录结构版文档。你可以直接复制后稍作改名使用。
+# Halluciation_vlmeval_test-and-generate
+
+基于 **VLMEvalKit + GPT-4o** 的公开数据幻觉评估，以及基于 **SD3.5** 的自建图像生成、偏见实验与幻觉实验工程。
+
+本仓库覆盖两条主线：
+
+1. **公开数据幻觉评估**：从 COCO2017 / Visual Genome 构建平衡实验集，导出 VLMEvalKit TSV，调用 GPT-4o 推理，再用自定义 evaluator 计算 hallucination 指标。
+2. **SD3.5 自建数据集实验**：受控生成 gender-swap 图像、person-blacked 图像与 male/female object injection 图像，并对偏见与对象幻觉进行系统评估。
 
 ---
 
-# VLMEvalKit Hallucination Evaluation
+## 1. 研究目标
 
-基于 **AutoDL + VLMEvalKit + GPT-4o** 的公开数据集幻觉评估与属性诱导分析工程。
+本项目的核心目标是研究多模态模型在图像描述任务中的两类行为：
+
+- **Bias / 属性推断偏差**
+  - 模型对主体 gender 的判断是否依赖人物本体、环境线索或职业语境。
+- **Object Hallucination / 物体幻觉**
+  - 模型是否会遗漏真实物体、错说不存在物体，或过度补充带有偏向性的对象。
+
+当前重点问题包括：
+
+- 不同 **scene** 是否会系统性影响 hallucination；
+- 在 **gender-forced prompting** 下，不同 gender 输出是否对应不同幻觉率；
+- 在 SD3.5 自建数据中，**male_objects / female_objects** 注入是否会放大 hallucination；
+- `scene × object_condition × prompt_gender` 是否存在交互效应。
 
 ---
 
-## 项目结构
+## 2. 仓库范围
+
+本仓库建议至少纳入以下内容：
+
+- `dataset_builder/`：公开数据集筛选、平衡采样、VLMEvalKit TSV 导出。
+- `experiment_suite/`：VLMEvalKit 推理后处理、hallucination evaluator、gender-forced 分析、POPE-style probing。
+- `custom_dataset_eval/bias/`：SD3.5 自建数据偏见评估脚本。
+- `custom_dataset_eval/hallucination/`：SD3.5 自建数据 hallucination evaluator。
+- `docs/`：技术文档、操作手册、输出说明、实验总结。
+
+---
+
+## 3. 关键路径（AutoDL 版本）
+
+### 3.1 框架与环境
 
 ```text
-/root
-├── VLMEvalKit/
-│   └── .env
-├── dataset_builder/
-│   ├── scene_lexicon.py
-│   ├── build_public_subset.py
-│   ├── export_vlmeval_tsv.py
-│   ├── filter_coco_all_5scenes.py
-│   └── outputs_public_subset_v1/
-├── experiment_suite/
-│   ├── run_full_800.sh
-│   ├── evaluate_suite.py
-│   ├── evaluate_suite_gender_forced.py
-│   ├── run_pope_style_800.sh
-│   ├── evaluate_pope_style.py
-│   ├── add_sensitive_attributes.py
-│   ├── analyze_prediction_gender_mentions.py
-│   ├── analyze_structured_outputs.py
-│   └── analyze_gender_forced_outputs.py
-├── inspect_predictions.py
-├── eval_hallucination_minimal.py
-└── eval_hallucination_binary.py
-
-/root/autodl-tmp
-├── LMUData/
-│   ├── public_subset_extended.tsv
-│   ├── public_subset_core.tsv
-│   ├── public_subset_gender_forced.tsv
-│   └── public_subset_pope_style.tsv
-├── outputs/
-└── DataSets/PublicDataSets/
-    ├── COCO2017/
-    ├── Flickr/
-    ├── Visual Genome/
-    └── VQA v2/
-```
-
----
-
-## 1. 项目目标
-
-本项目用于研究多模态模型在图像描述任务中的**对象幻觉（object hallucination）**问题，并进一步考察：
-
-* 不同 **scene** 是否会影响 hallucination
-* 在 **gender-forced prompting** 下，不同 gender 输出是否对应不同幻觉率
-* 后续为真实敏感属性（gender / race / skin tone）分析打基础
-
-当前主要有两类实验设置：
-
-1. **Natural Captioning**
-2. **Gender-Forced Prompting**
-
----
-
-## 2. 关键路径
-
-### 代码目录
-
-```text
-/root/dataset_builder
-/root/experiment_suite
 /root/VLMEvalKit
-```
-
-### VLMEvalKit 环境配置
-
-```text
 /root/VLMEvalKit/.env
-```
-
-示例：
-
-```env
-OPENAI_API_BASE="..."
-OPENAI_API_KEY="..."
-LMUData="/root/autodl-tmp/LMUData"
-```
-
-### 数据目录
-
-```text
 /root/autodl-tmp/LMUData
 /root/autodl-tmp/outputs
 ```
 
-### 原始公开数据集目录
+### 3.2 公开数据集原始位置
 
 ```text
 /root/autodl-tmp/DataSets/PublicDataSets/COCO2017
@@ -105,581 +59,293 @@ LMUData="/root/autodl-tmp/LMUData"
 /root/autodl-tmp/DataSets/PublicDataSets/VQA v2
 ```
 
----
-
-## 3. 各脚本功能说明
-
-### `dataset_builder/scene_lexicon.py`
-
-用于定义：
-
-* scene 关键词词典
-* 对象名归一化规则
-* 基础过滤规则
-
----
-
-### `dataset_builder/build_public_subset.py`
-
-用于：
-
-* 从 COCO / VG 中筛选含人图像
-* 为图像分配 scene
-* 构造 `core_gt_objects` / `extended_gt_objects`
-* 按 `source × scene` 平衡采样
-
-输出示例：
+### 3.3 公开数据评估代码
 
 ```text
-/root/dataset_builder/outputs_public_subset_v1/candidate_manifest.jsonl
-/root/dataset_builder/outputs_public_subset_v1/sampled_manifest.jsonl
-/root/dataset_builder/outputs_public_subset_v1/sampled_subset_stats.json
+/root/dataset_builder
+/root/experiment_suite
 ```
 
----
-
-### `dataset_builder/export_vlmeval_tsv.py`
-
-用于将 `sampled_manifest.jsonl` 导出为 VLMEvalKit 可读取 TSV。
-
-支持：
-
-* `--answer-type core`
-* `--answer-type extended`
-* 自定义 prompt
-
-输出示例：
+### 3.4 SD3.5 模型与生成脚本
 
 ```text
-/root/autodl-tmp/LMUData/public_subset_extended.tsv
-/root/autodl-tmp/LMUData/public_subset_core.tsv
-/root/autodl-tmp/LMUData/public_subset_gender_forced.tsv
-/root/autodl-tmp/LMUData/public_subset_pope_style.tsv
+/root/autodl-tmp/LocalModels/SD3.5
+/root/Generate_images
 ```
 
----
-
-### `dataset_builder/filter_coco_all_5scenes.py`
-
-用于从候选集中过滤出 COCO-only 且属于以下五类场景的样本：
-
-* street
-* office
-* kitchen
-* school
-* hospital
-
-用于扩容 COCO 公开数据实验。
-
----
-
-### `inspect_predictions.py`
-
-用于快速检查 VLMEvalKit 输出预测表的：
-
-* shape
-* 列名
-* 前几行
-
-适合做 debug 和 sanity check。
-
----
-
-### `eval_hallucination_minimal.py`
-
-最小版 hallucination evaluator。
-
-输出核心对象级指标：
-
-* `CHAIRi_like`
-* `object_precision`
-* `object_recall`
-* `object_f1`
-
-适合冒烟测试。
-
----
-
-### `eval_hallucination_binary.py`
-
-最小版 sample-level evaluator。
-
-输出：
-
-* `CHAIRs_like`
-
-用于快速检查样本级幻觉趋势。
-
----
-
-### `experiment_suite/run_full_800.sh`
-
-启动 800 条自然描述实验，调用：
-
-* VLMEvalKit
-* GPT-4o 批量推理
-
----
-
-### `experiment_suite/evaluate_suite.py`
-
-自然描述版统一 hallucination evaluator。
-
-输出：
-
-* `hallucination_summary.json`
-* `hallucination_details.jsonl`
-* `hallucination_details.json`
-* `hallucination_details.xlsx`
-
----
-
-### `experiment_suite/run_pope_style_800.sh`
-
-构造 POPE-style yes/no probing 任务，并调用 GPT-4o 进行推理。
-
----
-
-### `experiment_suite/evaluate_pope_style.py`
-
-评估 POPE-style probing 输出，生成：
-
-* `accuracy`
-* `precision`
-* `recall`
-* `f1`
-* `tp / fp / tn / fn`
-
----
-
-### `experiment_suite/add_sensitive_attributes.py`
-
-为预测表补充：
-
-* `gender`
-* `race`
-* `skin_tone`
-
-当前已实现，但尚未正式使用。
-
----
-
-### `experiment_suite/analyze_prediction_gender_mentions.py`
-
-从自然描述中抽取 gender mention，统计：
-
-* `group_by_pred_gender_mention`
-* `group_by_scene_pred_gender_mention`
-
-适合探索性分析。
-
----
-
-### `experiment_suite/analyze_structured_outputs.py`
-
-解析结构化 prompt 的输出，抽取：
-
-* `pred_scene_structured`
-* `pred_gender_structured`
-* `pred_occupation_structured`
-* `pred_action_structured`
-
-为后续更模板化实验做准备。
-
----
-
-### `experiment_suite/evaluate_suite_gender_forced.py`
-
-Gender-forced 版 evaluator。
-
-相对原版的改动：
-
-* 将 `gender / male / female / unknown` 加入 `STOPWORDS`
-* 解析 `pred_gender_forced`
-* 增加：
-
-  * `gender_parse_status_counts`
-  * `group_by_pred_gender_forced`
-  * `group_by_scene_pred_gender_forced`
-
----
-
-### `experiment_suite/analyze_gender_forced_outputs.py`
-
-用于从 gender-forced 实验输出中进一步统计：
-
-* `group_by_pred_gender_forced`
-* `group_by_scene_pred_gender_forced`
-
----
-
-## 4. 数据构建说明
-
-### 4.1 800 条平衡实验集
-
-当前公开数据主实验集为 800 条。
-
-#### scene
-
-* street
-* office
-* kitchen
-* school
-* hospital
-
-#### source
-
-* coco
-* vg
-
-#### 平衡规则
-
-* 每个 `source × scene = 80`
-* 总计 `2 × 5 × 80 = 800`
-
-统计文件：
+### 3.5 SD3.5 自建数据输出
 
 ```text
-/root/dataset_builder/outputs_public_subset_v1/sampled_subset_stats.json
+/root/autodl-tmp/outputs/HalluciationTest_Images
+/root/autodl-tmp/outputs/HalluciationTest_Images_person_blacked
+/root/autodl-tmp/outputs/HalluciationTest_Images_objects_mf_singlelib_aggressive
 ```
 
----
-
-## 5. GT 设计
-
-### `core GT`
-
-* 更严格
-* 对象更少、更核心
-* 更容易判为 hallucination
-
-### `extended GT`
-
-* 更宽松
-* 对象更完整
-* 更适合 relaxed setting
-
-### 建议
-
-实验报告时建议**同时汇报 core 与 extended**，以区分：
-
-* 真实 hallucination
-* GT 不完整导致的“假幻觉”
-
----
-
-## 6. 评估指标说明
-
-### `CHAIRi_like`
-
-对象级幻觉率：
+### 3.6 SD3.5 自建评测代码
 
 ```text
-hallucinated_objects / predicted_objects
+/root/custom_dataset_eval/bias
+/root/custom_dataset_eval/hallucination
 ```
-
-越高表示模型生成对象中，未被 GT 支持的比例越高。
 
 ---
 
-### `CHAIRs_like`
+## 4. 两条实验线总览
 
-样本级幻觉率：
+### A. 公开数据：VLMEvalKit 幻觉评估
+
+**输入**：COCO2017 + Visual Genome 公开图像与标注  
+**流程**：
 
 ```text
-至少出现 1 个 hallucinated object 的样本比例
+COCO/VG 原始数据
+→ scene_lexicon.py 归类 scene
+→ build_public_subset.py 构建候选集与平衡实验集
+→ export_vlmeval_tsv.py 导出 TSV
+→ VLMEvalKit + GPT-4o 批量推理
+→ evaluate_suite.py / evaluate_suite_gender_forced.py
+→ hallucination_summary.json / hallucination_details.xlsx / 分组分析
 ```
 
-越高表示越多图片至少有一个幻觉对象。
+**实验设置**：
+- Natural captioning
+- Gender-forced prompting
+- POPE-style probing
 
----
+### B. SD3.5：自建数据生成与评估
 
-### `object_precision`
-
-预测对象中被 GT 支持的比例。
-
----
-
-### `object_recall`
-
-GT 对象中被模型预测出来的比例。
-
----
-
-### `object_f1`
-
-precision 与 recall 的综合指标。
-
----
-
-### `pope_style`
-
-用于 probing 风格的二分类评估，包括：
-
-* `tp`
-* `fp`
-* `tn`
-* `fn`
-* `accuracy`
-* `precision`
-* `recall`
-* `f1`
-
-其中 `fp` 最接近 probing 视角下的 hallucination。
-
----
-
-## 7. 关键输出文件
-
-### 原始预测输出
-
-示例：
+**输入**：自定义 prompt JSON + SD3.5 本地生成  
+**流程**：
 
 ```text
-/root/autodl-tmp/outputs/GPT4o/T20260330_G161d400d/GPT4o_public_subset_gender_forced.xlsx
+基础 gender-swap prompt
+→ SD3.5 生成 male / female / neutral 图像
+→ 生成人物区域涂黑版本
+→ 构造 male_objects / female_objects 注入图像
+→ build_gt_manifest.py 生成 injected/core/extended GT
+→ GPT-4o 生成 caption + objects
+→ evaluate_object_hallucination.py 评估注入物体与总体 hallucination
 ```
+
+**实验设置**：
+- 偏见实验：original vs person-blacked
+- 幻觉实验：female_objects / male_objects × prompt_gender × scene
 
 ---
 
-### `hallucination_summary.json`
+## 5. 核心脚本与作用
 
-总体 summary，常见字段包括：
+### 5.1 公开数据构建与 TSV 导出
 
-* `chairi_like`
-* `chairs_like`
-* `object_precision`
-* `object_recall`
-* `object_f1`
-* `group_by_scene`
-* `group_by_source`
-* `group_by_pred_gender_forced`
-* `group_by_scene_pred_gender_forced`
+- `dataset_builder/scene_lexicon.py`  
+  定义 scene 词典、对象归一化规则。
 
----
+- `dataset_builder/build_public_subset.py`  
+  从 COCO/VG 中筛选含人、场景明确的样本，构造 `core_gt_objects` 与 `extended_gt_objects`，并按 `source × scene` 平衡采样。
 
-### `hallucination_details.xlsx`
+- `dataset_builder/export_vlmeval_tsv.py`  
+  将 manifest 导出为 VLMEvalKit 可直接使用的 TSV，支持 `core / extended / gender-forced` 等不同 prompt 版本。
 
-逐图结果表，常用于人工排查样本。
+### 5.2 公开数据幻觉评估
 
-常见字段：
+- `experiment_suite/evaluate_suite.py`  
+  自然描述版 evaluator，输出：
+  - `hallucination_summary.json`
+  - `hallucination_details.xlsx`
 
-* `image_id`
-* `standard_answer`
-* `ai_generated_content`
-* `ground_truth_objects`
-* `predicted_nouns`
-* `matched_objects`
-* `hallucinated_objects`
-* `missed_gt_objects`
-* `chairi_like_sample`
-* `chairs_like_sample`
+- `experiment_suite/evaluate_suite_gender_forced.py`  
+  gender-forced 版 evaluator，额外解析：
+  - `pred_gender_forced`
+  - `group_by_pred_gender_forced`
+  - `group_by_scene_pred_gender_forced`
 
-gender-forced 版会额外包含：
+- `experiment_suite/analyze_gender_forced_outputs.py`  
+  对 gender-forced 结果进一步聚合分析。
 
-* `pred_gender_forced`
-* `gender_parse_status`
+- `experiment_suite/evaluate_pope_style.py`  
+  计算 probing 风格二分类指标。
 
----
+### 5.3 SD3.5 自建数据：偏见评估
 
-### `gender_forced_summary.json`
+- `custom_dataset_eval/bias/evaluate_gender_bias.py`  
+  比较 original 与 blacked 图像下的 gender 判断结果，输出：
+  - `summary.json`
+  - `predictions.xlsx`
+  - `accuracy_by_scene.csv`
+  - `accuracy_by_gender.csv`
+  - `accuracy_by_scene_gender.csv`
+  - `paired_scene_gender_comparison.csv`
 
-专门汇总：
+- `custom_dataset_eval/bias/smoke_test_bias_eval.sh`  
+  极小子集冒烟测试。
 
-* `gender_parse_status_counts`
-* `group_by_pred_gender_forced`
-* `group_by_scene_pred_gender_forced`
+- `custom_dataset_eval/bias/run_bias_eval.sh`  
+  正式全量运行（支持断点续跑版本）。
 
----
+### 5.4 SD3.5 自建数据：幻觉评估
 
-## 8. 完整操作流程
+- `custom_dataset_eval/hallucination/build_gt_manifest.py`  
+  读取注入版 prompt JSON，构造：
+  - `injected_objects_gt`
+  - `core_gt_objects`
+  - `extended_gt_objects`
 
-### Step 1. 激活环境
+- `custom_dataset_eval/hallucination/evaluate_object_hallucination.py`  
+  主 hallucination evaluator，输出：
+  - `summary_injected.json`
+  - `summary_core.json`
+  - `summary_extended.json`
+  - `hallucination_details.xlsx`
+  - `group_by_*.csv`
 
-```bash
-source /root/miniconda3/etc/profile.d/conda.sh
-conda activate vlmeval
-```
+- `custom_dataset_eval/hallucination/smoke_test_hallucination_eval.sh`  
+  幻觉评测冒烟测试。
 
----
-
-### Step 2. 构建 800 条实验集
-
-```bash
-cd /root/dataset_builder
-
-python build_public_subset.py \
-  --out-dir ./outputs_public_subset_v1 \
-  --max-per-scene-per-source 80 \
-  --min-scene-score 1
-```
-
----
-
-### Step 3. 导出 TSV
-
-#### extended
-
-```bash
-python export_vlmeval_tsv.py \
-  --manifest /root/dataset_builder/outputs_public_subset_v1/sampled_manifest.jsonl \
-  --out-tsv /root/autodl-tmp/LMUData/public_subset_extended.tsv \
-  --answer-type extended
-```
-
-#### core
-
-```bash
-python export_vlmeval_tsv.py \
-  --manifest /root/dataset_builder/outputs_public_subset_v1/sampled_manifest.jsonl \
-  --out-tsv /root/autodl-tmp/LMUData/public_subset_core.tsv \
-  --answer-type core
-```
-
-#### gender-forced
-
-```bash
-python export_vlmeval_tsv.py \
-  --manifest /root/dataset_builder/outputs_public_subset_v1/sampled_manifest.jsonl \
-  --out-tsv /root/autodl-tmp/LMUData/public_subset_gender_forced.tsv \
-  --answer-type extended
-```
+- `custom_dataset_eval/hallucination/run_hallucination_eval.sh`  
+  幻觉评测正式全量运行。
 
 ---
 
-### Step 4. 运行 GPT-4o 推理
+## 6. 评估指标
 
-```bash
-cd /root/VLMEvalKit
+### 6.1 通用 hallucination 指标（core / extended）
 
-python run.py \
-  --data public_subset_extended \
-  --model GPT4o \
-  --mode infer \
-  --api-nproc 1 \
-  --work-dir /root/autodl-tmp/outputs
-```
+- `CHAIRi_like`  
+  对象级幻觉率 = `hallucinated_objects / predicted_objects`
 
-gender-forced 时替换为：
+- `CHAIRs_like`  
+  样本级幻觉率 = 至少出现一个 hallucinated object 的样本比例
 
-```bash
-python run.py \
-  --data public_subset_gender_forced \
-  --model GPT4o \
-  --mode infer \
-  --api-nproc 1 \
-  --work-dir /root/autodl-tmp/outputs
-```
+- `object_precision`  
+  预测对象中被 GT 支持的比例
 
----
+- `object_recall`  
+  GT 对象中被模型提到的比例
 
-### Step 5. 统一 hallucination 评估
+- `object_f1`  
+  precision 与 recall 的综合
 
-#### natural / extended
+- `missing_rate`  
+  GT 中真实存在对象被漏掉的比例
 
-```bash
-python /root/experiment_suite/evaluate_suite.py \
-  --pred-file /root/autodl-tmp/outputs/GPT4o/<时间戳目录>/GPT4o_public_subset_extended.xlsx \
-  --out-dir /root/experiment_suite/outputs/eval_800_extended \
-  --gt-field answer
-```
+### 6.2 injected 专用指标
 
-#### natural / core
+- `injected_object_recall`  
+  注入物体中被模型提到的比例
 
-```bash
-python /root/experiment_suite/evaluate_suite.py \
-  --pred-file /root/autodl-tmp/outputs/GPT4o/<时间戳目录>/GPT4o_public_subset_extended.xlsx \
-  --out-dir /root/experiment_suite/outputs/eval_800_core \
-  --gt-field core_gt_objects
-```
+- `injected_object_precision`  
+  模型提到的对象中，真正属于 injected set 的比例
 
-#### gender-forced / extended
+- `avg_injected_object_mention_count`  
+  平均每张图提到的 injected objects 数量
 
-```bash
-python /root/experiment_suite/evaluate_suite_gender_forced.py \
-  --pred-file /root/autodl-tmp/outputs/GPT4o/<时间戳目录>/GPT4o_public_subset_gender_forced.xlsx \
-  --out-dir /root/experiment_suite/outputs/eval_800_gender_forced_extended \
-  --gt-field answer
-```
+### 6.3 偏见实验指标
 
-#### gender-forced / core
+- `accuracy`  
+  gender 判断正确率
 
-```bash
-python /root/experiment_suite/evaluate_suite_gender_forced.py \
-  --pred-file /root/autodl-tmp/outputs/GPT4o/<时间戳目录>/GPT4o_public_subset_gender_forced.xlsx \
-  --out-dir /root/experiment_suite/outputs/eval_800_gender_forced_core \
-  --gt-field core_gt_objects
-```
+- `accuracy_drop_after_blackout`  
+  original 与 blacked 之间的准确率差，衡量人物本体被遮挡后性能下降幅度
 
 ---
 
-### Step 6. gender-forced 结果分析
+## 7. 代表性输出文件
 
-```bash
-python /root/experiment_suite/analyze_gender_forced_outputs.py \
-  --input-file /root/experiment_suite/outputs/eval_800_gender_forced_extended/hallucination_details.xlsx \
-  --out-dir /root/experiment_suite/outputs/gender_forced_analysis_eval_800
-```
+### 公开数据
+
+- `hallucination_summary.json`
+- `hallucination_details.xlsx`
+- `gender_forced_summary.json`
+- `balanced_scene_gender_comparison.csv`
+
+### SD3.5 偏见实验
+
+- `summary.json`
+- `predictions.xlsx`
+- `accuracy_by_scene.csv`
+- `accuracy_by_scene_gender.csv`
+- `paired_scene_gender_comparison.csv`
+
+### SD3.5 幻觉实验
+
+- `summary_injected.json`
+- `summary_core.json`
+- `summary_extended.json`
+- `hallucination_details.xlsx`
+- `group_by_object_condition_prompt_gender_extended.csv`
+- `group_by_scene_object_condition_prompt_gender_extended.csv`
 
 ---
 
-### Step 7. POPE-style probing
+## 8. 推荐操作流程
 
-```bash
-bash /root/experiment_suite/run_pope_style_800.sh
-```
+### 8.1 公开数据：VLMEvalKit 幻觉评估
 
-再评估：
+1. 激活环境
+2. 用 `build_public_subset.py` 构建平衡实验集
+3. 用 `export_vlmeval_tsv.py` 导出 TSV
+4. 用 VLMEvalKit + GPT-4o 批量推理
+5. 用 `evaluate_suite.py` 或 `evaluate_suite_gender_forced.py` 评估
+6. 查看 summary、details、分组表
 
-```bash
-python /root/experiment_suite/evaluate_pope_style.py \
-  --pred-file /root/autodl-tmp/outputs/GPT4o/<POPE时间戳目录>/GPT4o_public_subset_pope_style.xlsx \
-  --out-dir /root/experiment_suite/outputs/pope_style_800
-```
+### 8.2 SD3.5：自建数据幻觉实验
+
+1. 准备注入版 prompt JSON
+2. 用 SD3.5 生成 male_objects / female_objects 图像
+3. 用 `build_gt_manifest.py` 生成 GT manifest
+4. 先跑 `smoke_test_hallucination_eval.sh`
+5. 冒烟通过后运行 `run_hallucination_eval.sh`
+6. 查看 `summary_injected / core / extended`
+7. 人工排查 `hallucination_details.xlsx`
+
+### 8.3 SD3.5：偏见实验
+
+1. 准备 original 与 person-blacked 图像
+2. 先跑 `smoke_test_bias_eval.sh`
+3. 冒烟通过后运行 `run_bias_eval.sh`
+4. 查看 `summary.json`、`accuracy_by_scene_gender.csv`、`paired_scene_gender_comparison.csv`
 
 ---
 
-## 9. 当前研究状态
+## 9. 当前研究现状
 
 ### 已完成
 
-* 公开数据构建与平衡采样
-* 800 条实验集
-* GPT-4o 推理链路
-* 自然描述 evaluator
-* gender-forced evaluator
-* POPE-style probing 流程
+- 公开数据集（COCO/VG）平衡实验集构建
+- VLMEvalKit + GPT-4o 推理流程打通
+- 自然描述与 gender-forced evaluator 实现
+- POPE-style probing 流程实现
+- SD3.5 自建数据集生成与 object injection 设计完成
+- SD3.5 幻觉 evaluator 与偏见 evaluator 实现
 
-### 当前瓶颈
+### 当前注意事项
 
-* 缺乏真实属性标签
-* 因此当前 gender-forced 更适合作为**模型输出属性分组分析**，而不是“真实 gender 分组分析”
-
----
-
-## 10. 下一步方向
-
-1. 完成 gender-forced 输出统计与可视化
-2. 比较：
-
-   * `male / female / unknown`
-   * `scene × pred_gender_forced`
-3. 形成稳定的属性诱导 hallucination 分析框架
-4. 未来接入真实属性标签，扩展到更严格的公平性分析
+- 历史上部分 SD3.5 结果曾因 API 配置 / 编码问题失真；
+- 当前仓库应以**修复后版本脚本与重新运行结果**为准；
+- 对 old / bad_results 目录中的结果应谨慎使用。
 
 ---
 
-## 11. 使用建议
+## 10. 建议纳入仓库的文档
 
-* 长期保留 `core GT` 与 `extended GT`
-* gender-forced 实验必须保留 `unknown`
-* 不要把 `pred_gender_forced` 直接当成真实 gender
-* scene 分析本身已经是重要结论来源
-* 报告时建议明确区分：
+建议在 `docs/` 下至少保留：
 
-  * Natural captioning
-  * Gender-forced prompting
+- `VLMEvalKit_GPT4o_幻觉评测_属性诱导实验技术文档.md`
+- `README_SD35_selfbuilt_hallucination.md`
+- `《800 条实验集正式实验操作手册（从运行脚本到结果分析）》.md`
+- `《800 条实验集批量推理与统一幻觉评估输出文件说明文档》.md`
+- `第一轮 50 条正式冒烟实验技术文档.md`
 
-```
+---
 
-如果你愿意，我还可以继续给你补一个 **`.gitignore` + 推荐仓库目录命名规范** 版本。
-```
+## 11. 推荐引用方式
+
+如果后续写论文或开题汇报，可将本仓库贡献概括为：
+
+> A reproducible pipeline for multimodal hallucination evaluation, combining public-benchmark-based hallucination assessment under VLMEvalKit and controlled synthetic-image experiments generated by SD3.5, with support for scene-balanced sampling, gender-forced prompting, and injected-object-based bias analysis.
+
+---
+
+## 12. 一句话总结
+
+本仓库提供了一条从 **公开数据构建 → VLMEvalKit 推理 → 统一 hallucination evaluator**，以及从 **SD3.5 控制生成 → 物体注入 → 多层 GT 构建 → 偏见与幻觉联合评估** 的完整、可复现实验链路。

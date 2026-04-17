@@ -1,19 +1,70 @@
-# 忽略模型权重文件
-*.pth
-*.safetensors
-*.ckpt
-*.bin
-
-# 忽略缓存文件
+# Python
 __pycache__/
 *.pyc
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+.ipynb_checkpoints/
 
-# 忽略可能存在的大型数据文件夹（假设你的数据放在 data 或 datasets 文件夹下）
-data/
-datasets/
-images/
-
-# 忽略虚拟环境（如果你有的话）
+# Virtual environments
+.venv/
 venv/
 env/
-.conda/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs and temp
+*.log
+*.tmp
+*.temp
+nohup.out
+
+# Large experiment outputs (recommended to keep out of git)
+outputs/
+results/
+bad_results/
+smoke_test_data/
+
+# Spreadsheets / model outputs (keep only curated examples if needed)
+*.xlsx
+*.xls
+*.csv
+*.jsonl
+
+# Large datasets and archives
+*.zip
+*.tar
+*.tar.gz
+*.7z
+*.rar
+*.pth
+*.pt
+*.bin
+*.safetensors
+
+# Images and generated assets (usually too large)
+*.png
+*.jpg
+*.jpeg
+*.webp
+*.bmp
+
+# AutoDL / absolute-path artifacts
+/root/autodl-tmp/
+/root/VLMEvalKit/
+/root/dataset_builder/outputs_public_subset_v1/
+/root/experiment_suite/outputs/
+/root/custom_dataset_eval/**/results/
+
+# Secrets
+.env
+*.env
