@@ -71,6 +71,7 @@ def generate_images(args: argparse.Namespace, prompts: list[str], image_dir: Pat
         "float32": torch.float32,
     }[args.dtype]
 
+    print(f"Loading SD3.5 pipeline... / 正在加载 SD3.5 模型: {args.model_id}")
     pipe = StableDiffusion3Pipeline.from_pretrained(args.model_id, torch_dtype=dtype)
     pipe = pipe.to(args.device)
 
@@ -79,7 +80,9 @@ def generate_images(args: argparse.Namespace, prompts: list[str], image_dir: Pat
         generator = torch.Generator(device=args.device).manual_seed(args.seed)
 
     image_dir.mkdir(parents=True, exist_ok=True)
+    total = len(prompts)
     for index, prompt in enumerate(prompts):
+        print(f"Generating image {index + 1}/{total}... / 正在生成第 {index + 1}/{total} 张图像...")
         image = pipe(
             prompt=prompt,
             height=args.height,

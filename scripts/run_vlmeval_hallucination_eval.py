@@ -62,7 +62,12 @@ def main() -> None:
     print(shlex.join(command))
 
     if args.execute:
-        subprocess.run(command, check=True)
+        try:
+            subprocess.run(command, check=True)
+        except subprocess.CalledProcessError as error:
+            raise SystemExit(
+                f"vlmeval command failed / vlmeval 命令执行失败: {shlex.join(command)}"
+            ) from error
 
 
 if __name__ == "__main__":
