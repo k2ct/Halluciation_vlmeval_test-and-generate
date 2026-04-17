@@ -11,6 +11,7 @@ __pycache__/
 .venv/
 venv/
 env/
+.conda/
 
 # IDE
 .vscode/
@@ -49,6 +50,7 @@ smoke_test_data/
 *.pth
 *.pt
 *.bin
+*.ckpt
 *.safetensors
 
 # Images and generated assets (usually too large)
@@ -58,12 +60,11 @@ smoke_test_data/
 *.webp
 *.bmp
 
-# AutoDL / absolute-path artifacts
-/root/autodl-tmp/
-/root/VLMEvalKit/
-/root/dataset_builder/outputs_public_subset_v1/
-/root/experiment_suite/outputs/
-/root/custom_dataset_eval/**/results/
+# Specific ignored folders for this project
+autodl-tmp/
+VLMEvalKit/
+dataset_builder/outputs_public_subset_v1/
+experiment_suite/outputs/
 
 # Secrets
 .env
