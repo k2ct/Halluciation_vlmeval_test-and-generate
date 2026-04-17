@@ -55,7 +55,7 @@ def build_records(prompts: list[str], image_dir: Path) -> list[dict]:
             {
                 "id": index,
                 "prompt": prompt,
-                "image": str((image_dir / filename).as_posix()),
+                "image": (image_dir / filename).as_posix(),
             }
         )
     return records
