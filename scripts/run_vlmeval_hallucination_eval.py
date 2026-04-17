@@ -28,30 +28,30 @@ def build_command(args: argparse.Namespace) -> list[str]:
 
 def parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser(
-        description="通过 vlmeval 框架执行幻觉评估。"
+        description="Run hallucination evaluation with vlmeval. / 通过 vlmeval 框架执行幻觉评估。"
     )
-    parser.add_argument("--model", required=True, help="vlmeval 模型名")
-    parser.add_argument("--dataset", required=True, help="评估数据集名称")
+    parser.add_argument("--model", required=True, help="vlmeval model name / vlmeval 模型名")
+    parser.add_argument("--dataset", required=True, help="evaluation dataset name / 评估数据集名称")
     parser.add_argument(
         "--work-dir",
         default="outputs/vlmeval",
-        help="vlmeval 输出目录",
+        help="vlmeval output directory / vlmeval 输出目录",
     )
-    parser.add_argument("--api-base", default=None, help="模型 API Base（可选）")
+    parser.add_argument("--api-base", default=None, help="model API base (optional) / 模型 API Base（可选）")
     parser.add_argument(
         "--api-key-env",
         default="OPENAI_API_KEY",
-        help="API Key 环境变量名",
+        help="API key environment variable name / API Key 环境变量名",
     )
     parser.add_argument(
         "--execute",
         action="store_true",
-        help="直接执行命令（默认仅打印命令）",
+        help="execute command directly (default: print only) / 直接执行命令（默认仅打印命令）",
     )
     parser.add_argument(
         "extra_args",
         nargs=argparse.REMAINDER,
-        help="传递给 vlmeval 的额外参数（例如 -- --batch-size 4）",
+        help="extra args for vlmeval (e.g. -- --batch-size 4) / 传递给 vlmeval 的额外参数（例如 -- --batch-size 4）",
     )
     return parser.parse_args()
 

@@ -6,31 +6,31 @@ from pathlib import Path
 
 def parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser(
-        description="使用 SD3.5 生成自建数据集图像。"
+        description="Generate a custom dataset with SD3.5. / 使用 SD3.5 生成自建数据集图像。"
     )
-    parser.add_argument("--prompts-file", required=True, help="每行一个 prompt 的文本文件")
-    parser.add_argument("--output-dir", required=True, help="输出目录")
+    parser.add_argument("--prompts-file", required=True, help="text file with one prompt per line / 每行一个 prompt 的文本文件")
+    parser.add_argument("--output-dir", required=True, help="output directory / 输出目录")
     parser.add_argument(
         "--model-id",
         default="stabilityai/stable-diffusion-3.5-large",
-        help="Hugging Face 上的 SD3.5 模型 ID",
+        help="SD3.5 model ID on Hugging Face / Hugging Face 上的 SD3.5 模型 ID",
     )
-    parser.add_argument("--height", type=int, default=1024, help="图像高度")
-    parser.add_argument("--width", type=int, default=1024, help="图像宽度")
-    parser.add_argument("--steps", type=int, default=28, help="推理步数")
+    parser.add_argument("--height", type=int, default=1024, help="image height / 图像高度")
+    parser.add_argument("--width", type=int, default=1024, help="image width / 图像宽度")
+    parser.add_argument("--steps", type=int, default=28, help="inference steps / 推理步数")
     parser.add_argument("--guidance-scale", type=float, default=4.5, help="CFG")
     parser.add_argument(
         "--dtype",
         choices=["float16", "bfloat16", "float32"],
         default="float16",
-        help="推理 dtype",
+        help="inference dtype / 推理 dtype",
     )
-    parser.add_argument("--device", default="cuda", help="设备，如 cuda/cpu")
-    parser.add_argument("--seed", type=int, default=None, help="随机种子（可选）")
+    parser.add_argument("--device", default="cuda", help="device, e.g. cuda/cpu / 设备，如 cuda/cpu")
+    parser.add_argument("--seed", type=int, default=None, help="random seed (optional) / 随机种子（可选）")
     parser.add_argument(
         "--dry-run",
         action="store_true",
-        help="只生成 metadata，不实际推理",
+        help="generate metadata only, no inference / 只生成 metadata，不实际推理",
     )
     return parser.parse_args()
 
@@ -100,17 +100,17 @@ def main() -> None:
 
     prompts = read_prompts(prompts_file)
     if not prompts:
-        raise ValueError("prompts 文件为空，无法生成数据集")
+        raise ValueError("prompts file is empty; cannot generate dataset / prompts 文件为空，无法生成数据集")
 
     records = build_records(prompts, image_dir)
     write_metadata(metadata_path, records)
 
     if args.dry_run:
-        print(f"Dry run 完成：共 {len(records)} 条记录，metadata: {metadata_path}")
+        print(f"Dry run complete: {len(records)} records, metadata: {metadata_path} / Dry run 完成：共 {len(records)} 条记录，metadata: {metadata_path}")
         return
 
     generate_images(args, prompts, image_dir)
-    print(f"生成完成：共 {len(records)} 张图像，输出目录: {output_dir}")
+    print(f"Generation complete: {len(records)} images, output: {output_dir} / 生成完成：共 {len(records)} 张图像，输出目录: {output_dir}")
 
 
 if __name__ == "__main__":
